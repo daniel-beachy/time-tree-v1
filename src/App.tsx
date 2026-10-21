@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
 import { loadTree, type Tree } from './lib/data';
 import { useRoute, href } from './lib/router';
 import { TreeContext } from './components/TreeContext';
@@ -57,7 +57,7 @@ export default function App() {
       <main className={'page' + (full ? ' full' : '')}>
         {tree && (
           <TreeContext.Provider value={tree}>
-            <Suspense fallback={<div className="center" style={{ padding: 80 }}><div className="spinner" /></div>}>{body}</Suspense>
+            <ViewBoundary key={route.view}><Suspense fallback={<div className="center" style={{ padding: 80 }}><div className="spinner" /></div>}>{body}</Suspense></ViewBoundary>
           </TreeContext.Provider>
         )}
         {!tree && body}
@@ -71,4 +71,20 @@ export default function App() {
       )}
     </>
   );
+}
+
+/** Keeps one broken view from blanking the whole app. */
+class ViewBoundary extends Component<{ children: ReactNode }, { error: Error | null }> {
+  state = { error: null as Error | null };
+  static getDerivedStateFromError(error: Error) { return { error }; }
+  render() {
+    if (!this.state.error) return this.props.children;
+    return (
+      <div className="panel" style={{ maxWidth: 520, margin: '60px auto', textAlign: 'center' }}>
+        <h2>Something went wrong</h2>
+        <p className="muted" style={{ margin: '10px 0 18px' }}>This page failed to load. The site may have just been updated.</p>
+        <button className="btn" onClick={() => location.reload()}>Reload</button>
+      </div>
+    );
+  }
 }
