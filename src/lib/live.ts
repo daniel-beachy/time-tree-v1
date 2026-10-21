@@ -83,3 +83,16 @@ export function wikiTitleFromUrl(url: string | null | undefined): string | null 
   const m = url.match(/wiki\/([^#?]+)/);
   return m ? decodeURIComponent(m[1]) : null;
 }
+
+/** Species fields we can fill from an iNaturalist taxon (common name, group, photo, Wikipedia link). */
+export function inatExtras(t: InatTaxon) {
+  const name = t.preferred_common_name ? t.preferred_common_name.charAt(0).toUpperCase() + t.preferred_common_name.slice(1) : t.name;
+  return {
+    name,
+    group: iconicToGroup(t.iconic_taxon_name),
+    inat: t.id,
+    wiki: t.wikipedia_url ?? null,
+    photo: t.default_photo?.medium_url ?? null,
+    photoCredit: t.default_photo?.attribution ?? null,
+  };
+}

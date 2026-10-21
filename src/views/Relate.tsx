@@ -11,7 +11,7 @@ import { ageParts, eventsSince, fmtAge, fmtDuration, fmtShort, friendly, periodA
 import { EVENTS, type WorldEvent } from '../data/events';
 import { go, href } from '../lib/router';
 import { makeCloser, namedGroup, pick, splitAge, type CloserQ } from '../lib/insights';
-import { wikiSummary, type WikiSummary } from '../lib/live';
+import { inatExtras, searchInat, wikiSummary, type WikiSummary } from '../lib/live';
 import './Relate.css';
 
 export const SUGGESTED: [string, string][] = [
@@ -33,7 +33,9 @@ export async function resolveSpecies(tree: Tree, arg: string | undefined): Promi
   const byName = tree.allSpecies().find((s) => s.sci.toLowerCase() === arg.toLowerCase());
   if (byName) return byName;
   if (Number.isFinite(id)) return null;
-  return tree.addLive(arg);
+  // Deep link to a live species: borrow its common name and photo from iNaturalist when we can.
+  const t = await searchInat(arg).then((r) => r.find((x) => x.name.toLowerCase() === arg.toLowerCase())).catch(() => undefined);
+  return tree.addLive(arg, t ? inatExtras(t) : {});
 }
 
 export const spArg = (s: Species) => (s.live ? s.sci : String(s.id));

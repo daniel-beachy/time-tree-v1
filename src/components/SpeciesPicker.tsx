@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { GROUP_ICONS, type Species } from '../lib/data';
-import { iconicToGroup, searchInat, type InatTaxon } from '../lib/live';
+import { iconicToGroup, inatExtras, searchInat, type InatTaxon } from '../lib/live';
 import { useTree } from './TreeContext';
 import { SpeciesPhoto } from './SpeciesPhoto';
 import './SpeciesPicker.css';
@@ -78,14 +78,7 @@ export function SpeciesPicker({ value, onPick, placeholder, autoFocus, compact, 
     const t = o.t;
     setBusy(t.name);
     try {
-      const sp = await tree.addLive(t.name, {
-        name: t.preferred_common_name ? cap(t.preferred_common_name) : t.name,
-        group: iconicToGroup(t.iconic_taxon_name),
-        inat: t.id,
-        wiki: t.wikipedia_url ?? null,
-        photo: t.default_photo?.medium_url ?? null,
-        photoCredit: t.default_photo?.attribution ?? null,
-      });
+      const sp = await tree.addLive(t.name, inatExtras(t));
       onPick(sp);
       setQ(''); setOpen(false);
     } catch (e) {
