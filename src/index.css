@@ -84,6 +84,12 @@ i.sci, .sci { font-style: italic; color: var(--muted); }
 .nav a:hover { color: var(--text); background: var(--panel2); text-decoration: none; }
 .nav a.on { color: var(--bg); background: var(--glow); }
 
+.portfolio-link {
+  color: var(--glow); font-size: 13px; font-weight: 600; white-space: nowrap; padding: 6px 12px;
+  border: 1px solid #5ef0c844; border-radius: 99px;
+}
+.portfolio-link:hover { text-decoration: none; background: #5ef0c814; }
+
 main.page { width: 100%; max-width: 1180px; margin: 0 auto; padding: 32px 24px 80px; flex: 1; }
 main.page.full { max-width: none; padding: 0; display: flex; flex-direction: column; }
 
@@ -94,6 +100,7 @@ footer.foot a { color: var(--muted); }
   .topbar { padding: 10px 12px; gap: 8px; flex-wrap: wrap; }
   .nav { margin-left: 0; width: 100%; order: 3; }
   .nav a { padding: 7px 11px; font-size: 13px; }
+  .portfolio-link { margin-left: auto; }
   main.page { padding: 20px 16px 60px; }
 }
 
