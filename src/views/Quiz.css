@@ -1,0 +1,61 @@
+.quiz { max-width: 880px; margin: 0 auto; }
+.quiz-head { display: flex; justify-content: space-between; gap: 20px; align-items: flex-end; flex-wrap: wrap; }
+.quiz-stats { display: flex; gap: 8px; }
+.quiz-stats > div { display: flex; flex-direction: column; align-items: center; padding: 8px 14px; border-radius: 12px; background: var(--panel); border: 1px solid var(--border); min-width: 68px; }
+.quiz-stats b { font-size: 22px; font-family: var(--mono); color: var(--glow); }
+.quiz-stats span { font-size: 11px; color: var(--muted); }
+.quiz-filters { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; margin: 22px 0 14px; }
+.quiz-focus { gap: 6px; flex-wrap: wrap; }
+.quiz-card { padding: 26px; animation: fadein 0.3s ease; }
+.q-title { display: flex; gap: 14px; align-items: center; margin-bottom: 20px; }
+.q-title h2 { font-size: 22px; line-height: 1.35; }
+.q-pair { display: flex; flex-shrink: 0; }
+.q-pair > * + * { margin-left: -14px; }
+.q-opts { display: grid; gap: 12px; }
+.q-opts.two { grid-template-columns: 1fr 1fr; }
+.q-opts.three { grid-template-columns: repeat(3, 1fr); }
+.q-opt {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 16px 10px; border-radius: 16px;
+  background: #ffffff06; border: 1.5px solid var(--border2); color: var(--text); cursor: pointer; font: inherit; text-align: center;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s;
+}
+.q-opt .sp-photo { width: 100% !important; max-width: 160px; height: 110px !important; border-radius: 12px !important; }
+.q-opt:hover:not(:disabled) { border-color: var(--glow); transform: translateY(-2px); background: #5ef0c80d; }
+.q-opt:disabled { cursor: default; }
+.q-opt.right { border-color: var(--glow); background: #5ef0c818; }
+.q-opt.wrong { border-color: #ff6b8b; background: #ff6b8b14; }
+.q-opt.dim { opacity: 0.6; }
+.q-opt.text { padding: 18px; }
+.q-opt.text b { font-size: 18px; }
+.q-sub { color: var(--warm); }
+.q-explain { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); line-height: 1.6; color: var(--text2); }
+.q-explain p + p { margin-top: 6px; }
+.quiz-next { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; gap: 12px; flex-wrap: wrap; }
+.verdict { font-weight: 700; font-size: 18px; }
+.verdict.ok { color: var(--glow); }
+.verdict.no { color: #ff8fa6; }
+.q-event { display: flex; gap: 14px; padding: 14px; border-radius: 14px; background: #ffb46b10; border: 1px solid #ffb46b33; margin-bottom: 16px; }
+.q-ev-icon { font-size: 34px; }
+.q-event p { margin: 4px 0; }
+
+.when-guess { padding: 6px 4px; }
+.when-val { font-size: 30px; font-weight: 700; color: var(--glow); text-align: center; margin-bottom: 14px; }
+.when-track { position: relative; padding-bottom: 26px; }
+.when-track input { width: 100%; accent-color: var(--glow); height: 28px; position: relative; z-index: 2; }
+.when-marks span { position: absolute; bottom: 4px; transform: translateX(-50%); font-family: var(--mono); font-size: 10px; color: var(--dim); }
+.when-ci { position: absolute; top: 8px; height: 12px; background: #ffb46b44; border-radius: 6px; z-index: 1; }
+.when-true { position: absolute; top: 2px; width: 3px; height: 24px; background: var(--warm); transform: translateX(-50%); z-index: 3; border-radius: 2px; }
+.when-true span { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-family: var(--mono); font-size: 11px; color: var(--warm); white-space: nowrap; }
+.linkish { background: none; border: 0; color: var(--glow); cursor: pointer; font: inherit; padding: 0; }
+
+@media (max-width: 640px) {
+  .quiz-card { padding: 18px; }
+  .q-title { flex-direction: column; align-items: flex-start; }
+  .q-title h2 { font-size: 19px; }
+  .q-opts.three { grid-template-columns: 1fr; }
+  .q-opts.three .q-opt { flex-direction: row; justify-content: flex-start; text-align: left; }
+  .q-opts.three .q-opt .sp-photo { width: 64px !important; height: 64px !important; }
+  .q-opts.three .q-opt .sci { display: none; }
+  .q-opt .sp-photo { height: 90px !important; }
+  .when-val { font-size: 22px; }
+}

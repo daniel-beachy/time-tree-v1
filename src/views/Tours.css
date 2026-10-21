@@ -1,0 +1,26 @@
+.tour-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 24px; }
+.tour-tile { display: flex; flex-direction: column; gap: 6px; color: var(--text); transition: transform 0.15s, border-color 0.15s; }
+.tour-tile:hover { transform: translateY(-3px); border-color: var(--glow); text-decoration: none; }
+.tour-emoji { font-size: 34px; }
+
+.tour { max-width: 1200px; margin: 0 auto; }
+.tour-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 12px; }
+.tour-progress { display: flex; gap: 6px; }
+.tour-progress a { width: 28px; height: 6px; border-radius: 3px; background: var(--border2); }
+.tour-progress a.done { background: #5ef0c866; }
+.tour-progress a.on { background: var(--glow); }
+.tour-grid2 { display: grid; grid-template-columns: minmax(280px, 400px) 1fr; gap: 24px; align-items: start; }
+.tour-text h1 { font-size: 30px; margin: 6px 0 14px; }
+.tour-body { font-size: 17px; line-height: 1.7; color: var(--text2); }
+.tour-age { color: var(--glow); font-weight: 600; border-bottom: 1px dashed #5ef0c866; }
+.tour-age:hover { text-decoration: none; border-bottom-style: solid; }
+.tour-events { margin-top: 14px; padding: 10px 14px; border-radius: 12px; background: #ffb46b10; border: 1px solid #ffb46b33; display: grid; gap: 4px; }
+.tour-nav { justify-content: space-between; margin-top: 24px; }
+.tour-tree { padding: 14px; overflow: hidden; }
+.seg.sm button { padding: 4px 10px; font-size: 12px; }
+
+@media (max-width: 900px) {
+  .tour-grid2 { grid-template-columns: 1fr; }
+  .tour-text h1 { font-size: 24px; }
+  .tour-body { font-size: 16px; }
+}

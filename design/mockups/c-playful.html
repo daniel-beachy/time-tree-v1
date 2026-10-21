@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Style C — Clean & Playful</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8ff;--card:#fff;--ink:#1f2544;--muted:#6b7394;--a:#ff6b6b;--b:#4d96ff;--c:#6bcb77;--d:#ffd93d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Nunito,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 28px;background:#fff;box-shadow:0 2px 0 #e6e9f5}
+.brand{font-weight:900;font-size:24px}.brand i{font-style:normal;color:var(--c)}
+nav{display:flex;gap:8px}nav a{text-decoration:none;color:var(--muted);font-weight:800;padding:8px 14px;border-radius:12px;border:2px solid transparent}
+nav a.on{color:var(--b);border-color:#d6e5ff;background:#eef4ff}
+.streak{background:var(--d);border-radius:12px;padding:6px 12px;font-weight:900}
+main{max-width:1000px;margin:0 auto;padding:34px 20px}
+h1{font-weight:900;font-size:clamp(26px,4.5vw,40px);text-align:center;margin:0 0 28px}
+.pair{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap}
+.card{background:var(--card);border-radius:24px;padding:14px;width:250px;box-shadow:0 6px 0 #e3e7f5;border:2px solid #e3e7f5;text-align:center}
+.card img{width:100%;height:170px;object-fit:cover;border-radius:16px}.card h3{margin:10px 0 0;font-weight:900}.card small{color:var(--muted)}
+.plus{font-size:40px;font-weight:900;color:var(--a)}
+.result{margin:30px auto 0;max-width:640px;background:linear-gradient(135deg,#4d96ff,#6b5bff);color:#fff;border-radius:28px;padding:26px;text-align:center;box-shadow:0 8px 0 #3a4fc9}
+.result .v{font-size:clamp(54px,10vw,88px);font-weight:900;line-height:1}.result .u{font-weight:800;opacity:.9}
+.result .ci{margin-top:8px;font-size:13px;opacity:.8}
+.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.chip{background:#fff;border:2px solid #e3e7f5;border-radius:99px;padding:8px 14px;font-weight:800;font-size:14px}
+.chip.r{border-color:#ffd0d0;background:#fff3f3}.chip.g{border-color:#cdeed1;background:#f1fbf2}
+.tl{margin-top:34px;background:#fff;border-radius:24px;padding:24px;border:2px solid #e3e7f5}
+.track{position:relative;height:14px;background:#eef1fa;border-radius:99px;margin:40px 0 50px}
+.fill{position:absolute;left:0;top:0;bottom:0;width:52%;border-radius:99px;background:linear-gradient(90deg,var(--c),var(--b))}
+.pin{position:absolute;top:-34px;transform:translateX(-50%);font-size:24px;text-align:center}
+.pin span{display:block;font-size:11px;font-weight:800;color:var(--muted);white-space:nowrap;margin-top:28px}
+.quiz{margin-top:24px;display:flex;gap:12px;align-items:center;justify-content:space-between;background:#fffbe6;border:2px solid #ffe98a;border-radius:20px;padding:16px 20px}
+.quiz button{background:var(--c);color:#fff;border:0;border-radius:14px;padding:12px 18px;font:900 15px Nunito;box-shadow:0 4px 0 #4aa356;cursor:pointer}
+</style></head><body>
+<header><div class="brand">🌳 Family<i>ofLife</i></div><nav><a class="on" href="#">Compare</a><a href="#">Explore</a><a href="#">Timeline</a><a href="#">Quiz</a></nav><div class="streak">🔥 3</div></header>
+<main>
+<h1>You 🤝 House cat</h1>
+<div class="pair"><div class="card"><img data-wiki="Human"><h3>Human</h3><small><i>Homo sapiens</i></small></div><div class="plus">+</div>
+<div class="card"><img data-wiki="Cat"><h3>House cat</h3><small><i>Felis catus</i></small></div></div>
+<div class="result"><div class="u">Last shared grandparent lived</div><div class="v">89.5M</div><div class="u">years ago</div><div class="ci">Somewhere between 86.0 and 92.9 million years · 64 studies agree-ish</div></div>
+<div class="chips"><span class="chip">🧬 Both are mammals</span><span class="chip g">🦖 Split happened while T. rex's ancestors roamed</span><span class="chip r">🐒 You're 14× closer to chimps</span></div>
+<div class="tl"><b>Rewind the clock ⏪</b>
+<div class="track"><div class="fill"></div>
+<div class="pin" style="left:0%">🧍<span>Today</span></div><div class="pin" style="left:38%">☄️<span>Dinos die · 66M</span></div><div class="pin" style="left:52%">🐾<span>You & cat · 89.5M</span></div><div class="pin" style="left:76%">🌸<span>First flowers</span></div><div class="pin" style="left:100%">🌍<span>Pangaea</span></div></div></div>
+<div class="quiz"><div><b>Quick check!</b> Is a cat more closely related to you or to a dog?</div><button>Play →</button></div>
+</main>
+<script>document.querySelectorAll('img[data-wiki]').forEach(async i=>{try{const j=await (await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+i.dataset.wiki)).json();i.src=(j.thumbnail||j.originalimage).source}catch(e){}})</script>
+</body></html>

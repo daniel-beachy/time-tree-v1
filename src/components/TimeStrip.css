@@ -1,0 +1,18 @@
+.timestrip { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 16px 12px; }
+.ts-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
+.ts-tools { display: flex; gap: 14px; align-items: center; margin-left: auto; font-size: 13px; }
+.ts-body { width: 100%; overflow: hidden; }
+.ts-body svg { display: block; overflow: visible; }
+.ts-axis { stroke: var(--border2); stroke-width: 1; }
+.ts-tick { fill: var(--dim); font-size: 10px; font-family: var(--mono); }
+.ts-band-label { fill: var(--muted); font-size: 10px; }
+.ts-mlabel { font-size: 12px; font-weight: 600; }
+.ts-marker.strong .ts-mlabel { font-size: 13px; }
+.ts-event { cursor: pointer; }
+.ts-event circle { transition: 0.15s; }
+.ts-event:hover circle, .ts-event.on circle { fill: #1c2650; stroke-width: 2; }
+.ts-event:focus { outline: none; }
+.ts-event:focus-visible circle { stroke-width: 3; }
+.ts-pop { margin-top: 4px; padding: 12px 14px; border-left: 3px solid; background: rgba(0, 0, 0, 0.25); border-radius: 0 10px 10px 0; }
+.ts-pop p { color: var(--text2); font-size: 14px; margin: 6px 0; }
+.ts-hint { margin-top: 2px; }

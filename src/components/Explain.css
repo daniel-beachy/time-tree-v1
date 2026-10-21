@@ -1,0 +1,23 @@
+.explain-link {
+  background: none; border: 0; padding: 0; cursor: pointer; color: var(--glow); font-size: inherit;
+  display: inline-flex; align-items: center; gap: 6px; text-align: left;
+}
+.explain-link:hover { text-decoration: underline; }
+.explain-link .q {
+  display: inline-flex; align-items: center; justify-content: center; width: 17px; height: 17px; border-radius: 50%;
+  border: 1px solid currentColor; font-size: 11px; font-weight: 700; flex: none;
+}
+.modal-back {
+  position: fixed; inset: 0; z-index: 100; background: rgba(3, 6, 14, 0.7); backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.modal {
+  position: relative; max-width: 560px; width: 100%; max-height: 85vh; overflow-y: auto;
+  background: #0f1630; border: 1px solid var(--border2); border-radius: 20px; padding: 28px; box-shadow: 0 30px 80px #000c;
+}
+.modal h2 { margin: 6px 0 14px; }
+.modal-body p { margin: 0 0 12px; color: var(--text2); line-height: 1.65; }
+.modal-x {
+  position: absolute; top: 12px; right: 14px; background: none; border: 0; font-size: 26px; color: var(--muted); cursor: pointer; line-height: 1;
+}
+.modal-x:hover { color: var(--text); }

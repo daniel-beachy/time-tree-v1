@@ -1,0 +1,37 @@
+.dt-head { display: flex; justify-content: space-between; gap: 24px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 30px; }
+.dt-controls { display: flex; flex-direction: column; gap: 10px; align-items: flex-end; }
+@media (max-width: 720px) { .dt-controls { align-items: stretch; width: 100%; } }
+
+.dt-body { position: relative; --spine: 50%; }
+.dt-body.narrow { --spine: 70px; }
+.dt-periods { position: absolute; left: calc(var(--spine) - 7px); width: 14px; top: 0; bottom: 0; }
+.dt-period { position: absolute; left: 0; right: 0; opacity: 0.55; border-radius: 2px; }
+.dt-period span {
+  position: absolute; left: 22px; top: 6px; font-size: 10px; color: var(--muted); white-space: nowrap;
+  writing-mode: vertical-rl; letter-spacing: 0.12em; text-transform: uppercase;
+}
+.dt-body:not(.narrow) .dt-period span { left: auto; right: 22px; display: none; }
+.dt-spine { position: absolute; left: var(--spine); top: 0; bottom: 0; width: 1px; background: var(--border2); }
+.dt-tick { position: absolute; left: calc(var(--spine) - 60px); width: 50px; text-align: right; transform: translateY(-50%); }
+.dt-tick span { font-family: var(--mono); font-size: 10px; color: var(--dim); white-space: nowrap; }
+.dt-body:not(.narrow) .dt-tick { left: var(--spine); width: 0; display: flex; justify-content: center; z-index: 1; }
+.dt-body:not(.narrow) .dt-tick span { background: var(--bg); padding: 1px 4px; border-radius: 4px; color: var(--muted); }
+.dt-item { position: absolute; width: calc(50% - 60px); }
+.dt-item.left { right: calc(100% - var(--spine) + 40px); }
+.dt-item.right { left: calc(var(--spine) + 40px); }
+.dt-body.narrow .dt-item.right { width: auto; right: 0; left: calc(var(--spine) + 28px); }
+.dt-conn { position: absolute; right: -40px; overflow: visible; pointer-events: none; }
+.dt-conn path { stroke: #5ef0c855; fill: none; }
+.dt-dot { position: absolute; left: -45px; width: 9px; height: 9px; border-radius: 50%; transform: translateY(-50%); }
+.dt-body.narrow .dt-dot { left: -33px; }
+.dt-item.left::after { content: ''; position: absolute; right: -45px; top: 10px; width: 9px; height: 9px; border-radius: 50%; background: var(--glow); }
+.dt-split, .dt-event { padding: 10px 14px; border-radius: 12px; background: var(--panel); border: 1px solid var(--border); }
+.dt-split { border-left: 3px solid var(--glow); }
+.dt-event { border-left: 3px solid; }
+.dt-split p, .dt-event p { color: var(--text2); margin-top: 4px; line-height: 1.5; }
+.dt-event p { color: var(--muted); }
+.dt-you {
+  position: absolute; left: var(--spine); transform: translate(-50%, -50%); display: flex; align-items: center; gap: 8px;
+  background: #0f1630; border: 1px solid var(--glow); border-radius: 99px; padding: 4px 14px 4px 4px; white-space: nowrap; z-index: 2;
+}
+.dt-body.narrow .dt-you { transform: translate(-20px, -50%); }
