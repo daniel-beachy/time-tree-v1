@@ -53,7 +53,7 @@ export default function App() {
             <a key={v} href={href(v)} className={route.view === v ? 'on' : ''}><span aria-hidden>{icon}</span>{label}</a>
           ))}
         </nav>
-        <a className="portfolio-link" href="https://daniel-beachy.github.io/" title="Back to Daniel Beachy's portfolio">Portfolio ↗</a>
+        <a className="portfolio-link" href="https://daniel-beachy.github.io/" title="More projects by Daniel Beachy">More projects ↗</a>
       </header>
       <main className={'page' + (full ? ' full' : '')}>
         {tree && (
