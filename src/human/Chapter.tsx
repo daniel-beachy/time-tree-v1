@@ -51,17 +51,20 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
   }, [measure]);
 
   // Arriving on a link to a stop: scroll to it once the cards exist, and open its deep dive if asked.
+  // Our own address-bar updates (below) also change the route, so only scroll when the route names a stop we are not already on.
+  const activeId = useRef<string | null>(null);
+  activeId.current = stop?.id ?? null;
   useEffect(() => {
     if (!data) return;
-    if (stopId) {
+    if (stopId && stopId !== activeId.current) {
       const el = cards.current?.querySelector<HTMLElement>(`[data-stop="${CSS.escape(stopId)}"]`);
       if (el) {
         const stacked = getComputedStyle(cards.current!.parentElement!).display !== 'grid';
         const offset = stacked ? (mapPanel.current?.getBoundingClientRect().height ?? 0) + 16 : window.innerHeight * 0.3;
         window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - offset });
       }
-      if (deepOpen && data.deep[stopId]) setDeep(stopId);
     }
+    if (stopId && deepOpen && data.deep[stopId]) setDeep(stopId);
     measure();
   }, [data, stopId, deepOpen, measure]);
 

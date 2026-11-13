@@ -30,7 +30,7 @@ export const REGION_BOX: Record<Exclude<RegionId, 'global'>, [number, number, nu
 };
 
 const COLORS = {
-  water: '#0b1418', land: '#2e261b', coast: '#4a3e2c', shelf: '#3d3323', ice: 'rgba(223,233,238,0.78)',
+  water: '#0b1418', land: '#5a4a33', coast: '#8c7755', shelf: '#473c2b', ice: 'rgba(223,233,238,0.78)',
   accent: '#f0b35a', accent2: '#d9694a', text: '#f3ead9', muted: '#a89a84', halo: 'rgba(11,20,24,0.85)',
 };
 // Muted fills for states and empires; a polity's colour is picked from its name so it stays the same across slices.

@@ -524,3 +524,21 @@ them here.
   and 4, then the verifier pass in chapter order. Chapters 3 to 7 come first because they are the
   heart of what Dan wants to learn.
 - **Model:** milestone 1 on Fable. Everything else on Opus.
+
+## 10. What milestone 1 built, and where it differs from the plan above
+
+Built on branch `human-story` (not merged to `main`): the content pipeline and validator, the map engine, the chapter page, the landing page, the deep-dive drawer, the to-scale strip, one chart component, the warm theme and the three entrances (nav item, Home card, Deep Time card). Chapters 2 and 4 each have six example stops and one deep dive; the other seven chapters show as "Being written".
+
+Differences the next builder should know:
+
+- **Years.** Positive is CE, negative is BCE. "N years ago" is stored as `2000 - N` (60,000 years ago is `-58000`). `src/human/lib/time.ts` formats anything before 10,000 BCE as "about N years ago".
+- **Chapter `status`.** `chapters.json` has `status: draft | complete`. The validator only enforces 10 to 14 stops, region spread and `checked` sources on `complete` chapters, so set it when a chapter is finished.
+- **`debate` field.** A stop may carry a one-sentence `debate` note, shown on the card under "What's in question".
+- **Scale strip.** It is a horizontal bar under the map (and a large one on the landing page), not a vertical rail.
+- **Labels** are drawn on the canvas in screen space, with overlap skipping. There are no HTML labels.
+- **Draft map layers.** `content/human/map/paleo.geojson`, `hominins.geojson`, `dispersal.geojson`, `cities.geojson` and `routes.geojson` are hand-drawn seeds. Milestone 2 replaces `paleo` with the De Groeve and ice-sheet data (needs `brew install gdal`) and extends the others.
+- **Polity slices** exist only for 3000 to 1200 BCE. Extend `YEARS` in `scripts/human/fetch-polities.mjs`.
+- **Phone layout.** Below 760 px the top bar scrolls away inside Human Story so the map can stick to the top of the screen.
+- **Nav.** With seven items, the nav hides its emoji icons between 761 and 1180 px.
+
+Known rough edges left for milestone 2: map labels can still crowd each other near a highlighted place; the Sahul route stops short of Australia; images are not used yet (the card supports them); the chart component has only been used for world population.
