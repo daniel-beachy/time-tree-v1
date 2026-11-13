@@ -592,3 +592,15 @@ Chapters 8 and 9 are told partly in numbers. The pattern is built and has three 
 - **Licences.** Life expectancy starts at 1950 (UN estimates; the terms of the older Riley figures were not confirmed). CO₂ ends at 2024. Energy use is not fetched yet: only the Smil portion is cleared, so confirm the Energy Institute terms first. Check each new series' underlying sources on its Our World in Data page before fetching.
 - **Series worth fetching for chapter 8 and 9** (not yet done): share of people living in cities, child mortality, literacy, share in extreme poverty, GDP per person (Maddison), primary energy use, number of democracies, internet users.
 - **On a phone** the chart panel is short: the names at the ends of the lines and the standing readout are dropped, and the legend carries the names.
+
+### Stop order (2026-11-13, Fable)
+
+**Rule: within a chapter, stops run in order of the year they start (`year`). Scrolling down never moves time backward.** The validator now fails the build if a stop starts before the one above it.
+
+- A stop that covers a span goes where it starts, even if most of what it describes comes later. Kush and Aksum (750 BCE to 350 CE) sits before Persia; a chart stop for 1950 to 2024 sits at 1950, before later events. Read such a stop as "from here on".
+- Stops that start in the same year stay in the order the file gives, so the story order decides ties.
+- Why not story order: the date readout, the generations count and the marker on the time strip all follow the active stop. With story order they jumped backward five times in the drafted chapters, which reads as a bug.
+- If a stop reads badly where its start year puts it, change what it covers (split it, or narrow its span with a `dateNote`), not the rule. Narrowing a span is a research decision, so it belongs to the content pass.
+- `map.year` is free: a span stop may show the map of any year it covers.
+
+Applied on the same day: five stops moved (`first-pictures` in chapter 2, `farming-worldwide` and `cost-of-farming` in chapter 3, `kush-and-aksum`, `silk-roads-monsoon` and `plagues-and-falls` in chapter 5). No text was changed. This settles the chapter 5 order noted under the map polish.

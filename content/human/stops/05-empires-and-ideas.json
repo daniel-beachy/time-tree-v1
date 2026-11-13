@@ -194,6 +194,71 @@
   }
  },
  {
+  "id": "kush-and-aksum",
+  "kind": "event",
+  "title": "Kush and Aksum",
+  "year": -750,
+  "yearEnd": 350,
+  "precision": "range",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "exchange",
+   "belief"
+  ],
+  "blurb": "Along the Nile in today's Sudan, the kingdom of Kush lasted about a thousand years. Its rulers were buried in pyramids at Meroe, a city of iron-working. To the southeast, Aksum in today's Ethiopia and Eritrea grew rich from Red Sea trade through its port of Adulis. It minted its own coins, and in the 300s CE its king Ezana became a Christian.",
+  "confidence": "established",
+  "sources": [
+   "unesco-meroe",
+   "unesco-aksum",
+   "met-aksum"
+  ],
+  "links": [
+   {
+    "label": "Kingdom of Kush",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
+   },
+   {
+    "label": "Kingdom of Aksum",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Aksum, Ethiopia",
+   "lat": 14.13,
+   "lon": 38.72
+  },
+  "map": {
+   "year": 300,
+   "view": {
+    "center": [
+     36,
+     15
+    ],
+    "zoom": 4.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "meroe",
+     "aksum",
+     "adulis"
+    ],
+    "polities": [
+     "Kingdom of Kush",
+     "Kingdom of Axum"
+    ]
+   }
+  }
+ },
+ {
   "id": "persian-empire",
   "kind": "map",
   "title": "The Persian Empire",
@@ -535,73 +600,6 @@
   }
  },
  {
-  "id": "roman-empire",
-  "kind": "map",
-  "title": "Rome's empire of roads",
-  "year": -27,
-  "yearEnd": 200,
-  "precision": "range",
-  "regions": [
-   "europe",
-   "africa",
-   "sw-asia"
-  ],
-  "themes": [
-   "power",
-   "technology"
-  ],
-  "blurb": "From 27 BCE, Rome was ruled by emperors, and its empire circled the Mediterranean. A new digital map counts about 300,000 kilometres of Roman roads around 150 CE, though the exact route of most of them is uncertain. Roman builders also mixed concrete with hot lime, which left small lumps that can help seal cracks. Much of their concrete has lasted two thousand years.",
-  "confidence": "established",
-  "sources": [
-   "desoto-2025",
-   "eurekalert-itinere-2025",
-   "seymour-2023"
-  ],
-  "links": [
-   {
-    "label": "Roman Empire",
-    "url": "https://en.wikipedia.org/wiki/Roman_Empire"
-   },
-   {
-    "label": "Roman roads",
-    "url": "https://en.wikipedia.org/wiki/Roman_roads"
-   },
-   {
-    "label": "Roman concrete",
-    "url": "https://en.wikipedia.org/wiki/Roman_concrete"
-   }
-  ],
-  "major": true,
-  "place": {
-   "name": "Rome, Italy",
-   "lat": 41.89,
-   "lon": 12.48
-  },
-  "map": {
-   "year": 100,
-   "view": {
-    "center": [
-     15,
-     40
-    ],
-    "zoom": 3
-   },
-   "layers": [
-    "land",
-    "polities",
-    "cities"
-   ],
-   "highlight": {
-    "places": [
-     "rome"
-    ],
-    "polities": [
-     "Roman Empire"
-    ]
-   }
-  }
- },
- {
   "id": "silk-roads-monsoon",
   "kind": "map",
   "title": "Silk Roads and monsoon seas",
@@ -685,71 +683,6 @@
   }
  },
  {
-  "id": "kush-and-aksum",
-  "kind": "event",
-  "title": "Kush and Aksum",
-  "year": -750,
-  "yearEnd": 350,
-  "precision": "range",
-  "regions": [
-   "africa"
-  ],
-  "themes": [
-   "power",
-   "exchange",
-   "belief"
-  ],
-  "blurb": "Along the Nile in today's Sudan, the kingdom of Kush lasted about a thousand years. Its rulers were buried in pyramids at Meroe, a city of iron-working. To the southeast, Aksum in today's Ethiopia and Eritrea grew rich from Red Sea trade through its port of Adulis. It minted its own coins, and in the 300s CE its king Ezana became a Christian.",
-  "confidence": "established",
-  "sources": [
-   "unesco-meroe",
-   "unesco-aksum",
-   "met-aksum"
-  ],
-  "links": [
-   {
-    "label": "Kingdom of Kush",
-    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
-   },
-   {
-    "label": "Kingdom of Aksum",
-    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
-   }
-  ],
-  "major": true,
-  "place": {
-   "name": "Aksum, Ethiopia",
-   "lat": 14.13,
-   "lon": 38.72
-  },
-  "map": {
-   "year": 300,
-   "view": {
-    "center": [
-     36,
-     15
-    ],
-    "zoom": 4.2
-   },
-   "layers": [
-    "land",
-    "polities",
-    "cities"
-   ],
-   "highlight": {
-    "places": [
-     "meroe",
-     "aksum",
-     "adulis"
-    ],
-    "polities": [
-     "Kingdom of Kush",
-     "Kingdom of Axum"
-    ]
-   }
-  }
- },
- {
   "id": "teotihuacan-maya",
   "kind": "event",
   "title": "Teotihuacan and the Maya",
@@ -821,46 +754,57 @@
   }
  },
  {
-  "id": "gupta-mathematics",
-  "kind": "event",
-  "title": "Gupta India and new mathematics",
-  "year": 350,
-  "yearEnd": 499,
+  "id": "roman-empire",
+  "kind": "map",
+  "title": "Rome's empire of roads",
+  "year": -27,
+  "yearEnd": 200,
   "precision": "range",
   "regions": [
-   "s-asia"
+   "europe",
+   "africa",
+   "sw-asia"
   ],
   "themes": [
-   "knowledge",
-   "belief"
+   "power",
+   "technology"
   ],
-  "blurb": "The Gupta kings united much of northern India in the 300s CE. Buddhist monasteries flourished and Hindu temples multiplied. In 499 CE, near the Gupta capital, the astronomer Aryabhata finished a book of mathematics and astronomy at the age of 23. It gives pi as 3.1416. Indian mathematicians were developing the place-value numbers, with zero, that most of the world now uses.",
-  "confidence": "debated",
-  "dateNote": "When zero first appeared in Indian writing is unclear, because the Bakhshali manuscript is hard to date.",
-  "debate": "Radiocarbon tests suggested parts of the Bakhshali manuscript, which uses a dot for zero, are very old, but specialists dispute what those dates mean.",
+  "blurb": "From 27 BCE, Rome was ruled by emperors, and its empire circled the Mediterranean. A new digital map counts about 300,000 kilometres of Roman roads around 150 CE, though the exact route of most of them is uncertain. Roman builders also mixed concrete with hot lime, which left small lumps that can help seal cracks. Much of their concrete has lasted two thousand years.",
+  "confidence": "established",
   "sources": [
-   "met-south-asia-1-500",
-   "mactutor-aryabhata",
-   "wujastyk-2017"
+   "desoto-2025",
+   "eurekalert-itinere-2025",
+   "seymour-2023"
   ],
   "links": [
    {
-    "label": "Gupta Empire",
-    "url": "https://en.wikipedia.org/wiki/Gupta_Empire"
+    "label": "Roman Empire",
+    "url": "https://en.wikipedia.org/wiki/Roman_Empire"
    },
    {
-    "label": "Aryabhata",
-    "url": "https://en.wikipedia.org/wiki/Aryabhata"
+    "label": "Roman roads",
+    "url": "https://en.wikipedia.org/wiki/Roman_roads"
+   },
+   {
+    "label": "Roman concrete",
+    "url": "https://en.wikipedia.org/wiki/Roman_concrete"
    }
   ],
+  "major": true,
   "place": {
-   "name": "Pataliputra (Patna), India",
-   "lat": 25.61,
-   "lon": 85.14
+   "name": "Rome, Italy",
+   "lat": 41.89,
+   "lon": 12.48
   },
   "map": {
-   "year": 400,
-   "view": "s-asia",
+   "year": 100,
+   "view": {
+    "center": [
+     15,
+     40
+    ],
+    "zoom": 3
+   },
    "layers": [
     "land",
     "polities",
@@ -868,10 +812,10 @@
    ],
    "highlight": {
     "places": [
-     "pataliputra"
+     "rome"
     ],
     "polities": [
-     "Gupta Empire"
+     "Roman Empire"
     ]
    }
   }
@@ -942,6 +886,62 @@
      "Kingdom of the Franks",
      "Northern Wei",
      "Southern Qi"
+    ]
+   }
+  }
+ },
+ {
+  "id": "gupta-mathematics",
+  "kind": "event",
+  "title": "Gupta India and new mathematics",
+  "year": 350,
+  "yearEnd": 499,
+  "precision": "range",
+  "regions": [
+   "s-asia"
+  ],
+  "themes": [
+   "knowledge",
+   "belief"
+  ],
+  "blurb": "The Gupta kings united much of northern India in the 300s CE. Buddhist monasteries flourished and Hindu temples multiplied. In 499 CE, near the Gupta capital, the astronomer Aryabhata finished a book of mathematics and astronomy at the age of 23. It gives pi as 3.1416. Indian mathematicians were developing the place-value numbers, with zero, that most of the world now uses.",
+  "confidence": "debated",
+  "dateNote": "When zero first appeared in Indian writing is unclear, because the Bakhshali manuscript is hard to date.",
+  "debate": "Radiocarbon tests suggested parts of the Bakhshali manuscript, which uses a dot for zero, are very old, but specialists dispute what those dates mean.",
+  "sources": [
+   "met-south-asia-1-500",
+   "mactutor-aryabhata",
+   "wujastyk-2017"
+  ],
+  "links": [
+   {
+    "label": "Gupta Empire",
+    "url": "https://en.wikipedia.org/wiki/Gupta_Empire"
+   },
+   {
+    "label": "Aryabhata",
+    "url": "https://en.wikipedia.org/wiki/Aryabhata"
+   }
+  ],
+  "place": {
+   "name": "Pataliputra (Patna), India",
+   "lat": 25.61,
+   "lon": 85.14
+  },
+  "map": {
+   "year": 400,
+   "view": "s-asia",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "pataliputra"
+    ],
+    "polities": [
+     "Gupta Empire"
     ]
    }
   }

@@ -123,6 +123,57 @@
   }
  },
  {
+  "id": "farming-worldwide",
+  "kind": "map",
+  "title": "Farming begins again and again",
+  "year": -9500,
+  "yearEnd": -2500,
+  "precision": "range",
+  "dateNote": "The map shows each centre from its earliest good evidence, between about 9500 and 3000 BCE.",
+  "regions": [
+   "sw-asia",
+   "e-asia",
+   "se-asia-pacific",
+   "c-s-america",
+   "n-america",
+   "africa",
+   "s-asia"
+  ],
+  "themes": [
+   "food",
+   "environment"
+  ],
+  "blurb": "Farming was not invented once and then spread. It began separately in at least eleven regions, with different plants and animals: wheat and goats in southwest Asia, millet and rice in China, taro and bananas in New Guinea, squash, maize and manioc in the Americas, sorghum in Africa. The dates differ by thousands of years, and the earliest farmers in each place had no contact with the others.",
+  "confidence": "established",
+  "sources": [
+   "larson-2014",
+   "denham-2003",
+   "smith-1997",
+   "piperno-2009",
+   "lu-2009",
+   "fuller-2009",
+   "lombardo-2020",
+   "smith-2006",
+   "winchell-2017"
+  ],
+  "links": [
+   {
+    "label": "Centres of origin",
+    "url": "https://en.wikipedia.org/wiki/Center_of_origin"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": -2500,
+   "view": "world",
+   "layers": [
+    "land",
+    "farming"
+   ]
+  }
+ },
+ {
   "id": "jericho-catalhoyuk",
   "kind": "event",
   "title": "Jericho and Çatalhöyük: the first big villages",
@@ -186,111 +237,6 @@
      "lon": 32.83,
      "text": "Çatalhöyük"
     }
-   ]
-  }
- },
- {
-  "id": "cost-of-farming",
-  "kind": "event",
-  "title": "What farming cost",
-  "year": -8000,
-  "yearEnd": -4000,
-  "precision": "range",
-  "dateNote": "Farming began at different times in different places, so these changes are spread over thousands of years.",
-  "regions": [
-   "global"
-  ],
-  "themes": [
-   "health",
-   "food",
-   "power"
-  ],
-  "blurb": "Farming fed more people, but the bones of early farmers show a price. In most regions studied, adults grew shorter as farming took hold. Crowded villages, living beside their animals and rubbish, suffered more infections, and grain-heavy diets brought tooth decay. Families had more children, so populations grew fast. Over the long run, gaps in wealth between households widened.",
-  "confidence": "established",
-  "sources": [
-   "mummert-2011",
-   "larsen-2019",
-   "osu-catalhoyuk-2019",
-   "bocquet-appel-2011",
-   "kohler-2017"
-  ],
-  "links": [
-   {
-    "label": "Neolithic Revolution",
-    "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
-   }
-  ],
-  "deep": true,
-  "map": {
-   "year": -6500,
-   "view": {
-    "center": [
-     33,
-     37.5
-    ],
-    "zoom": 6
-   },
-   "layers": [
-    "land",
-    "farming"
-   ],
-   "labels": [
-    {
-     "lat": 37.67,
-     "lon": 32.83,
-     "text": "Çatalhöyük"
-    }
-   ]
-  }
- },
- {
-  "id": "farming-worldwide",
-  "kind": "map",
-  "title": "Farming begins again and again",
-  "year": -9500,
-  "yearEnd": -2500,
-  "precision": "range",
-  "dateNote": "The map shows each centre from its earliest good evidence, between about 9500 and 3000 BCE.",
-  "regions": [
-   "sw-asia",
-   "e-asia",
-   "se-asia-pacific",
-   "c-s-america",
-   "n-america",
-   "africa",
-   "s-asia"
-  ],
-  "themes": [
-   "food",
-   "environment"
-  ],
-  "blurb": "Farming was not invented once and then spread. It began separately in at least eleven regions, with different plants and animals: wheat and goats in southwest Asia, millet and rice in China, taro and bananas in New Guinea, squash, maize and manioc in the Americas, sorghum in Africa. The dates differ by thousands of years, and the earliest farmers in each place had no contact with the others.",
-  "confidence": "established",
-  "sources": [
-   "larson-2014",
-   "denham-2003",
-   "smith-1997",
-   "piperno-2009",
-   "lu-2009",
-   "fuller-2009",
-   "lombardo-2020",
-   "smith-2006",
-   "winchell-2017"
-  ],
-  "links": [
-   {
-    "label": "Centres of origin",
-    "url": "https://en.wikipedia.org/wiki/Center_of_origin"
-   }
-  ],
-  "deep": true,
-  "major": true,
-  "map": {
-   "year": -2500,
-   "view": "world",
-   "layers": [
-    "land",
-    "farming"
    ]
   }
  },
@@ -405,6 +351,60 @@
    "layers": [
     "land",
     "farming"
+   ]
+  }
+ },
+ {
+  "id": "cost-of-farming",
+  "kind": "event",
+  "title": "What farming cost",
+  "year": -8000,
+  "yearEnd": -4000,
+  "precision": "range",
+  "dateNote": "Farming began at different times in different places, so these changes are spread over thousands of years.",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health",
+   "food",
+   "power"
+  ],
+  "blurb": "Farming fed more people, but the bones of early farmers show a price. In most regions studied, adults grew shorter as farming took hold. Crowded villages, living beside their animals and rubbish, suffered more infections, and grain-heavy diets brought tooth decay. Families had more children, so populations grew fast. Over the long run, gaps in wealth between households widened.",
+  "confidence": "established",
+  "sources": [
+   "mummert-2011",
+   "larsen-2019",
+   "osu-catalhoyuk-2019",
+   "bocquet-appel-2011",
+   "kohler-2017"
+  ],
+  "links": [
+   {
+    "label": "Neolithic Revolution",
+    "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -6500,
+   "view": {
+    "center": [
+     33,
+     37.5
+    ],
+    "zoom": 6
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 37.67,
+     "lon": 32.83,
+     "text": "Çatalhöyük"
+    }
    ]
   }
  },

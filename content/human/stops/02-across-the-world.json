@@ -55,6 +55,65 @@
   }
  },
  {
+  "id": "first-pictures",
+  "kind": "artifact",
+  "title": "The oldest pictures and music",
+  "year": -49200,
+  "precision": "circa",
+  "regions": [
+   "se-asia-pacific",
+   "europe"
+  ],
+  "themes": [
+   "art"
+  ],
+  "blurb": "On a cave ceiling in Sulawesi, Indonesia, someone painted three human-like figures around a wild pig. Mineral crusts that grew over the paint are at least 51,200 years old, which makes it the oldest known picture that tells a story. More than 35,000 years ago, people in what is now Germany were playing flutes carved from bird bone and mammoth ivory.",
+  "confidence": "established",
+  "sources": [
+   "oktaviana-2024",
+   "conard-2009"
+  ],
+  "links": [
+   {
+    "label": "Cave painting",
+    "url": "https://en.wikipedia.org/wiki/Cave_painting"
+   },
+   {
+    "label": "Paleolithic flute",
+    "url": "https://en.wikipedia.org/wiki/Paleolithic_flute"
+   }
+  ],
+  "place": {
+   "name": "Leang Karampuang, Sulawesi",
+   "lat": -4.95,
+   "lon": 119.65
+  },
+  "dateNote": "The date is a minimum age: the painting is older than the crust that covers it.",
+  "map": {
+   "year": -49000,
+   "view": {
+    "center": [
+     80,
+     25
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "paleo",
+    "hominins",
+    "dispersal"
+   ],
+   "labels": [
+    {
+     "lat": 48.4,
+     "lon": 9.8,
+     "text": "Hohle Fels flutes"
+    }
+   ]
+  }
+ },
+ {
   "id": "meeting-the-relatives",
   "kind": "map",
   "title": "Meeting the relatives",
@@ -161,65 +220,6 @@
      "lat": -22,
      "lon": 134,
      "text": "Sahul"
-    }
-   ]
-  }
- },
- {
-  "id": "first-pictures",
-  "kind": "artifact",
-  "title": "The oldest pictures and music",
-  "year": -49200,
-  "precision": "circa",
-  "regions": [
-   "se-asia-pacific",
-   "europe"
-  ],
-  "themes": [
-   "art"
-  ],
-  "blurb": "On a cave ceiling in Sulawesi, Indonesia, someone painted three human-like figures around a wild pig. Mineral crusts that grew over the paint are at least 51,200 years old, which makes it the oldest known picture that tells a story. More than 35,000 years ago, people in what is now Germany were playing flutes carved from bird bone and mammoth ivory.",
-  "confidence": "established",
-  "sources": [
-   "oktaviana-2024",
-   "conard-2009"
-  ],
-  "links": [
-   {
-    "label": "Cave painting",
-    "url": "https://en.wikipedia.org/wiki/Cave_painting"
-   },
-   {
-    "label": "Paleolithic flute",
-    "url": "https://en.wikipedia.org/wiki/Paleolithic_flute"
-   }
-  ],
-  "place": {
-   "name": "Leang Karampuang, Sulawesi",
-   "lat": -4.95,
-   "lon": 119.65
-  },
-  "dateNote": "The date is a minimum age: the painting is older than the crust that covers it.",
-  "map": {
-   "year": -49000,
-   "view": {
-    "center": [
-     80,
-     25
-    ],
-    "zoom": 1.5
-   },
-   "layers": [
-    "land",
-    "paleo",
-    "hominins",
-    "dispersal"
-   ],
-   "labels": [
-    {
-     "lat": 48.4,
-     "lon": 9.8,
-     "text": "Hohle Fels flutes"
     }
    ]
   }

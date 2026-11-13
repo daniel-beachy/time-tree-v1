@@ -103,8 +103,12 @@ chapters.forEach((c, i) => {
   const stops = existsSync(file) ? readJson(file) : [];
   const usedSources = new Set((c.keyNumbers ?? []).flatMap((k) => k.sources ?? []));
   const deep = {};
+  let prevStop = null;
   for (const s of stops) {
     const w = `stop ${c.id}/${s.id ?? '?'}`;
+    // Scrolling never moves time backward: stops run in order of the year they start. A stop that covers a span goes where it starts.
+    if (prevStop && typeof s.year === 'number' && s.year < prevStop.year) err(w, `starts in ${s.year}, before the stop above it (${prevStop.id}, ${prevStop.year}); move it up`);
+    if (typeof s.year === 'number') prevStop = s;
     if (!s.id || !/^[a-z0-9-]+$/.test(s.id)) err(w, 'id must be lowercase letters, digits and hyphens');
     if (stopIds.has(s.id)) err(w, 'duplicate stop id');
     stopIds.add(s.id);
