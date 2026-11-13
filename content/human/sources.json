@@ -229,5 +229,334 @@
   "citation": "HYDE (2023); Gapminder (2022); UN World Population Prospects (2024), with major processing by Our World in Data. Population.",
   "url": "https://ourworldindata.org/grapher/population",
   "accessed": "2026-11-12"
+ },
+ {
+  "id": "erb-satullo-2019",
+  "type": "paper",
+  "citation": "Erb-Satullo N. L. (2019). The innovation and adoption of iron in the ancient Near East. Journal of Archaeological Research 27, 557–607.",
+  "url": "https://doi.org/10.1007/s10814-019-09129-6",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "alpern-2005",
+  "type": "paper",
+  "citation": "Alpern S. B. (2005). Did they or didn't they invent it? Iron in sub-Saharan Africa. History in Africa 32, 41–94.",
+  "url": "https://doi.org/10.1353/hia.2005.0003",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-meroe",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Archaeological Sites of the Island of Meroe.",
+  "url": "https://whc.unesco.org/en/list/1336/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-phoenicians",
+  "type": "museum",
+  "citation": "The Phoenicians (1500–300 B.C.). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/the-phoenicians-1500-300-b-c",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-byblos",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Byblos.",
+  "url": "https://whc.unesco.org/en/list/295/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "grollemund-2015",
+  "type": "paper",
+  "citation": "Grollemund R. et al. (2015). Bantu expansion shows that habitat alters the route and pace of human dispersals. PNAS 112, 13296–13301.",
+  "url": "https://doi.org/10.1073/pnas.1503793112",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "patin-2017",
+  "type": "paper",
+  "citation": "Patin E. et al. (2017). Dispersals and genetic adaptation of Bantu-speaking populations in Africa and North America. Science 356, 543–546.",
+  "url": "https://doi.org/10.1126/science.aal1988",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "koile-2022",
+  "type": "paper",
+  "citation": "Koile E. et al. (2022). Phylogeographic analysis of the Bantu language expansion supports a rainforest route. PNAS 119 (32), e2112853119.",
+  "url": "https://doi.org/10.1073/pnas.2112853119",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "fortes-lima-2023",
+  "type": "paper",
+  "citation": "Fortes-Lima C. A. et al. (2023). The genetic legacy of the expansion of Bantu-speaking peoples in Africa. Nature 625, 540–547.",
+  "url": "https://doi.org/10.1038/s41586-023-06770-6",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-achaemenid",
+  "type": "museum",
+  "citation": "The Achaemenid Persian Empire (550–330 B.C.). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-persepolis",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Persepolis.",
+  "url": "https://whc.unesco.org/en/list/114/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "herodotus-royal-road",
+  "type": "reference",
+  "citation": "Herodotus, Histories 5.52–53, translated by A. D. Godley (1920). Perseus Digital Library, Tufts University.",
+  "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D5%3Achapter%3D52",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mq-ephesus-coins",
+  "type": "museum",
+  "citation": "Australian Centre for Ancient Numismatic Studies, Macquarie University. The earliest coins at Ephesus (digital exhibition: The Coinage of Ephesus).",
+  "url": "https://www.mq.edu.au/faculty-of-arts/schools/school-of-humanities/our-research/australian-centre-for-ancient-numismatic-studies/digital-exhibitions/the-coinage-of-ephesus/a-history-of-ephesus-from-coins-the-greek-state/the-earliest-coins-at-ephesus",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-babylonian-captivity",
+  "type": "reference",
+  "citation": "Babylonian Captivity. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/event/Babylonian-Captivity",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "sep-confucius",
+  "type": "reference",
+  "citation": "Confucius. Stanford Encyclopedia of Philosophy.",
+  "url": "https://plato.stanford.edu/entries/confucius/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "sep-buddha",
+  "type": "reference",
+  "citation": "Buddha. Stanford Encyclopedia of Philosophy.",
+  "url": "https://plato.stanford.edu/entries/buddha/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "baumard-2015",
+  "type": "paper",
+  "citation": "Baumard N., Hyafil A., Morris I. & Boyer P. (2015). Increased affluence explains the emergence of ascetic wisdoms and moralizing religions. Current Biology 25, 10–15.",
+  "url": "https://doi.org/10.1016/j.cub.2014.10.063",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mullins-2018",
+  "type": "paper",
+  "citation": "Mullins D. A. et al. (2018). A systematic assessment of 'Axial Age' proposals using global comparative historical evidence. American Sociological Review 83, 596–626.",
+  "url": "https://doi.org/10.1177/0003122418772567",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-cleisthenes",
+  "type": "reference",
+  "citation": "Ancient Greek civilization: the reforms of Cleisthenes. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/place/ancient-Greece/The-reforms-of-Cleisthenes",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-eratosthenes",
+  "type": "reference",
+  "citation": "Eratosthenes. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/biography/Eratosthenes",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-library-alexandria",
+  "type": "reference",
+  "citation": "Library of Alexandria. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/topic/Library-of-Alexandria",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-mauryan",
+  "type": "museum",
+  "citation": "Mauryan Empire (ca. 323–185 B.C.). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "columbia-asoka-edicts",
+  "type": "web",
+  "citation": "The Edicts of Asoka, translated by V. A. Smith. Course reader PDF, Columbia University.",
+  "url": "https://www.columbia.edu/itc/religion/f2001/edit/docs/edicts_asoka.pdf",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-sanchi",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Buddhist Monuments at Sanchi.",
+  "url": "https://whc.unesco.org/en/list/524/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "yelle-2022",
+  "type": "paper",
+  "citation": "Yelle R. A. (2022). Was Aśoka really a secularist avant-la-lettre? Ancient Indian pluralism and toleration in historical perspective. Modern Asian Studies 56, 749–775.",
+  "url": "https://doi.org/10.1017/S0026749X21000160",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-qin",
+  "type": "museum",
+  "citation": "Qin Dynasty (221–206 B.C.). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/qin-dynasty-221-206-b-c",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-han",
+  "type": "museum",
+  "citation": "Han Dynasty (206 B.C.–220 A.D.). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-qin-mausoleum",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Mausoleum of the First Qin Emperor.",
+  "url": "https://whc.unesco.org/en/list/441/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-cai-lun",
+  "type": "reference",
+  "citation": "Cai Lun. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/biography/Cai-Lun",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "desoto-2025",
+  "type": "dataset",
+  "citation": "de Soto P. et al. (2025). Itiner-e: a high-resolution dataset of roads of the Roman Empire. Scientific Data 12, 1731.",
+  "url": "https://doi.org/10.1038/s41597-025-06140-z",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "eurekalert-itinere-2025",
+  "type": "web",
+  "citation": "EurekAlert! press release (2025) on the Itiner-e dataset of Roman roads.",
+  "url": "https://www.eurekalert.org/news-releases/1104412",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "seymour-2023",
+  "type": "paper",
+  "citation": "Seymour L. M. et al. (2023). Hot mixing: mechanistic insights into the durability of ancient Roman concrete. Science Advances 9 (1), eadd1602.",
+  "url": "https://doi.org/10.1126/sciadv.add1602",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-silk-roads",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Silk Roads: the Routes Network of Chang'an-Tianshan Corridor.",
+  "url": "https://whc.unesco.org/en/list/1442/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "simmons-2023",
+  "type": "paper",
+  "citation": "Simmons J. A. (2023). Behind gold for pepper: the players and the game of Indo-Mediterranean trade. Journal of Global History 18, 343–364.",
+  "url": "https://doi.org/10.1017/S1740022823000165",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "borell-2014",
+  "type": "paper",
+  "citation": "Borell B. (2014). The power of images: coin portraits of Roman emperors on jewellery pendants in early Southeast Asia. Zeitschrift für Archäologie Außereuropäischer Kulturen 6, 7–43.",
+  "url": "https://angkordatabase.asia/libs/docs/publications/the-power-of-images-coin-portraits-of-roman-emperors-on-jewellery-pendants-in-early-southeast-asia/The_Power_of_Images_Coin_Portraits_of_Ro.pdf",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-south-asia-1-500",
+  "type": "museum",
+  "citation": "Heilbrunn Timeline of Art History. South Asia, 1–500 A.D. The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/toah/ht/05/ssa.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-aksum",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Aksum.",
+  "url": "https://whc.unesco.org/en/list/15/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-aksum",
+  "type": "museum",
+  "citation": "Foundations of Aksumite Civilization and Its Christian Legacy (1st–7th Century). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-teotihuacan",
+  "type": "museum",
+  "citation": "Barnes T. (2024). Teotihuacan. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/teotihuacan",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-teotihuacan",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Pre-Hispanic City of Teotihuacan.",
+  "url": "https://whc.unesco.org/en/list/414/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "unesco-tikal",
+  "type": "reference",
+  "citation": "UNESCO World Heritage Centre. Tikal National Park.",
+  "url": "https://whc.unesco.org/en/list/64/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "rojo-garibaldi-2021",
+  "type": "paper",
+  "citation": "Rojo-Garibaldi B., Rangoni C., González D. L. & Cartwright J. H. E. (2021). Non-power positional number representation systems, bijective numeration, and the Mesoamerican discovery of zero. Heliyon 7, e06580.",
+  "url": "https://doi.org/10.1016/j.heliyon.2021.e06580",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mactutor-aryabhata",
+  "type": "reference",
+  "citation": "O'Connor J. J. & Robertson E. F. Aryabhata the Elder. MacTutor History of Mathematics, University of St Andrews.",
+  "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "wujastyk-2017",
+  "type": "paper",
+  "citation": "Wujastyk D., Hayashi T., Keller A., Montelle C. & Plofker K. (2017). The Bakhshālī Manuscript: a response to the Bodleian Library's radiocarbon dating. History of Science in South Asia 5.",
+  "url": "https://doi.org/10.18732/H2XT07",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "harper-2016",
+  "type": "paper",
+  "citation": "Harper K. (2016). People, plagues, and prices in the Roman world: the evidence from Egypt. Journal of Economic History 76, 803–839.",
+  "url": "https://doi.org/10.1017/S0022050716000826",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-yellow-turbans",
+  "type": "reference",
+  "citation": "Yellow Turban Rebellion. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/topic/Yellow-Turban-Rebellion",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "britannica-romulus-augustulus",
+  "type": "reference",
+  "citation": "Romulus Augustulus. Encyclopaedia Britannica.",
+  "url": "https://www.britannica.com/biography/Romulus-Augustulus",
+  "accessed": "2026-11-13"
  }
 ]

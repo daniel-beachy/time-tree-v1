@@ -89,15 +89,38 @@
   "to": 500,
   "color": "#e28c3a",
   "status": "draft",
-  "intro": "Iron tools and weapons, alphabets and coins spread widely. Empires grew larger than anything before them: Persia, the Mauryas, Han China, Rome. In the same centuries, teachers in China, India, Persia, Israel and Greece asked how a person should live, and their answers still shape how billions of people think. Roads and sea lanes began to link the empires.",
+  "intro": "Iron tools, alphabets and coins spread widely. Empires grew larger than anything before them: Persia, the Mauryas, Han China, Rome. Teachers in China, India, Israel and Greece asked how a person should live, and their answers still shape billions of lives. In Africa, Bantu-speaking farmers spread across half a continent, and in Mexico, Teotihuacan grew into a great city. Roads and sea lanes began to link distant peoples.",
   "map": {
    "year": -1200,
    "view": "world",
    "layers": [
-    "land"
+    "land",
+    "polities"
    ]
   },
-  "keyNumbers": []
+  "keyNumbers": [
+   {
+    "label": "stages on the Persian Royal Road from Sardis to Susa",
+    "value": "111",
+    "sources": [
+     "herodotus-royal-road"
+    ]
+   },
+   {
+    "label": "kilometres of Roman roads around 150 CE",
+    "value": "about 300,000",
+    "sources": [
+     "desoto-2025"
+    ]
+   },
+   {
+    "label": "Bantu languages spoken today",
+    "value": "more than 500",
+    "sources": [
+     "koile-2022"
+    ]
+   }
+  ]
  },
  {
   "id": "connected-old-world",
