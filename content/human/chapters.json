@@ -17,7 +17,30 @@
     "hominins"
    ]
   },
-  "keyNumbers": []
+  "keyNumbers": [
+   {
+    "label": "Age of the oldest Homo sapiens fossils",
+    "value": "about 315,000 years",
+    "sources": [
+     "hublin-2017",
+     "richter-2017"
+    ]
+   },
+   {
+    "label": "Human lineages in Africa about 300,000 years ago",
+    "value": "at least 3",
+    "sources": [
+     "grun-2020"
+    ]
+   },
+   {
+    "label": "Age of the oldest known shell beads",
+    "value": "at least 142,000 years",
+    "sources": [
+     "sehasseh-2021"
+    ]
+   }
+  ]
  },
  {
   "id": "across-the-world",
