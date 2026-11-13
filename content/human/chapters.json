@@ -113,10 +113,36 @@
    "year": 500,
    "view": "world",
    "layers": [
-    "land"
+    "land",
+    "polities",
+    "cities",
+    "routes"
    ]
   },
-  "keyNumbers": []
+  "keyNumbers": [
+   {
+    "label": "Settling East Polynesia, from the Society Islands to Aotearoa",
+    "value": "about 1025 to 1290",
+    "sources": [
+     "wilmshurst-2011"
+    ]
+   },
+   {
+    "label": "Zheng He's first fleet",
+    "value": "317 ships, nearly 28,000 men",
+    "sources": [
+     "afe-ming-voyages"
+    ]
+   },
+   {
+    "label": "Black Death deaths in the hardest-hit regions",
+    "value": "up to about half",
+    "sources": [
+     "green-2020",
+     "izdebski-2022"
+    ]
+   }
+  ]
  },
  {
   "id": "one-world",

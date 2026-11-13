@@ -229,5 +229,257 @@
   "citation": "HYDE (2023); Gapminder (2022); UN World Population Prospects (2024), with major processing by Our World in Data. Population.",
   "url": "https://ourworldindata.org/grapher/population",
   "accessed": "2026-11-12"
+ },
+ {
+  "id": "keller-2019",
+  "type": "paper",
+  "citation": "Keller M. et al. (2019). Ancient Yersinia pestis genomes from across Western Europe reveal early diversification during the First Pandemic (541–750). PNAS 116, 12363–12372.",
+  "url": "https://doi.org/10.1073/pnas.1820447116",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mordechai-2019",
+  "type": "paper",
+  "citation": "Mordechai L. et al. (2019). The Justinianic Plague: An inconsequential pandemic? PNAS 116, 25546–25554.",
+  "url": "https://doi.org/10.1073/pnas.1903797116",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "damen-usu-islam",
+  "type": "web",
+  "citation": "Damen M. (2022). Section 14: The Nature and Triumph of Islam. HIST 1100 course resources, Utah State University.",
+  "url": "https://artsci.usu.edu/history/classics/course-resources/hist-1100/section-14",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mactutor-khwarizmi",
+  "type": "reference",
+  "citation": "O'Connor J. J. and Robertson E. F. Abu Ja'far Muhammad ibn Musa Al-Khwarizmi. MacTutor History of Mathematics, University of St Andrews.",
+  "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "lindahall-diamond-sutra",
+  "type": "web",
+  "citation": "Linda Hall Library. Scientist of the Day: The Diamond Sutra.",
+  "url": "https://lindahall.org/about/news/scientist-of-the-day/the-diamond-sutra",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-song-printing",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Song Dynasty in China: Printing and Movable Type.",
+  "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-printing.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-song-compass",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Song Dynasty in China: Shipbuilding and the Compass.",
+  "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-compass.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-song-gunpowder",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Song Dynasty in China: Gunpowder.",
+  "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-gunpowder.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-song-money",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Song Dynasty in China: Paper Money.",
+  "url": "https://afe.easia.columbia.edu/songdynasty-module/econ-rev-money.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "aaas-shen-kuo",
+  "type": "web",
+  "citation": "Edwards S. A. (2012). Shen Kuo, first Renaissance man. AAAS.",
+  "url": "https://www.aaas.org/shen-kuo-first-renaissance-man",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "bnf-jikji",
+  "type": "museum",
+  "citation": "Bibliothèque nationale de France. Jikji, a treasure of the world of printing.",
+  "url": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "wilmshurst-2011",
+  "type": "paper",
+  "citation": "Wilmshurst J. M. et al. (2011). High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia. PNAS 108, 1815–1820.",
+  "url": "https://doi.org/10.1073/pnas.1015876108",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "ioannidis-2021",
+  "type": "paper",
+  "citation": "Ioannidis A. G. et al. (2021). Paths and timings of the peopling of Polynesia inferred from genomic networks. Nature 597, 522–526.",
+  "url": "https://doi.org/10.1038/s41586-021-03902-8",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "ioannidis-2020",
+  "type": "paper",
+  "citation": "Ioannidis A. G. et al. (2020). Native American gene flow into Polynesia predating Easter Island settlement. Nature 583, 572–577.",
+  "url": "https://doi.org/10.1038/s41586-020-2487-2",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "kuitems-2021",
+  "type": "paper",
+  "citation": "Kuitems M. et al. (2021). Evidence for European presence in the Americas in AD 1021. Nature 601, 388–391.",
+  "url": "https://doi.org/10.1038/s41586-021-03972-8",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "parks-canada-lam",
+  "type": "web",
+  "citation": "Parks Canada. L'Anse aux Meadows National Historic Site: Culture and history.",
+  "url": "https://parks.canada.ca/lhn-nhs/nl/meadows/culture",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "parks-canada-saga",
+  "type": "web",
+  "citation": "Parks Canada. L'Anse aux Meadows National Historic Site: A saga of discovery.",
+  "url": "https://parks.canada.ca/lhn-nhs/nl/meadows/culture/saga",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "kulke-2009",
+  "type": "book",
+  "citation": "Kulke H. (2009). The naval expeditions of the Cholas in the context of Asian history. In Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia, 1–19. ISEAS.",
+  "url": "https://www.cambridge.org/core/books/nagapattinam-to-suvarnadwipa/naval-expeditions-of-the-cholas-in-the-context-of-asian-history/0D28FFD296A5575E375ACB928E294977",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "evans-2013",
+  "type": "paper",
+  "citation": "Evans D. H. et al. (2013). Uncovering archaeological landscapes at Angkor using lidar. PNAS 110, 12595–12600.",
+  "url": "https://doi.org/10.1073/pnas.1306539110",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "kennett-2012",
+  "type": "paper",
+  "citation": "Kennett D. J. et al. (2012). Development and disintegration of Maya political systems in response to climate change. Science 338, 788–791.",
+  "url": "https://doi.org/10.1126/science.1226299",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "white-2019",
+  "type": "paper",
+  "citation": "White A. J. et al. (2019). Fecal stanols show simultaneous flooding and seasonal precipitation change correlate with Cahokia's population decline. PNAS 116, 5461–5466.",
+  "url": "https://doi.org/10.1073/pnas.1809400116",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "brielle-2023",
+  "type": "paper",
+  "citation": "Brielle E. S. et al. (2023). Entwined African and Asian genetic roots of medieval peoples of the Swahili coast. Nature 615, 866–873.",
+  "url": "https://doi.org/10.1038/s41586-023-05754-w",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "chirikure-2017",
+  "type": "paper",
+  "citation": "Chirikure S. et al. (2017). What was the population of Great Zimbabwe (CE1000–1800)? PLOS ONE 12, e0178335.",
+  "url": "https://doi.org/10.1371/journal.pone.0178335",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "northwestern-caravans",
+  "type": "museum",
+  "citation": "Northwestern Magazine (2019). Caravans of Gold, Fragments in Time (on the Block Museum of Art exhibition).",
+  "url": "https://magazine.northwestern.edu/features/caravans-of-gold-fragments-in-time",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "northwestern-mansa-musa",
+  "type": "museum",
+  "citation": "Northwestern Magazine (2019). A golden age king: Mansa Musa's reign.",
+  "url": "https://magazine.northwestern.edu/features/caravans-of-gold-fragments-in-time/a-golden-age-king-mansa-musas-reign",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "bu-al-umari",
+  "type": "web",
+  "citation": "African Studies Center, Boston University. Kingdom of Mali: Al-Umari's account of Mansa Musa in Cairo (teaching resource).",
+  "url": "https://www.bu.edu/africa/outreach/teachingresources/history/k_o_mali/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "pederson-2014",
+  "type": "paper",
+  "citation": "Pederson N. et al. (2014). Pluvials, droughts, the Mongol Empire, and modern Mongolia. PNAS 111, 4375–4379.",
+  "url": "https://doi.org/10.1073/pnas.1318677111",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-mongols",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Mongols in World History: History overview.",
+  "url": "https://afe.easia.columbia.edu/mongols/history/history.htm",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-mongol-conquests",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Mongols in World History: The Mongol conquests.",
+  "url": "https://afe.easia.columbia.edu/mongols/conquests/conquests.htm",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "spyrou-2022",
+  "type": "paper",
+  "citation": "Spyrou M. A. et al. (2022). The source of the Black Death in fourteenth-century central Eurasia. Nature 606, 718–724.",
+  "url": "https://doi.org/10.1038/s41586-022-04800-3",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "izdebski-2022",
+  "type": "paper",
+  "citation": "Izdebski A. et al. (2022). Palaeoecological data indicates land-use changes across Europe linked to spatial heterogeneity in mortality during the Black Death pandemic. Nature Ecology & Evolution 6, 297–306.",
+  "url": "https://doi.org/10.1038/s41559-021-01652-4",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "green-2020",
+  "type": "paper",
+  "citation": "Green M. H. (2020). The Four Black Deaths. American Historical Review 125, 1601–1631.",
+  "url": "https://doi.org/10.1093/ahr/rhaa511",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-ming-voyages",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Ming Voyages.",
+  "url": "https://afe.easia.columbia.edu/special/china_1000ce_mingvoyages.htm",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "natgeo-tenochtitlan",
+  "type": "reference",
+  "citation": "National Geographic Education. Tenochtitlan (encyclopedic entry).",
+  "url": "https://education.nationalgeographic.org/resource/tenochtitlan/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "burger-2021",
+  "type": "paper",
+  "citation": "Burger R. L. et al. (2021). New AMS dates for Machu Picchu: results and implications. Antiquity 95, 1265–1279.",
+  "url": "https://doi.org/10.15184/aqy.2021.99",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "afe-mongols-chinggis",
+  "type": "web",
+  "citation": "Asia for Educators, Columbia University. The Mongols in World History: Chinggis Khan's unification of the Mongols.",
+  "url": "https://afe.easia.columbia.edu/mongols/figures/figu_geng_unity.htm",
+  "accessed": "2026-11-13"
  }
 ]

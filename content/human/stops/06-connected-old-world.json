@@ -1,0 +1,961 @@
+[
+ {
+  "id": "plague-of-justinian",
+  "kind": "event",
+  "title": "The Plague of Justinian",
+  "year": 541,
+  "yearEnd": 750,
+  "precision": "range",
+  "place": {
+   "name": "Constantinople (Istanbul, Turkey)",
+   "lat": 41.01,
+   "lon": 28.98
+  },
+  "regions": [
+   "europe",
+   "sw-asia",
+   "africa"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "In 541 a deadly epidemic broke out in the Eastern Roman Empire, in the reign of the emperor Justinian. Outbreaks kept returning for two centuries, until about 750. DNA from graves in Britain, France, Spain, Germany and Austria shows the disease was plague, caused by the bacterium Yersinia pestis, the same germ behind the later Black Death. How many people it killed is still argued over.",
+  "confidence": "debated",
+  "debate": "Older estimates put the deaths in the tens of millions. Mordechai and colleagues argue that coins, laws, papyri, pollen and graves show no sign of a collapse on that scale.",
+  "sources": [
+   "keller-2019",
+   "mordechai-2019"
+  ],
+  "links": [
+   {
+    "label": "Plague of Justinian",
+    "url": "https://en.wikipedia.org/wiki/Plague_of_Justinian"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 541,
+   "view": {
+    "center": [
+     22,
+     38
+    ],
+    "zoom": 2.8
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "constantinople"
+    ],
+    "polities": [
+     "Eastern Roman Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "rise-of-islam",
+  "kind": "map",
+  "title": "Islam and the caliphates",
+  "year": 622,
+  "yearEnd": 750,
+  "precision": "range",
+  "place": {
+   "name": "Medina, Saudi Arabia",
+   "lat": 24.47,
+   "lon": 39.61
+  },
+  "regions": [
+   "sw-asia",
+   "africa",
+   "europe"
+  ],
+  "themes": [
+   "belief",
+   "power"
+  ],
+  "blurb": "In the early 600s Muhammad, a man of Mecca in Arabia, began preaching a new faith, Islam, based on revelations Muslims believe he received from God. In 622 he and his followers moved to Medina, the year the Muslim calendar counts from. Within eighty years of his death in 632, the caliphs, his successors as leaders of the community, ruled from Persia to Spain.",
+  "confidence": "established",
+  "sources": [
+   "damen-usu-islam",
+   "cliopatria-2025"
+  ],
+  "links": [
+   {
+    "label": "Spread of Islam",
+    "url": "https://en.wikipedia.org/wiki/Spread_of_Islam"
+   },
+   {
+    "label": "Umayyad Caliphate",
+    "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 720,
+   "view": {
+    "center": [
+     25,
+     30
+    ],
+    "zoom": 2.0
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "medina",
+     "damascus"
+    ],
+    "polities": [
+     "Umayyad Caliphate"
+    ]
+   }
+  }
+ },
+ {
+  "id": "maya-and-cahokia",
+  "kind": "event",
+  "title": "Maya kingdoms break up; Cahokia rises and falls",
+  "year": 660,
+  "yearEnd": 1150,
+  "precision": "range",
+  "place": {
+   "name": "Tikal, Guatemala",
+   "lat": 17.22,
+   "lon": -89.62
+  },
+  "regions": [
+   "c-s-america",
+   "n-america"
+  ],
+  "themes": [
+   "environment",
+   "settlement",
+   "power"
+  ],
+  "blurb": "In the Maya lowlands of Mexico and Central America, wet centuries helped kingdoms multiply. A drying trend from about 660 brought more warfare, and the kingdoms broke up one by one; a long drought from 1020 to 1100 followed. Far to the north, by the Mississippi, Cahokia became the largest town in what is now the United States, until floods and droughts around 1150 put it under strain.",
+  "confidence": "debated",
+  "debate": "Kennett and colleagues tie the Maya breakup to drought, a view still contested. At Cahokia, climate is one of several proposed causes of decline, alongside environmental damage and political change.",
+  "sources": [
+   "kennett-2012",
+   "white-2019"
+  ],
+  "links": [
+   {
+    "label": "Classic Maya collapse",
+    "url": "https://en.wikipedia.org/wiki/Classic_Maya_collapse"
+   },
+   {
+    "label": "Cahokia",
+    "url": "https://en.wikipedia.org/wiki/Cahokia"
+   }
+  ],
+  "map": {
+   "year": 900,
+   "view": {
+    "center": [
+     -92,
+     28
+    ],
+    "zoom": 2.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "tikal",
+     "cahokia"
+    ],
+    "polities": [
+     "Later Mayan City-States"
+    ]
+   }
+  }
+ },
+ {
+  "id": "house-of-wisdom",
+  "kind": "event",
+  "title": "Baghdad's House of Wisdom, and algebra",
+  "year": 830,
+  "precision": "circa",
+  "place": {
+   "name": "Baghdad, Iraq",
+   "lat": 33.31,
+   "lon": 44.36
+  },
+  "regions": [
+   "sw-asia",
+   "s-asia"
+  ],
+  "themes": [
+   "knowledge"
+  ],
+  "blurb": "The Abbasid caliphs founded a new capital, Baghdad, in 762. Under the caliph al-Mamun, who ruled from 813, scholars at its House of Wisdom translated Greek science and philosophy into Arabic and built observatories. One of them, al-Khwarizmi, wrote the book whose title gave us the word algebra, and another explaining the Indian way of writing numbers with nine digits and zero.",
+  "confidence": "established",
+  "dateNote": "Al-Khwarizmi lived from about 780 to about 850; exact dates for his books are not known.",
+  "sources": [
+   "mactutor-khwarizmi",
+   "damen-usu-islam"
+  ],
+  "links": [
+   {
+    "label": "House of Wisdom",
+    "url": "https://en.wikipedia.org/wiki/House_of_Wisdom"
+   },
+   {
+    "label": "Al-Khwarizmi",
+    "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+   }
+  ],
+  "map": {
+   "year": 830,
+   "view": {
+    "center": [
+     48,
+     30
+    ],
+    "zoom": 3.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "baghdad"
+    ],
+    "polities": [
+     "Abbasid Caliphate"
+    ]
+   }
+  }
+ },
+ {
+  "id": "chinese-inventions",
+  "kind": "artifact",
+  "title": "Printing, paper money, gunpowder and the compass",
+  "year": 868,
+  "yearEnd": 1088,
+  "precision": "range",
+  "place": {
+   "name": "Dunhuang and Kaifeng, China",
+   "lat": 34.8,
+   "lon": 114.31
+  },
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "technology",
+   "knowledge",
+   "exchange"
+  ],
+  "blurb": "In 868 a Buddhist scripture, the Diamond Sutra, was printed in China from carved wooden blocks; it is the oldest printed book that carries a date. Under the Song dynasty (960 to 1279) came movable type made of clay, the first government paper money in the 1020s, a written gunpowder recipe in 1044, and the first description of a magnetic compass, in 1088.",
+  "confidence": "established",
+  "sources": [
+   "lindahall-diamond-sutra",
+   "afe-song-printing",
+   "afe-song-money",
+   "afe-song-gunpowder",
+   "afe-song-compass",
+   "aaas-shen-kuo",
+   "bnf-jikji"
+  ],
+  "links": [
+   {
+    "label": "Diamond Sutra",
+    "url": "https://en.wikipedia.org/wiki/Diamond_Sutra"
+   },
+   {
+    "label": "Bi Sheng",
+    "url": "https://en.wikipedia.org/wiki/Bi_Sheng"
+   },
+   {
+    "label": "Jiaozi (currency)",
+    "url": "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1100,
+   "view": {
+    "center": [
+     108,
+     34
+    ],
+    "zoom": 3.0
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "kaifeng",
+     "dunhuang"
+    ],
+    "routes": [
+     "silk-roads"
+    ],
+    "polities": [
+     "Northern Song"
+    ]
+   }
+  }
+ },
+ {
+  "id": "swahili-and-great-zimbabwe",
+  "kind": "map",
+  "title": "The Swahili coast and Great Zimbabwe",
+  "year": 1000,
+  "yearEnd": 1450,
+  "precision": "range",
+  "place": {
+   "name": "Kilwa Kisiwani, Tanzania",
+   "lat": -8.96,
+   "lon": 39.51
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "exchange",
+   "settlement",
+   "belief"
+  ],
+  "blurb": "The Swahili towns of the East African coast traded across eastern Africa and the Indian Ocean, and their people were among the first south of the Sahara to practise Islam. Ancient DNA shows African and Persian ancestry mixing there from about 1000. Inland, the stone-walled town of Great Zimbabwe held Chinese porcelain, Islamic glass and glass beads brought by long-distance trade.",
+  "confidence": "established",
+  "debate": "Great Zimbabwe is often said to have held 18,000 to 20,000 people. Chirikure and colleagues estimate a few thousand at any one time.",
+  "sources": [
+   "brielle-2023",
+   "chirikure-2017"
+  ],
+  "links": [
+   {
+    "label": "Swahili culture",
+    "url": "https://en.wikipedia.org/wiki/Swahili_culture"
+   },
+   {
+    "label": "Great Zimbabwe",
+    "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+   }
+  ],
+  "map": {
+   "year": 1300,
+   "view": {
+    "center": [
+     42,
+     -8
+    ],
+    "zoom": 2.9
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "kilwa",
+     "great-zimbabwe",
+     "malindi"
+    ],
+    "routes": [
+     "indian-ocean-monsoon"
+    ]
+   }
+  }
+ },
+ {
+  "id": "norse-in-newfoundland",
+  "kind": "event",
+  "title": "The Norse in Newfoundland",
+  "year": 1021,
+  "precision": "exact",
+  "place": {
+   "name": "L'Anse aux Meadows, Newfoundland, Canada",
+   "lat": 51.6,
+   "lon": -55.53
+  },
+  "regions": [
+   "n-america",
+   "europe"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "Around the year 1000, Norse sailors from Greenland built a small camp at L'Anse aux Meadows, on the northern tip of Newfoundland. Wood they cut there with metal tools comes from trees felled in 1021, a date fixed by a burst of cosmic rays in 993 that left a mark in tree rings. They stayed only a few years. It is the oldest known European site in the Americas.",
+  "confidence": "established",
+  "dateNote": "1021 is the year the cut trees were felled. The Norse presence may have begun a few years earlier.",
+  "sources": [
+   "kuitems-2021",
+   "parks-canada-lam",
+   "parks-canada-saga"
+  ],
+  "links": [
+   {
+    "label": "L'Anse aux Meadows",
+    "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows"
+   },
+   {
+    "label": "Vinland",
+    "url": "https://en.wikipedia.org/wiki/Vinland"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1021,
+   "view": {
+    "center": [
+     -28,
+     58
+    ],
+    "zoom": 2.3
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "lanse-aux-meadows"
+    ],
+    "routes": [
+     "norse-atlantic"
+    ],
+    "polities": [
+     "Viking settlements",
+     "Icelandic Commonwealth"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 72,
+     "lon": -41,
+     "text": "Greenland"
+    },
+    {
+     "lat": 49,
+     "lon": -58,
+     "text": "Newfoundland"
+    }
+   ]
+  }
+ },
+ {
+  "id": "chola-srivijaya-angkor",
+  "kind": "map",
+  "title": "Chola, Srivijaya and Angkor",
+  "year": 1025,
+  "precision": "exact",
+  "place": {
+   "name": "Thanjavur, India",
+   "lat": 10.78,
+   "lon": 79.13
+  },
+  "regions": [
+   "s-asia",
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "power",
+   "exchange",
+   "settlement"
+  ],
+  "blurb": "Kingdoms around the Bay of Bengal grew rich on sea trade between India and China. Chinese records describe Srivijaya, on Sumatra, forcing passing ships to call at its ports. In 1025 the Chola king Rajendra of south India sent a fleet that raided them. Inland, the Khmer capital of Angkor, home of Angkor Wat, grew into the largest settlement complex of the preindustrial world.",
+  "confidence": "established",
+  "debate": "Why Rajendra sent the fleet is not recorded. Historians have proposed a trade war, plunder, or conquest for its own sake.",
+  "sources": [
+   "kulke-2009",
+   "evans-2013"
+  ],
+  "links": [
+   {
+    "label": "Chola invasion of Srivijaya",
+    "url": "https://en.wikipedia.org/wiki/Chola_invasion_of_Srivijaya"
+   },
+   {
+    "label": "Angkor",
+    "url": "https://en.wikipedia.org/wiki/Angkor"
+   }
+  ],
+  "map": {
+   "year": 1025,
+   "view": {
+    "center": [
+     95,
+     8
+    ],
+    "zoom": 2.8
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "thanjavur",
+     "palembang",
+     "angkor"
+    ],
+    "routes": [
+     "indian-ocean-monsoon"
+    ],
+    "polities": [
+     "Chola Empire",
+     "Srivijaya",
+     "Khmer Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "polynesian-voyagers",
+  "kind": "map",
+  "title": "Polynesian voyagers settle the last islands",
+  "year": 1025,
+  "yearEnd": 1290,
+  "precision": "range",
+  "place": {
+   "name": "Society Islands, French Polynesia",
+   "lat": -17.6,
+   "lon": -149.5
+  },
+  "regions": [
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "movement",
+   "technology"
+  ],
+  "blurb": "Across an ocean covering a third of the Earth, Polynesian voyagers settled the last large habitable lands. Radiocarbon dates suggest people reached the Society Islands around 1025 to 1120, then spread in one burst to Hawaii, Rapa Nui (Easter Island) and Aotearoa (New Zealand) between about 1190 and 1290. Their genes show they also met people from South America around 1200.",
+  "confidence": "debated",
+  "debate": "Older studies put the first settlement centuries earlier. Wilmshurst and colleagues argue those dates came from unreliable samples; genetic studies give a broadly similar sequence.",
+  "sources": [
+   "wilmshurst-2011",
+   "ioannidis-2021",
+   "ioannidis-2020"
+  ],
+  "links": [
+   {
+    "label": "Polynesian navigation",
+    "url": "https://en.wikipedia.org/wiki/Polynesian_navigation"
+   },
+   {
+    "label": "Polynesia",
+    "url": "https://en.wikipedia.org/wiki/Polynesia"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1200,
+   "view": "world",
+   "layers": [
+    "land",
+    "routes"
+   ],
+   "highlight": {
+    "routes": [
+     "polynesian-voyaging"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 21,
+     "lon": -157,
+     "text": "Hawaii"
+    },
+    {
+     "lat": -27.1,
+     "lon": -109.4,
+     "text": "Rapa Nui"
+    },
+    {
+     "lat": -41,
+     "lon": 174,
+     "text": "Aotearoa"
+    },
+    {
+     "lat": -17.6,
+     "lon": -149.5,
+     "text": "Society Islands"
+    },
+    {
+     "lat": -13.8,
+     "lon": -172,
+     "text": "Samoa"
+    }
+   ]
+  }
+ },
+ {
+  "id": "mongol-empire",
+  "kind": "map",
+  "title": "The Mongol Empire",
+  "year": 1206,
+  "yearEnd": 1368,
+  "precision": "range",
+  "place": {
+   "name": "Karakorum, Mongolia",
+   "lat": 47.2,
+   "lon": 102.84
+  },
+  "regions": [
+   "e-asia",
+   "sw-asia",
+   "europe"
+  ],
+  "themes": [
+   "power",
+   "exchange",
+   "environment"
+  ],
+  "blurb": "In 1206 an assembly of Mongol nobles gave the leader Temujin the title Chinggis Khan. He and his successors conquered the largest contiguous land empire in history. By 1300 it had split into four khanates, from China to Persia and the Russian steppe. Under this Mongol peace, merchants, missionaries and envoys crossed Eurasia more easily than before.",
+  "confidence": "established",
+  "debate": "Why the Mongols expanded is not agreed. Tree rings show fifteen unusually wet years as Chinggis rose, which fed grass and horses; other accounts stress a cold spell that stressed pastures, and broken trade with China.",
+  "sources": [
+   "afe-mongols",
+   "afe-mongols-chinggis",
+   "afe-mongol-conquests",
+   "pederson-2014",
+   "cliopatria-2025"
+  ],
+  "links": [
+   {
+    "label": "Mongol Empire",
+    "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1300,
+   "view": {
+    "center": [
+     78,
+     42
+    ],
+    "zoom": 1.7
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "karakorum"
+    ],
+    "routes": [
+     "silk-roads"
+    ],
+    "polities": [
+     "Yuan Dynasty",
+     "Golden Horde",
+     "Ilkhanate",
+     "Chagatai Khanate"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mansa-musa",
+  "kind": "event",
+  "title": "Mansa Musa and the gold of Mali",
+  "year": 1324,
+  "precision": "exact",
+  "place": {
+   "name": "Timbuktu, Mali",
+   "lat": 16.77,
+   "lon": -3.0
+  },
+  "regions": [
+   "africa",
+   "sw-asia"
+  ],
+  "themes": [
+   "exchange",
+   "belief",
+   "power"
+  ],
+  "blurb": "For some 800 years, from the 700s to the 1500s, camel caravans carried West African gold across the Sahara. In 1324 Mansa Musa, ruler of Mali, passed through Cairo on pilgrimage to Mecca. The scholar al-Umari wrote that he gave away so much gold that its price in Egypt fell for years. Back home, Timbuktu grew into a centre of Islamic learning.",
+  "confidence": "established",
+  "sources": [
+   "northwestern-caravans",
+   "northwestern-mansa-musa",
+   "bu-al-umari",
+   "cliopatria-2025"
+  ],
+  "links": [
+   {
+    "label": "Mansa Musa",
+    "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+   },
+   {
+    "label": "Trans-Saharan trade",
+    "url": "https://en.wikipedia.org/wiki/Trans-Saharan_trade"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1324,
+   "view": {
+    "center": [
+     8,
+     22
+    ],
+    "zoom": 2.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "timbuktu",
+     "gao",
+     "sijilmasa",
+     "cairo"
+    ],
+    "routes": [
+     "trans-saharan"
+    ],
+    "polities": [
+     "Mali Empire",
+     "Mamluk Sultanate"
+    ]
+   }
+  }
+ },
+ {
+  "id": "tenochtitlan-and-cusco",
+  "kind": "map",
+  "title": "Tenochtitlan and the Inca",
+  "year": 1325,
+  "yearEnd": 1450,
+  "precision": "range",
+  "place": {
+   "name": "Tenochtitlan (Mexico City)",
+   "lat": 19.43,
+   "lon": -99.13
+  },
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "settlement",
+   "power"
+  ],
+  "blurb": "Around 1325 the Mexica founded Tenochtitlan on an island in Lake Texcoco, in the Valley of Mexico. They added farmland on raised beds called chinampas, and causeways that doubled as dikes, until the city covered more than 13 square kilometres. In the Andes, the Inca of Cusco began a rapid expansion in the 1400s; their estate at Machu Picchu was in use by about 1420.",
+  "confidence": "debated",
+  "debate": "Spanish-era accounts date the start of Inca expansion to the ruler Pachacuti in 1438. Radiocarbon dates from Machu Picchu suggest it began about two decades earlier.",
+  "sources": [
+   "natgeo-tenochtitlan",
+   "burger-2021"
+  ],
+  "links": [
+   {
+    "label": "Tenochtitlan",
+    "url": "https://en.wikipedia.org/wiki/Tenochtitlan"
+   },
+   {
+    "label": "Inca Empire",
+    "url": "https://en.wikipedia.org/wiki/Inca_Empire"
+   }
+  ],
+  "map": {
+   "year": 1400,
+   "view": {
+    "center": [
+     -85,
+     2
+    ],
+    "zoom": 1.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "tenochtitlan",
+     "cusco"
+    ],
+    "polities": [
+     "Tenochtitlan",
+     "Cuzco"
+    ]
+   }
+  }
+ },
+ {
+  "id": "black-death",
+  "kind": "event",
+  "title": "The Black Death",
+  "year": 1346,
+  "yearEnd": 1353,
+  "precision": "range",
+  "place": {
+   "name": "Black Sea and Mediterranean",
+   "lat": 42,
+   "lon": 35
+  },
+  "regions": [
+   "europe",
+   "sw-asia",
+   "africa"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "Between 1346 and 1353, plague swept around the Black Sea and the Mediterranean and into the lands beyond. DNA from graves near Lake Issyk-Kul in Kyrgyzstan, where tombstones dated 1338 and 1339 name pestilence as the cause of death, points to a source in Central Asia. In the worst-hit places perhaps half the people died, while some regions escaped lightly.",
+  "confidence": "debated",
+  "debate": "The often-quoted figure of half the population is uncertain. Pollen records show farming collapsing in some regions and carrying on almost unchanged in others.",
+  "sources": [
+   "spyrou-2022",
+   "izdebski-2022",
+   "green-2020"
+  ],
+  "links": [
+   {
+    "label": "Black Death",
+    "url": "https://en.wikipedia.org/wiki/Black_Death"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1348,
+   "view": {
+    "center": [
+     42,
+     42
+    ],
+    "zoom": 2.0
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "constantinople",
+     "cairo"
+    ],
+    "routes": [
+     "silk-roads"
+    ],
+    "polities": [
+     "Golden Horde",
+     "Mamluk Sultanate"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 42.4,
+     "lon": 77.3,
+     "text": "Issyk-Kul"
+    }
+   ]
+  }
+ },
+ {
+  "id": "zheng-he",
+  "kind": "map",
+  "title": "Zheng He's fleets",
+  "year": 1405,
+  "yearEnd": 1433,
+  "precision": "range",
+  "place": {
+   "name": "Nanjing, China",
+   "lat": 32.06,
+   "lon": 118.8
+  },
+  "regions": [
+   "e-asia",
+   "se-asia-pacific",
+   "s-asia",
+   "africa"
+  ],
+  "themes": [
+   "exchange",
+   "power",
+   "technology"
+  ],
+  "blurb": "Between 1405 and 1433, the Ming court sent seven great fleets into the Indian Ocean under the admiral Zheng He. The first carried nearly 28,000 men in 317 ships. They called at Malacca, Calicut, Hormuz, Aden and the East African coast, bringing envoys back to China. Then officials at court turned against the cost, and the voyages stopped.",
+  "confidence": "established",
+  "sources": [
+   "afe-ming-voyages"
+  ],
+  "links": [
+   {
+    "label": "Ming treasure voyages",
+    "url": "https://en.wikipedia.org/wiki/Ming_treasure_voyages"
+   }
+  ],
+  "map": {
+   "year": 1410,
+   "view": {
+    "center": [
+     85,
+     10
+    ],
+    "zoom": 1.9
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "nanjing",
+     "malacca",
+     "calicut",
+     "hormuz",
+     "malindi"
+    ],
+    "routes": [
+     "zheng-he"
+    ],
+    "polities": [
+     "Ming Dynasty"
+    ]
+   }
+  }
+ }
+]
