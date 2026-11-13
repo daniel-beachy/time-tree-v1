@@ -1643,5 +1643,19 @@
   "citation": "Stanford Encyclopedia of Philosophy. Enlightenment (first published 2010; substantive revision 2017).",
   "url": "https://plato.stanford.edu/entries/enlightenment/",
   "accessed": "2026-11-13"
+ },
+ {
+  "id": "owid-life-expectancy",
+  "type": "dataset",
+  "citation": "Human Mortality Database (2025); UN World Population Prospects (2024), with major processing by Our World in Data. Life expectancy.",
+  "url": "https://ourworldindata.org/grapher/life-expectancy",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "owid-co2",
+  "type": "dataset",
+  "citation": "Global Carbon Budget (2026), with major processing by Our World in Data. Annual CO₂ emissions.",
+  "url": "https://ourworldindata.org/grapher/annual-co2-emissions",
+  "accessed": "2026-11-13"
  }
 ]

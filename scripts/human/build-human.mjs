@@ -129,6 +129,19 @@ chapters.forEach((c, i) => {
     if (s.map) checkMap(w, s.map);
     if (s.kind === 'chart' && !s.chart) err(w, 'a chart stop needs chart');
     for (const id of s.chart?.series ?? []) if (!seriesIds.has(id)) err(w, `unknown series "${id}"`);
+    if (s.chart) {
+      const cs = s.chart.series ?? [];
+      if (cs.length < 1 || cs.length > 4) err(w, 'a chart has 1 to 4 series; split it into two stops instead of adding a fifth');
+      const units = new Set(cs.map((id) => series.find((x) => x.id === id)?.unit));
+      if (units.size > 1) err(w, `a chart's series must share one unit (one axis), got: ${[...units].join(' / ')}`);
+      for (const k of s.chart.marks ?? []) {
+        if (typeof k.year !== 'number' || !k.label || k.label.length > 26) err(w, 'a chart mark needs a year and a label of at most 26 characters');
+        if (k.yearEnd != null && k.yearEnd < k.year) err(w, `chart mark "${k.label}" ends before it starts`);
+      }
+      if ((s.chart.marks ?? []).length > 5) err(w, 'at most 5 marks on a chart');
+      // The chart's data is a source too: the stop must cite it.
+      for (const id of cs) for (const src of series.find((x) => x.id === id)?.sources ?? []) if (!(s.sources ?? []).includes(src)) err(w, `chart series "${id}" comes from source "${src}", which the stop must list`);
+    }
     if (s.image) {
       for (const k of ['src', 'alt', 'credit', 'licence', 'sourceUrl']) if (!s.image[k]) err(w, `image missing ${k}`);
       if (s.image.licence && !IMAGE_LICENCES.test(s.image.licence)) err(w, `image licence "${s.image.licence}" is not public domain, CC0 or CC BY`);

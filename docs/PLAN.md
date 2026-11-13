@@ -575,3 +575,20 @@ The scheduled night-1 job (2:15 AM Fri) failed to start: an API authentication e
 - **Pacific-centred maps.** A map state may set `centerLon` (a longitude) to put that meridian in the middle. The map cuts to it instead of gliding, because every layer is re-projected. Used by `polynesian-voyagers` (`centerLon: -160`). Region views (`REGION_BOX`) assume the default; use `{ center, zoom }` with `centerLon`.
 
 Still owed from the spot check, for the verifier pass: chapter 5 lists Kush after the Silk Roads and Gupta before the Roman plagues; `zheng-he` and `around-africa` rest on one web source each; "Babur defeated the Lodi sultan by 1527" should say 1526; chapter 7 has no stop on an African kingdom.
+
+### Charts for chapters 8 and 9 (2026-11-13, Fable)
+
+Chapters 8 and 9 are told partly in numbers. The pattern is built and has three example stops in `content/human/stops/09-modern-world.json` (`two-to-eight-billion`, `living-longer`, `carbon-dioxide`). Copy their shape.
+
+- **Two ways to show a chart.**
+  - A stop with `"kind": "chart"` puts its chart in the sticky panel, over the map, while its card is being read. Use it when the numbers are the story (population, life expectancy, emissions).
+  - Any other kind of stop may carry a `chart` too. It gets a small chart inside its card and the map stays. Use it when the place is the story and one line of numbers supports it.
+  - Events with a place (the world wars, partition, the Moon landing) stay ordinary map stops. On a chart they appear as `marks`.
+- **The `chart` field:** `{ "series": [ids], "from": year, "to": year, "title": "...", "marks": [{ "year", "yearEnd", "label" }], "note": "...", "log": false }`. The stop's `year` to `yearEnd` is what the lines are drawn solid up to; `from` and `to` set the axis.
+- **Rules the validator enforces:** one to four series; all series in one chart share a unit (there is no second axis, so two measures means two stops); at most five marks, each label 26 characters or fewer; the stop must list every series' source in its `sources`.
+- **Adding a series:** add an entry to `SERIES` in `scripts/human/fetch-series.mjs` (grapher slug, entity, column, label, unit, format, source id), add the source to `content/human/sources.json`, run `node scripts/human/fetch-series.mjs`, then `node scripts/human/build-human.mjs`. Write the blurb's figures from the fetched file, not from memory.
+- **Formats:** `people`, `years`, `percent`, `tonnes`, `number`. A new kind of unit needs a case in `fmtValue` in `src/human/charts/TimeChart.tsx`.
+- **Colours** are fixed in order (`CHART_COLORS`: amber, blue, red, violet) and passed the colour-blind checks on this background. The first series in a stop always gets amber, so keep the same order when two stops chart the same regions.
+- **Licences.** Life expectancy starts at 1950 (UN estimates; the terms of the older Riley figures were not confirmed). CO₂ ends at 2024. Energy use is not fetched yet: only the Smil portion is cleared, so confirm the Energy Institute terms first. Check each new series' underlying sources on its Our World in Data page before fetching.
+- **Series worth fetching for chapter 8 and 9** (not yet done): share of people living in cities, child mortality, literacy, share in extreme poverty, GDP per person (Maddison), primary energy use, number of democracies, internet users.
+- **On a phone** the chart panel is short: the names at the ends of the lines and the standing readout are dropped, and the legend carries the names.

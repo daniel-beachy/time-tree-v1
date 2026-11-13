@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { href } from '../lib/router';
 import { usePref } from '../lib/store';
-import { SeriesChart } from './charts/SeriesChart';
+import { TimeChart } from './charts/TimeChart';
 import { DeepDive } from './DeepDive';
 import { loadChapter, loadSeries } from './lib/content';
 import { fmtGenerations, fmtPeople, fmtWhen, populationAt } from './lib/time';
@@ -83,6 +83,12 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
 
   const year = stop?.year ?? chapter.from;
   const pop = populationAt(index.population, year);
+  // A chart stop puts its chart in the sticky panel, over the map. The last one stays drawn while it fades out.
+  const chartStop = stop?.kind === 'chart' && stop.chart ? stop : null;
+  const [panelStop, setPanelStop] = useState<Stop | null>(null);
+  if (chartStop && chartStop !== panelStop) setPanelStop(chartStop);
+  const panelSeries = panelStop?.chart ? panelStop.chart.series.map((id) => series.find((x) => x.id === id)).filter((x): x is Series => !!x) : [];
+
   const when = stop ? fmtWhen(stop.year, stop.yearEnd, stop.precision) : chapter.subtitle;
   const gens = fmtGenerations(year);
   const next = index.chapters[chapter.n], prev = index.chapters[chapter.n - 2];
@@ -91,8 +97,18 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
 
   return (
     <div className="hs-chapter" style={{ ['--chapter' as string]: chapter.color }}>
-      <div className="hs-mapcol" ref={mapPanel}>
-        <HumanMap state={mapState} polityYears={index.polityYears} place={stop?.place ?? null} />
+      <div className={'hs-mapcol' + (chartStop ? ' charting' : '')} ref={mapPanel}>
+        <div className="hs-stage">
+          <HumanMap state={mapState} polityYears={index.polityYears} place={chartStop ? null : stop?.place ?? null} />
+          <div className={'hs-chartpanel' + (chartStop ? ' on' : '')} aria-hidden={!chartStop}>
+            {panelStop?.chart && panelSeries.length > 0 && (
+              <>
+                <h3>{panelStop.chart.title ?? panelStop.title}</h3>
+                <TimeChart series={panelSeries} from={panelStop.chart.from} to={panelStop.chart.to} log={panelStop.chart.log} marks={panelStop.chart.marks} at={chartStop ? chartStop.yearEnd ?? chartStop.year : undefined} />
+              </>
+            )}
+          </div>
+        </div>
         <div className="hs-readout">
           <div className="hs-readout-main">{unit === 'date' ? when : gens}</div>
           <div className="hs-readout-sub">
@@ -120,7 +136,7 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
           <div className="eyebrow">Chapter {chapter.n} · {chapter.subtitle}</div>
           <h1>{chapter.title}</h1>
           <p className="hs-lede">{chapter.intro}</p>
-          {stops.length > 0 && <p className="small muted">Scroll to move through time. The map follows.</p>}
+          {stops.length > 0 && <p className="small muted">Scroll to move through time. The map and charts follow.</p>}
         </article>
 
         {err && <p className="error">Couldn't load this chapter: {err}</p>}
@@ -143,10 +159,11 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
               </figure>
             )}
             <p>{s.blurb}</p>
-            {s.chart && s.chart.series.map((id) => {
-              const sr = series.find((x) => x.id === id);
-              return sr ? <SeriesChart key={id} series={sr} from={s.chart!.from} to={s.chart!.to} log={s.chart!.log} mark={s.year} /> : null;
-            })}
+            {s.chart && s.kind !== 'chart' && (
+              <TimeChart compact height={200} series={s.chart.series.map((id) => series.find((x) => x.id === id)).filter((x): x is Series => !!x)}
+                from={s.chart.from} to={s.chart.to} log={s.chart.log} marks={s.chart.marks} at={s.yearEnd ?? s.year} />
+            )}
+            {s.kind === 'chart' && s.chart?.note && <p className="small muted">{s.chart.note}</p>}
             {s.confidence !== 'established' && (s.debate ?? s.dateNote) && <p className="hs-debate small"><b>What's in question:</b> {s.debate ?? s.dateNote}</p>}
             {s.confidence === 'established' && s.dateNote && <p className="small muted">{s.dateNote}</p>}
             <div className="hs-actions">

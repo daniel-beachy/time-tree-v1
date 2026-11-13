@@ -38,7 +38,11 @@ export interface Stop {
   blurb: string;
   image?: { src: string; alt: string; credit: string; licence: string; sourceUrl: string };
   map?: MapState;
-  chart?: { series: string[]; from?: Year; to?: Year; log?: boolean; note?: string };
+  /**
+   * A chart for this stop. On a `kind: 'chart'` stop it takes over the sticky panel in place of the map;
+   * on any other kind it is drawn small inside the card.
+   */
+  chart?: { series: string[]; from?: Year; to?: Year; log?: boolean; title?: string; marks?: ChartMark[]; note?: string };
   deep?: boolean;
   confidence: 'established' | 'debated' | 'uncertain';
   debate?: string;
@@ -48,8 +52,18 @@ export interface Stop {
   checked?: string;
 }
 
+/** An event (one year) or a span (year to yearEnd) drawn behind a chart's lines. */
+export interface ChartMark { year: Year; yearEnd?: Year; label: string }
+
 export interface Source { id: string; type: string; citation: string; url: string; accessed: string }
-export interface Series { id: string; title: string; unit: string; points: [Year, number][]; sources: string[]; note?: string }
+export interface Series {
+  id: string; title: string;
+  /** Short name for legends and line ends ("Africa"). */
+  label?: string;
+  unit: string;
+  format?: 'people' | 'years' | 'percent' | 'tonnes' | 'number';
+  points: [Year, number][]; sources: string[]; note?: string;
+}
 export interface DeepSection { h: string; p: string[] }
 
 export interface HumanIndex {

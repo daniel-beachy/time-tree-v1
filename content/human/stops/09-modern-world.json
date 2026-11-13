@@ -1,0 +1,138 @@
+[
+ {
+  "id": "two-to-eight-billion",
+  "kind": "chart",
+  "title": "From two billion people to eight",
+  "year": 1927,
+  "yearEnd": 2022,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health",
+   "food"
+  ],
+  "blurb": "Around 1927 there were two billion people alive. By 1974 there were four billion, and in 2022 the count passed eight billion. The two world wars barely show on the curve. Growth was fastest in the 1960s, at over 2 percent a year. It has slowed since, to under 1 percent a year today.",
+  "confidence": "established",
+  "sources": [
+   "owid-population"
+  ],
+  "links": [
+   {
+    "label": "Population growth, Our World in Data",
+    "url": "https://ourworldindata.org/population-growth"
+   }
+  ],
+  "major": true,
+  "chart": {
+   "series": [
+    "world-population"
+   ],
+   "from": 1800,
+   "title": "People alive, 1800 to today",
+   "marks": [
+    {
+     "year": 1914,
+     "yearEnd": 1918,
+     "label": "First World War"
+    },
+    {
+     "year": 1939,
+     "yearEnd": 1945,
+     "label": "Second World War"
+    }
+   ],
+   "note": "Each point is an estimate for the whole world. Counts before 1950 are less certain than later ones."
+  }
+ },
+ {
+  "id": "living-longer",
+  "kind": "chart",
+  "title": "Lives that last decades longer",
+  "year": 1950,
+  "yearEnd": 2023,
+  "precision": "range",
+  "regions": [
+   "global",
+   "africa",
+   "e-asia",
+   "s-asia",
+   "europe"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "A baby born in 1950 could expect, on the world average, to live about 46 years. By 2023 that had risen to 73. Every region gained: Africa went from 37 years to 64, Asia from 42 to 75, and Europe from 62 to 79. The gap between regions narrowed but did not close. The dip in 2020 and 2021 is the COVID-19 pandemic.",
+  "confidence": "established",
+  "sources": [
+   "owid-life-expectancy"
+  ],
+  "links": [
+   {
+    "label": "Life expectancy, Our World in Data",
+    "url": "https://ourworldindata.org/life-expectancy"
+   }
+  ],
+  "chart": {
+   "series": [
+    "life-expectancy-world",
+    "life-expectancy-africa",
+    "life-expectancy-asia",
+    "life-expectancy-europe"
+   ],
+   "title": "Life expectancy at birth, 1950 to 2023",
+   "marks": [
+    {
+     "year": 2020,
+     "yearEnd": 2021,
+     "label": "COVID-19"
+    }
+   ],
+   "note": "Life expectancy at birth is an average. Much of the rise comes from fewer children dying young, not only from adults living longer."
+  }
+ },
+ {
+  "id": "carbon-dioxide",
+  "kind": "chart",
+  "title": "Carbon dioxide: the cost of cheap energy",
+  "year": 1950,
+  "yearEnd": 2024,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "environment",
+   "technology"
+  ],
+  "blurb": "Burning coal, oil and gas releases carbon dioxide, which traps heat in the air. In 1850 the world released about 0.2 billion tonnes a year. By 1950 it was about 6 billion, and in 2024 about 39 billion. Nearly nine-tenths of everything released since 1750 has come since 1950, and more than half since 1990.",
+  "confidence": "established",
+  "sources": [
+   "owid-co2"
+  ],
+  "links": [
+   {
+    "label": "CO₂ emissions, Our World in Data",
+    "url": "https://ourworldindata.org/co2-emissions"
+   }
+  ],
+  "chart": {
+   "series": [
+    "co2-world"
+   ],
+   "title": "Carbon dioxide released each year, 1750 to 2024",
+   "marks": [
+    {
+     "year": 1939,
+     "yearEnd": 1945,
+     "label": "Second World War"
+    },
+    {
+     "year": 2020,
+     "label": "COVID-19"
+    }
+   ]
+  }
+ }
+]

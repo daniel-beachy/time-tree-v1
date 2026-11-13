@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { href } from '../lib/router';
-import { SeriesChart } from './charts/SeriesChart';
+import { TimeChart } from './charts/TimeChart';
 import { loadSeries } from './lib/content';
 import { START, generationsAgo } from './lib/time';
 import type { HumanIndex, Series } from './lib/types';
@@ -48,7 +48,7 @@ export function Landing({ index }: { index: HumanIndex }) {
       {pop && (
         <section className="section">
           <span className="eyebrow">People alive, 10,000 BCE to today</span>
-          <div className="panel"><SeriesChart series={pop} height={260} /></div>
+          <div className="panel"><TimeChart series={[pop]} height={260} /></div>
           <p className="tiny muted" style={{ marginTop: 8 }}>Data: HYDE (2023); Gapminder (2022); UN World Population Prospects (2024), with major processing by <a href="https://ourworldindata.org/grapher/population" target="_blank" rel="noreferrer">Our World in Data</a>.</p>
         </section>
       )}
