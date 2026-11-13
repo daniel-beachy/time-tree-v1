@@ -1,0 +1,949 @@
+[
+ {
+  "id": "iron-spreads",
+  "kind": "event",
+  "title": "The age of iron",
+  "year": -1200,
+  "yearEnd": -800,
+  "precision": "range",
+  "regions": [
+   "sw-asia",
+   "africa"
+  ],
+  "themes": [
+   "technology"
+  ],
+  "blurb": "Iron changed what everyday tools and weapons were made of. Smiths in Anatolia had smelted small amounts of iron since the early second millennium BCE, but only after about 1200 BCE did it come into wide use across the Near East. South of the Sahara, people were smelting iron during the first millennium BCE, perhaps earlier. Kush later worked iron on a large scale at Meroe.",
+  "confidence": "debated",
+  "dateNote": "Iron use grew slowly: small amounts from about 2000 BCE, wide use only from about 1200 to 800 BCE, at different times in different places.",
+  "debate": "Scholars disagree on whether iron smelting south of the Sahara was invented there or learned from North Africa or the Near East, and on how early it began.",
+  "sources": [
+   "erb-satullo-2019",
+   "alpern-2005",
+   "unesco-meroe"
+  ],
+  "links": [
+   {
+    "label": "Iron Age",
+    "url": "https://en.wikipedia.org/wiki/Iron_Age"
+   },
+   {
+    "label": "Iron metallurgy in Africa",
+    "url": "https://en.wikipedia.org/wiki/Iron_metallurgy_in_Africa"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Anatolia (modern Turkey)",
+   "lat": 39.0,
+   "lon": 34.0
+  },
+  "map": {
+   "year": -1000,
+   "view": {
+    "center": [
+     32,
+     28
+    ],
+    "zoom": 2.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "polities": [
+     "Neo-Hittite states",
+     "Assyria",
+     "Kingdom of Kush"
+    ]
+   }
+  }
+ },
+ {
+  "id": "phoenician-alphabet",
+  "kind": "map",
+  "title": "Phoenician traders and the alphabet",
+  "year": -1000,
+  "yearEnd": -700,
+  "precision": "range",
+  "regions": [
+   "sw-asia",
+   "europe",
+   "africa"
+  ],
+  "themes": [
+   "exchange",
+   "knowledge"
+  ],
+  "blurb": "The Phoenicians lived in port cities such as Tyre, Sidon and Byblos, on the coast of today's Lebanon. They sold cedar wood, purple dye and metalwork, and by the late 700s BCE had trading posts around the Mediterranean, including Carthage. Their short alphabet of letters for sounds was taken up by the Greeks, and it became the root of most alphabets used in Europe today.",
+  "confidence": "established",
+  "dateNote": "Carthage's founding date of 814 BCE comes from later tradition.",
+  "sources": [
+   "met-phoenicians",
+   "unesco-byblos"
+  ],
+  "links": [
+   {
+    "label": "Phoenicia",
+    "url": "https://en.wikipedia.org/wiki/Phoenicia"
+   },
+   {
+    "label": "Phoenician alphabet",
+    "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Tyre, Lebanon",
+   "lat": 33.27,
+   "lon": 35.2
+  },
+  "map": {
+   "year": -750,
+   "view": {
+    "center": [
+     18,
+     36
+    ],
+    "zoom": 3.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "tyre",
+     "byblos",
+     "carthage"
+    ],
+    "routes": [
+     "phoenician-sea-routes"
+    ],
+    "polities": [
+     "Phoenicia"
+    ]
+   }
+  }
+ },
+ {
+  "id": "bantu-expansion",
+  "kind": "map",
+  "title": "Bantu-speaking farmers spread across Africa",
+  "year": -1000,
+  "precision": "circa",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "movement",
+   "food"
+  ],
+  "blurb": "Today more than 500 related Bantu languages are spoken across central, eastern and southern Africa. They spread from a homeland in west-central Africa, near today's Cameroon and Nigeria. Over thousands of years, people who farmed more and more moved south through and around the rainforest, then east and south. Their genes show they also mixed with the people already living in each region.",
+  "confidence": "debated",
+  "dateNote": "The spread began roughly 5,000 to 4,000 years ago and went on for thousands of years. The year shown is a midpoint.",
+  "debate": "Researchers disagree about whether the first speakers crossed the rainforest early or waited for savannah corridors to open later.",
+  "sources": [
+   "grollemund-2015",
+   "patin-2017",
+   "koile-2022",
+   "fortes-lima-2023"
+  ],
+  "links": [
+   {
+    "label": "Bantu expansion",
+    "url": "https://en.wikipedia.org/wiki/Bantu_expansion"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Cameroon–Nigeria border region",
+   "lat": 6.0,
+   "lon": 10.5
+  },
+  "map": {
+   "year": -1000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "routes"
+   ],
+   "highlight": {
+    "routes": [
+     "bantu-spread-south",
+     "bantu-spread-east"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 6.5,
+     "lon": 10.5,
+     "text": "Homeland"
+    },
+    {
+     "lat": -3.0,
+     "lon": 34.0,
+     "text": "Great Lakes"
+    }
+   ]
+  }
+ },
+ {
+  "id": "persian-empire",
+  "kind": "map",
+  "title": "The Persian Empire",
+  "year": -550,
+  "yearEnd": -330,
+  "precision": "range",
+  "regions": [
+   "sw-asia",
+   "africa",
+   "s-asia"
+  ],
+  "themes": [
+   "power",
+   "exchange"
+  ],
+  "blurb": "From 550 BCE, Cyrus of Persia and his heirs built an empire from Egypt to the Indus valley. Darius I divided it into provinces run by governors and linked them with roads and relay stations. The first coins had been made shortly before in Lydia, which Cyrus conquered. Cyrus also let the Judeans held in Babylon return home. Alexander conquered the empire by 330 BCE.",
+  "confidence": "established",
+  "sources": [
+   "met-achaemenid",
+   "unesco-persepolis",
+   "herodotus-royal-road",
+   "mq-ephesus-coins",
+   "britannica-babylonian-captivity"
+  ],
+  "links": [
+   {
+    "label": "Achaemenid Empire",
+    "url": "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+   },
+   {
+    "label": "Royal Road",
+    "url": "https://en.wikipedia.org/wiki/Royal_Road"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Persepolis, Iran",
+   "lat": 29.93,
+   "lon": 52.89
+  },
+  "map": {
+   "year": -500,
+   "view": {
+    "center": [
+     45,
+     32
+    ],
+    "zoom": 3
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "sardis",
+     "susa",
+     "persepolis"
+    ],
+    "routes": [
+     "persian-royal-road"
+    ],
+    "polities": [
+     "Achaemenid Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "age-of-ideas",
+  "kind": "event",
+  "title": "Teachers of a new kind",
+  "year": -550,
+  "yearEnd": -300,
+  "precision": "range",
+  "regions": [
+   "e-asia",
+   "s-asia",
+   "sw-asia",
+   "europe"
+  ],
+  "themes": [
+   "belief",
+   "knowledge"
+  ],
+  "blurb": "In a few centuries, teachers in several regions asked how a person should live. Confucius in China taught ritual and kindness. The Buddha in the Ganges valley taught a middle path to end suffering. Judean scribes reshaped their sacred writings after exile in Babylon, and Greek thinkers argued about the good life. Their schools still shape the beliefs of billions of people.",
+  "confidence": "debated",
+  "dateNote": "The Buddha's dates are uncertain: older estimates put his death around 480 BCE, many scholars now say around 400 BCE. Confucius traditionally lived 551 to 479 BCE.",
+  "debate": "Some scholars see a single 'Axial Age' of new ideas; others find that the same traits appeared in different places centuries apart, so there was no single age.",
+  "sources": [
+   "sep-confucius",
+   "sep-buddha",
+   "baumard-2015",
+   "mullins-2018",
+   "britannica-babylonian-captivity"
+  ],
+  "links": [
+   {
+    "label": "Axial Age",
+    "url": "https://en.wikipedia.org/wiki/Axial_Age"
+   },
+   {
+    "label": "Confucius",
+    "url": "https://en.wikipedia.org/wiki/Confucius"
+   },
+   {
+    "label": "The Buddha",
+    "url": "https://en.wikipedia.org/wiki/The_Buddha"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Ganges valley, India",
+   "lat": 24.7,
+   "lon": 84.99
+  },
+  "map": {
+   "year": -500,
+   "view": {
+    "center": [
+     75,
+     30
+    ],
+    "zoom": 2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "qufu",
+     "bodh-gaya",
+     "jerusalem",
+     "athens"
+    ],
+    "polities": [
+     "Lu",
+     "Magadha - Haryanka dynasty",
+     "Greek City-States",
+     "Achaemenid Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "athens-to-alexandria",
+  "kind": "event",
+  "title": "From Athens to Alexandria",
+  "year": -508,
+  "yearEnd": -194,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "knowledge"
+  ],
+  "blurb": "In 508 BCE, Cleisthenes reorganized the citizens of Athens and gave a council of 500 more say, a step toward rule by citizens, though women and enslaved people had none. After Alexander's conquests, Egypt's Greek kings founded a great library at Alexandria. Eratosthenes, who ran the library from about 255 BCE, used shadows and distances to estimate the size of the Earth.",
+  "confidence": "established",
+  "dateNote": "The library was founded around 295 BCE. The exact accuracy of Eratosthenes' result depends on the length of his 'stadium', which is unknown.",
+  "sources": [
+   "britannica-cleisthenes",
+   "britannica-library-alexandria",
+   "britannica-eratosthenes"
+  ],
+  "links": [
+   {
+    "label": "Athenian democracy",
+    "url": "https://en.wikipedia.org/wiki/Athenian_democracy"
+   },
+   {
+    "label": "Library of Alexandria",
+    "url": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+   },
+   {
+    "label": "Eratosthenes",
+    "url": "https://en.wikipedia.org/wiki/Eratosthenes"
+   }
+  ],
+  "place": {
+   "name": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92
+  },
+  "map": {
+   "year": -300,
+   "view": {
+    "center": [
+     27,
+     34
+    ],
+    "zoom": 4.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "athens",
+     "alexandria"
+    ],
+    "polities": [
+     "Ptolemaic Kingdom",
+     "Greek City-States"
+    ]
+   }
+  }
+ },
+ {
+  "id": "ashoka",
+  "kind": "event",
+  "title": "Ashoka carves his edicts",
+  "year": -260,
+  "precision": "circa",
+  "regions": [
+   "s-asia"
+  ],
+  "themes": [
+   "power",
+   "belief"
+  ],
+  "blurb": "Ashoka ruled the Maurya empire, which covered most of South Asia. After a bloody war in Kalinga, his own inscription says, he felt deep remorse. He had messages carved on rocks and pillars across his lands, urging kindness to people and animals and respect for all religious groups. He supported Buddhist monks, and Buddhism began to spread, including to Sri Lanka.",
+  "confidence": "debated",
+  "dateNote": "Ashoka reigned from about 273 or 269 to 232 BCE. The Kalinga war came in the eighth year after he was crowned.",
+  "debate": "Ashoka's fame as a tolerant ruler rests on a small set of inscriptions, and some scholars question how far they describe real policy.",
+  "sources": [
+   "met-mauryan",
+   "columbia-asoka-edicts",
+   "unesco-sanchi",
+   "yelle-2022"
+  ],
+  "links": [
+   {
+    "label": "Ashoka",
+    "url": "https://en.wikipedia.org/wiki/Ashoka"
+   },
+   {
+    "label": "Edicts of Ashoka",
+    "url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Pataliputra (Patna), India",
+   "lat": 25.61,
+   "lon": 85.14
+  },
+  "map": {
+   "year": -250,
+   "view": "s-asia",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "pataliputra",
+     "sanchi"
+    ],
+    "polities": [
+     "Maurya Empire",
+     "Kalinga"
+    ]
+   }
+  }
+ },
+ {
+  "id": "qin-han",
+  "kind": "event",
+  "title": "Qin and Han unite China",
+  "year": -221,
+  "yearEnd": 220,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "power",
+   "technology"
+  ],
+  "blurb": "In 221 BCE the king of Qin conquered his rivals and became China's first emperor. He made one script, one coinage and one set of measures, and built roads. Over 7,000 clay soldiers guard his tomb. The Han dynasty that followed lasted about four centuries, trained officials in Confucian learning, and saw paper come into wide use.",
+  "confidence": "established",
+  "dateNote": "Cai Lun is traditionally credited with improving paper around 105 CE, but simpler paper existed earlier.",
+  "sources": [
+   "met-qin",
+   "met-han",
+   "unesco-qin-mausoleum",
+   "britannica-cai-lun"
+  ],
+  "links": [
+   {
+    "label": "Qin dynasty",
+    "url": "https://en.wikipedia.org/wiki/Qin_dynasty"
+   },
+   {
+    "label": "Han dynasty",
+    "url": "https://en.wikipedia.org/wiki/Han_dynasty"
+   },
+   {
+    "label": "Terracotta Army",
+    "url": "https://en.wikipedia.org/wiki/Terracotta_Army"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Xi'an, China",
+   "lat": 34.27,
+   "lon": 108.94
+  },
+  "map": {
+   "year": -100,
+   "view": "e-asia",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "xianyang",
+     "chang-an",
+     "luoyang"
+    ],
+    "polities": [
+     "Han Dynasty"
+    ]
+   }
+  }
+ },
+ {
+  "id": "roman-empire",
+  "kind": "map",
+  "title": "Rome's empire of roads",
+  "year": -27,
+  "yearEnd": 200,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "africa",
+   "sw-asia"
+  ],
+  "themes": [
+   "power",
+   "technology"
+  ],
+  "blurb": "From 27 BCE, Rome was ruled by emperors, and its empire circled the Mediterranean. A new digital map counts about 300,000 kilometres of Roman roads around 150 CE, though the exact route of most of them is uncertain. Roman builders also mixed concrete with hot lime, which left small lumps that can help seal cracks. Much of their concrete has lasted two thousand years.",
+  "confidence": "established",
+  "sources": [
+   "desoto-2025",
+   "eurekalert-itinere-2025",
+   "seymour-2023"
+  ],
+  "links": [
+   {
+    "label": "Roman Empire",
+    "url": "https://en.wikipedia.org/wiki/Roman_Empire"
+   },
+   {
+    "label": "Roman roads",
+    "url": "https://en.wikipedia.org/wiki/Roman_roads"
+   },
+   {
+    "label": "Roman concrete",
+    "url": "https://en.wikipedia.org/wiki/Roman_concrete"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Rome, Italy",
+   "lat": 41.89,
+   "lon": 12.48
+  },
+  "map": {
+   "year": 100,
+   "view": {
+    "center": [
+     15,
+     40
+    ],
+    "zoom": 3
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "rome"
+    ],
+    "polities": [
+     "Roman Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "silk-roads-monsoon",
+  "kind": "map",
+  "title": "Silk Roads and monsoon seas",
+  "year": -200,
+  "yearEnd": 300,
+  "precision": "range",
+  "regions": [
+   "e-asia",
+   "s-asia",
+   "sw-asia",
+   "se-asia-pacific",
+   "africa"
+  ],
+  "themes": [
+   "exchange",
+   "movement",
+   "belief"
+  ],
+  "blurb": "From the 100s BCE, chains of merchants carried Chinese silk west across Central Asia, and horses, grapes and other goods east. At sea, sailors used the monsoon winds to cross between Egypt's Red Sea ports and India, trading gold for pepper. Ships linked India with Southeast Asia too. Along these routes travelled Buddhist monks, who carried their faith to Central Asia and China.",
+  "confidence": "established",
+  "sources": [
+   "unesco-silk-roads",
+   "met-han",
+   "simmons-2023",
+   "borell-2014",
+   "met-south-asia-1-500"
+  ],
+  "links": [
+   {
+    "label": "Silk Road",
+    "url": "https://en.wikipedia.org/wiki/Silk_Road"
+   },
+   {
+    "label": "Indian Ocean trade",
+    "url": "https://en.wikipedia.org/wiki/Indian_Ocean_trade"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Kashgar, China",
+   "lat": 39.47,
+   "lon": 75.99
+  },
+  "map": {
+   "year": 100,
+   "view": {
+    "center": [
+     75,
+     25
+    ],
+    "zoom": 1.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "chang-an",
+     "kashgar",
+     "samarkand",
+     "berenike",
+     "muziris",
+     "oc-eo"
+    ],
+    "routes": [
+     "silk-road-overland",
+     "red-sea-india-monsoon",
+     "india-southeast-asia-sea"
+    ],
+    "polities": [
+     "Han Dynasty",
+     "Roman Empire",
+     "Parthian Empire",
+     "Kushan Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kush-and-aksum",
+  "kind": "event",
+  "title": "Kush and Aksum",
+  "year": -750,
+  "yearEnd": 350,
+  "precision": "range",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "exchange",
+   "belief"
+  ],
+  "blurb": "Along the Nile in today's Sudan, the kingdom of Kush lasted about a thousand years. Its rulers were buried in pyramids at Meroe, a city of iron-working. To the southeast, Aksum in today's Ethiopia and Eritrea grew rich from Red Sea trade through its port of Adulis. It minted its own coins, and in the 300s CE its king Ezana became a Christian.",
+  "confidence": "established",
+  "sources": [
+   "unesco-meroe",
+   "unesco-aksum",
+   "met-aksum"
+  ],
+  "links": [
+   {
+    "label": "Kingdom of Kush",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
+   },
+   {
+    "label": "Kingdom of Aksum",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Aksum, Ethiopia",
+   "lat": 14.13,
+   "lon": 38.72
+  },
+  "map": {
+   "year": 300,
+   "view": {
+    "center": [
+     36,
+     15
+    ],
+    "zoom": 4.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "meroe",
+     "aksum",
+     "adulis"
+    ],
+    "polities": [
+     "Kingdom of Kush",
+     "Kingdom of Axum"
+    ]
+   }
+  }
+ },
+ {
+  "id": "teotihuacan-maya",
+  "kind": "event",
+  "title": "Teotihuacan and the Maya",
+  "year": -100,
+  "yearEnd": 550,
+  "precision": "range",
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "settlement",
+   "knowledge"
+  ],
+  "blurb": "Teotihuacan, in the Valley of Mexico, became the largest city in the ancient Americas, with huge pyramids and blocks of apartment compounds. To the southeast, Maya cities such as Tikal raised carved stone monuments that record their kings. Their Long Count calendar, with dates from 36 BCE, later used a sign for zero, an idea worked out here separately from Asia.",
+  "confidence": "debated",
+  "dateNote": "Teotihuacan grew from about 100 BCE; its centre burned around 550 CE.",
+  "debate": "Estimates of Teotihuacan's population at its height range widely, from at least 25,000 to as many as 200,000 people.",
+  "sources": [
+   "met-teotihuacan",
+   "unesco-teotihuacan",
+   "unesco-tikal",
+   "rojo-garibaldi-2021"
+  ],
+  "links": [
+   {
+    "label": "Teotihuacan",
+    "url": "https://en.wikipedia.org/wiki/Teotihuacan"
+   },
+   {
+    "label": "Tikal",
+    "url": "https://en.wikipedia.org/wiki/Tikal"
+   },
+   {
+    "label": "Maya calendar",
+    "url": "https://en.wikipedia.org/wiki/Maya_calendar"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Teotihuacan, Mexico",
+   "lat": 19.69,
+   "lon": -98.84
+  },
+  "map": {
+   "year": 400,
+   "view": {
+    "center": [
+     -94,
+     18
+    ],
+    "zoom": 4.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "teotihuacan",
+     "tikal"
+    ],
+    "polities": [
+     "Teotihuacan",
+     "Mayan City-States"
+    ]
+   }
+  }
+ },
+ {
+  "id": "gupta-mathematics",
+  "kind": "event",
+  "title": "Gupta India and new mathematics",
+  "year": 350,
+  "yearEnd": 499,
+  "precision": "range",
+  "regions": [
+   "s-asia"
+  ],
+  "themes": [
+   "knowledge",
+   "belief"
+  ],
+  "blurb": "The Gupta kings united much of northern India in the 300s CE. Buddhist monasteries flourished and Hindu temples multiplied. In 499 CE, near the Gupta capital, the astronomer Aryabhata finished a book of mathematics and astronomy at the age of 23. It gives pi as 3.1416. Indian mathematicians were developing the place-value numbers, with zero, that most of the world now uses.",
+  "confidence": "debated",
+  "dateNote": "When zero first appeared in Indian writing is unclear, because the Bakhshali manuscript is hard to date.",
+  "debate": "Radiocarbon tests suggested parts of the Bakhshali manuscript, which uses a dot for zero, are very old, but specialists dispute what those dates mean.",
+  "sources": [
+   "met-south-asia-1-500",
+   "mactutor-aryabhata",
+   "wujastyk-2017"
+  ],
+  "links": [
+   {
+    "label": "Gupta Empire",
+    "url": "https://en.wikipedia.org/wiki/Gupta_Empire"
+   },
+   {
+    "label": "Aryabhata",
+    "url": "https://en.wikipedia.org/wiki/Aryabhata"
+   }
+  ],
+  "place": {
+   "name": "Pataliputra (Patna), India",
+   "lat": 25.61,
+   "lon": 85.14
+  },
+  "map": {
+   "year": 400,
+   "view": "s-asia",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "pataliputra"
+    ],
+    "polities": [
+     "Gupta Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "plagues-and-falls",
+  "kind": "event",
+  "title": "Plagues, rebellions and falls",
+  "year": 165,
+  "yearEnd": 476,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "africa",
+   "e-asia"
+  ],
+  "themes": [
+   "health",
+   "power"
+  ],
+  "blurb": "From about 165 CE a pandemic, probably smallpox, swept the Roman Empire, and another struck around 250. In China, the Yellow Turban rebels rose in 184 behind a Daoist healer, and the Han dynasty ended in 220. In 476 the last Roman emperor in the west was removed, while the Roman Empire in the east carried on.",
+  "confidence": "debated",
+  "dateNote": "476 CE is a traditional end date; the western empire had been shrinking for decades.",
+  "debate": "Estimates of how many people the Antonine pandemic killed range from 2 to 50 percent; recent studies suggest about 10 to 20 percent.",
+  "sources": [
+   "harper-2016",
+   "britannica-yellow-turbans",
+   "britannica-romulus-augustulus",
+   "met-han"
+  ],
+  "links": [
+   {
+    "label": "Antonine Plague",
+    "url": "https://en.wikipedia.org/wiki/Antonine_Plague"
+   },
+   {
+    "label": "Fall of the Western Roman Empire",
+    "url": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"
+   }
+  ],
+  "place": {
+   "name": "Rome, Italy",
+   "lat": 41.89,
+   "lon": 12.48
+  },
+  "map": {
+   "year": 500,
+   "view": {
+    "center": [
+     60,
+     35
+    ],
+    "zoom": 1.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "rome",
+     "luoyang"
+    ],
+    "polities": [
+     "Eastern Roman Empire",
+     "Ostrogothic Kingdom",
+     "Kingdom of the Franks",
+     "Northern Wei",
+     "Southern Qi"
+    ]
+   }
+  }
+ }
+]
