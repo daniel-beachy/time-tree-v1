@@ -604,3 +604,60 @@ Chapters 8 and 9 are told partly in numbers. The pattern is built and has three 
 - `map.year` is free: a span stop may show the map of any year it covers.
 
 Applied on the same day: five stops moved (`first-pictures` in chapter 2, `farming-worldwide` and `cost-of-farming` in chapter 3, `kush-and-aksum`, `silk-roads-monsoon` and `plagues-and-falls` in chapter 5). No text was changed. This settles the chapter 5 order noted under the map polish.
+
+### Fact-check pass (2026-11-13, Fable)
+
+This replaces the one-paragraph "Verification" rule in section 7. The aim is that a stop marked `checked` has had every factual statement traced to a source by someone who did not write it.
+
+**Who checks.** A fresh session that did not write the chapter. It works from the packet only, so it cannot lean on the writer's reasoning:
+
+```bash
+node scripts/human/verify-pack.mjs <chapter-id>
+```
+
+The packet has each stop's words (blurb, notes, deep dive), its dates, its source list and a `hash`. The checker does not read the handoff notes, the writer's transcript or other chapters first.
+
+**What the checker does for each stop.**
+
+1. Lists the claims: every date, number, name, place, "first / oldest / largest", and every statement that one thing caused another. At least 3 from the blurb and, for a deep dive, at least 4 (aim for one per paragraph).
+2. For each claim, opens one of the stop's listed sources and finds the passage that supports it. A source counts only if it was opened and read in this pass. A search-result snippet does not count. For a paper, the abstract is enough only when the claim is in the abstract.
+3. Gives a verdict: `supported`, `unsupported` (the source does not say it), `contradicted` (the source says otherwise), or `unreachable` (could not open the source).
+4. Writes the record (below) with where in the source the support is: a section or page, or a quote of at most 15 words.
+
+**What happens to a claim that fails.** The checker makes the smallest change that makes the stop true, then checks the new wording:
+
+- wrong number, date or name: correct it from the source;
+- stronger than the source ("the first", "caused"): soften it to what the source says;
+- source could not be opened: find another source that can be opened and add it, or cut the sentence;
+- sources disagree: set `confidence` to `debated` and say what is in question in `debate`.
+
+It does not rewrite for style, add new material, or change a stop's scope. If a stop needs more than that, it leaves the stop unchecked with the failing verdicts in the record, which is the to-do list for the next content pass.
+
+**The record.** One file per chapter, `content/human/checks/<chapter-id>.json`:
+
+```json
+{ "stops": { "mansa-musa": {
+  "hash": "d84d8c91e7c6", "date": "2026-11-15",
+  "claims": [
+    { "in": "blurb", "text": "In 1324 Mansa Musa passed through Cairo on pilgrimage", "verdict": "supported",
+      "source": "source-id", "evidence": "Section 'The hajj': gives 1324 and the stay in Cairo" }
+  ] } } }
+```
+
+When every claim is `supported`, the checker sets the stop's `checked` to the record's date. When all stops in a chapter are checked, it sets the chapter's `status` to `complete`.
+
+**What the validator enforces** for a stop with `checked` (`scripts/human/lib-check.mjs`): a record exists; its `hash` matches the stop's current words, so any later edit voids the check; dates agree; enough claims; every verdict is `supported`; every claim names one of the stop's sources and says where; every source the stop lists supports at least one claim (otherwise drop the source).
+
+**Links.** Before and after a fact-check pass, run:
+
+```bash
+node scripts/human/check-links.mjs
+```
+
+It opens every source, image page and "learn more" link, and compares each DOI's Crossref record (first author, year, title) with our citation. "Blocked" means the site refuses scripts (UNESCO, Britannica and the Met all do): the checker opens those in a browser. First run, 2026-11-13: 386 links, 345 fine, 37 blocked, and three real problems, all fixed (a Wikipedia link to a page that does not exist, a shortened paper title, two Met links pointing at Spanish and German pages).
+
+**Progress.** `node scripts/human/verify-pack.mjs --status` lists, per chapter, how many stops are checked, which have changed since their check, and which are flagged.
+
+**Audit.** After a chapter is checked, Fable or Dan reads the records for two stops picked at random and opens the sources. If either fails, the chapter is checked again.
+
+**Order.** Chapter by chapter, weakest sourcing first: 7, 5, 3, 1, 6, then 2, 4, 8, 9 once written. One chapter is one unit of work; commit after each.

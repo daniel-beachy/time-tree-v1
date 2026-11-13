@@ -6,6 +6,7 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { deepText, recordProblems, VERDICTS } from './lib-check.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '../..');
 const SRC = join(ROOT, 'content/human');
@@ -103,6 +104,10 @@ chapters.forEach((c, i) => {
   const stops = existsSync(file) ? readJson(file) : [];
   const usedSources = new Set((c.keyNumbers ?? []).flatMap((k) => k.sources ?? []));
   const deep = {};
+  // Fact-check records: what a checker found for each stop (docs/PLAN.md, "Fact-check pass").
+  const checksFile = join(SRC, 'checks', `${c.id}.json`);
+  const records = existsSync(checksFile) ? readJson(checksFile).stops ?? {} : {};
+  for (const [id, r] of Object.entries(records)) for (const k of r.claims ?? []) if (!VERDICTS.includes(k.verdict)) err(`checks ${c.id}/${id}`, `verdict must be one of ${VERDICTS.join(', ')}`);
   let prevStop = null;
   for (const s of stops) {
     const w = `stop ${c.id}/${s.id ?? '?'}`;
@@ -152,6 +157,7 @@ chapters.forEach((c, i) => {
       if (s.image.src && !existsSync(join(ROOT, 'public', s.image.src))) err(w, `image file public/${s.image.src} does not exist`);
     }
     if (s.checked && !/^\d{4}-\d{2}-\d{2}$/.test(s.checked)) err(w, 'checked must be a YYYY-MM-DD date');
+    if (s.checked) for (const p of recordProblems(s, deepText(SRC, s), records[s.id])) err(w, p);
 
     const deepFile = join(SRC, 'deep', `${s.id}.md`);
     if (s.deep && !existsSync(deepFile)) err(w, `deep is true but content/human/deep/${s.id}.md does not exist`);

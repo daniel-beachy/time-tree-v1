@@ -205,7 +205,7 @@
  {
   "id": "dalton-2023",
   "type": "dataset",
-  "citation": "Dalton A. S. et al. (2023). Deglaciation of the North American ice sheet complex in calendar years. Quaternary Science Reviews 321, 108345.",
+  "citation": "Dalton A. S. et al. (2023). Deglaciation of the North American ice sheet complex in calendar years based on a comprehensive database of chronological data: NADI-1. Quaternary Science Reviews 321, 108345.",
   "url": "https://doi.org/10.1016/j.quascirev.2023.108345",
   "accessed": "2026-11-12"
  },
@@ -1585,7 +1585,7 @@
   "id": "met-qing-painting",
   "type": "museum",
   "citation": "The Qing Dynasty (1644–1911): Painting. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-  "url": "https://www.metmuseum.org/de/essays/the-qing-dynasty-1644-1911-painting",
+  "url": "https://www.metmuseum.org/en/essays/the-qing-dynasty-1644-1911-painting",
   "accessed": "2026-11-13"
  },
  {
@@ -1599,7 +1599,7 @@
   "id": "met-manila-galleon",
   "type": "museum",
   "citation": "The Manila Galleon Trade (1565–1815). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-  "url": "https://www.metmuseum.org/es/essays/the-manila-galleon-trade-1565-1815",
+  "url": "https://www.metmuseum.org/en/essays/the-manila-galleon-trade-1565-1815",
   "accessed": "2026-11-13"
  },
  {
