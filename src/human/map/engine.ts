@@ -14,7 +14,7 @@ import type { LayerId, MapState, RegionId } from '../lib/types';
 
 type Props = Record<string, unknown> & { id?: string; name?: string; from?: number; to?: number; date?: number; kind?: string; label?: string };
 type Feat = Feature<Geometry, Props>;
-interface Drawn { f: Feat; path: Path2D | null; xy: [number, number] | null; pts?: [number, number][] }
+interface Drawn { f: Feat; path: Path2D | null; xy: [number, number] | null; pts?: [number, number][]; /** Rough width in degrees, for deciding which shapes earn a label. */ size?: number }
 interface View { k: number; x: number; y: number }
 
 /** Region views as [west, south, east, north]. */
@@ -41,6 +41,9 @@ const hash = (s: string) => { let h = 0; for (let i = 0; i < s.length; i++) h = 
 /** A polities slice is only shown within this many years after its date, so a stale slice never stands in for a missing one. */
 const POLITY_TOLERANCE = 600;
 const DURATION = 750;
+/** How many state names a map carries at once, beyond the ones a stop highlights. More than this reads as noise. */
+const MAX_POLITY_LABELS = 7;
+const norm = (s: unknown) => String(s).trim().toLowerCase();
 
 export class MapEngine {
   private ctx: CanvasRenderingContext2D;
@@ -51,6 +54,8 @@ export class MapEngine {
   private raw = new Map<string, Feat[]>();
   private loading = new Set<string>();
   private view: View = { k: 1, x: 0, y: 0 };
+  /** Longitude at the middle of the map. Changing it re-projects every layer, so it only happens between stops. */
+  private lon0 = 0;
   private year = 0;
   private alpha = new Map<LayerId, number>();
   private state: MapState | null = null;
@@ -93,13 +98,18 @@ export class MapEngine {
     this.dpr = Math.min(2, window.devicePixelRatio || 1);
     this.canvas.width = Math.round(w * this.dpr);
     this.canvas.height = Math.round(h * this.dpr);
-    this.projection = geoEqualEarth().fitExtent([[8, 8], [w - 8, h - 8]], { type: 'Sphere' });
     this.zoom.translateExtent([[0, 0], [w, h]]).extent([[0, 0], [w, h]]);
-    this.sphere = new Path2D(geoPath(this.projection)({ type: 'Sphere' }) ?? '');
-    for (const [key, feats] of this.raw) this.layers.set(key, this.project(feats));
+    this.reproject();
     if (this.state) { this.view = this.viewFor(this.state); this.anim = null; this.syncZoom(); }
     if (first && this.state) this.setState(this.state, true);
     this.requestDraw();
+  }
+
+  private reproject() {
+    const { w, h } = this;
+    this.projection = geoEqualEarth().rotate([-this.lon0, 0]).fitExtent([[8, 8], [w - 8, h - 8]], { type: 'Sphere' });
+    this.sphere = new Path2D(geoPath(this.projection)({ type: 'Sphere' }) ?? '');
+    for (const [key, feats] of this.raw) this.layers.set(key, this.project(feats));
   }
 
   /** Move to a stop's map state. */
@@ -107,9 +117,15 @@ export class MapEngine {
     this.state = state;
     this.userMoved = false;
     for (const id of state.layers) this.ensure(id, state.year);
+    // A different middle longitude is a different map, so there is nothing to glide between: cut straight to it.
+    const turned = (state.centerLon ?? 0) !== this.lon0;
+    if (turned) { this.lon0 = state.centerLon ?? 0; if (this.w) this.reproject(); }
     if (!this.w) return;
     const to = this.viewFor(state);
-    if (instant || this.reduceMotion) {
+    if (turned && !instant && !this.reduceMotion) {
+      this.view = to; this.syncZoom();
+      this.anim = { t0: performance.now(), from: to, to, y0: this.year || state.year, y1: state.year, a0: new Map(this.alpha) };
+    } else if (instant || this.reduceMotion) {
       this.view = to; this.year = state.year; this.anim = null;
       this.alpha = new Map(state.layers.map((l) => [l, 1]));
       this.syncZoom();
@@ -178,7 +194,8 @@ export class MapEngine {
       const pts = f.geometry.type === 'LineString'
         ? (f.geometry.coordinates as Position[]).map((p) => this.projection(p as [number, number])).filter((p): p is [number, number] => !!p)
         : undefined;
-      return { f, path: d ? new Path2D(d) : null, xy: c, pts };
+      const size = f.geometry.type === 'LineString' ? undefined : Math.sqrt(geoArea(f as GeoPermissibleObjects)) * (180 / Math.PI);
+      return { f, path: d ? new Path2D(d) : null, xy: c, pts, size };
     });
   }
 
@@ -278,20 +295,31 @@ export class MapEngine {
           const p = d.pts;
           if (p && p.length > 1) arrow(ctx, p[p.length - 2], p[p.length - 1], 6 * px, COLORS.farm);
         } else {
-          ctx.globalAlpha = o * (on ? 0.5 : 0.3); ctx.fillStyle = COLORS.farm; ctx.fill(d.path);
-          ctx.globalAlpha = o * 0.9; ctx.strokeStyle = COLORS.farm; ctx.lineWidth = (on ? 1.8 : 1) * px; ctx.stroke(d.path);
+          ctx.globalAlpha = o * (on ? 0.7 : 0.5); ctx.fillStyle = COLORS.farm; ctx.fill(d.path);
+          ctx.globalAlpha = o; ctx.strokeStyle = COLORS.farm; ctx.lineWidth = (on ? 2.2 : 1.4) * px; ctx.stroke(d.path);
+          // A centre of origin can be only a few pixels wide on the world map, so it also gets a marker of fixed size.
+          if (d.xy && (d.size ?? 0) * k * (w / 360) < 28) {
+            ctx.globalAlpha = o * 0.35; ctx.beginPath(); ctx.arc(d.xy[0], d.xy[1], 11 * px, 0, Math.PI * 2); ctx.fill();
+            ctx.globalAlpha = o; ctx.beginPath(); ctx.arc(d.xy[0], d.xy[1], 3.2 * px, 0, Math.PI * 2); ctx.fill();
+          }
         }
       }
     }
 
     const polKey = this.polityKey(this.year);
     const polities = (polKey && this.layers.get(polKey)) || [];
+    // When a stop names states, those stand out and the rest step back.
+    const hiPol = new Set((s.highlight?.polities ?? []).map(norm));
+    const isHi = (d: Drawn) => hiPol.has(norm(d.f.properties.name));
     if (a('polities') > 0) {
-      for (const d of polities) {
-        if (!d.path) continue;
-        const c = POLITY_COLORS[hash(String(d.f.properties.name)) % POLITY_COLORS.length];
-        ctx.globalAlpha = a('polities') * 0.42; ctx.fillStyle = c; ctx.fill(d.path);
-        ctx.globalAlpha = a('polities') * 0.9; ctx.strokeStyle = c; ctx.lineWidth = 1 * px; ctx.stroke(d.path);
+      for (const pass of [false, true]) {
+        for (const d of polities) {
+          if (!d.path || isHi(d) !== pass) continue;
+          const c = POLITY_COLORS[hash(String(d.f.properties.name)) % POLITY_COLORS.length];
+          const fill = hiPol.size ? (pass ? 0.62 : 0.2) : 0.42, line = hiPol.size ? (pass ? 1 : 0.45) : 0.9;
+          ctx.globalAlpha = a('polities') * fill; ctx.fillStyle = c; ctx.fill(d.path);
+          ctx.globalAlpha = a('polities') * line; ctx.strokeStyle = pass ? COLORS.text : c; ctx.lineWidth = (pass ? 1.4 : 1) * px; ctx.stroke(d.path);
+        }
       }
     }
 
@@ -357,10 +385,17 @@ export class MapEngine {
       if (on || k >= 2.5) text(String(d.f.properties.name), scr(d.xy!), { dy: -13, size: on ? 13 : 11, color: on ? COLORS.accent : COLORS.text, alpha: a('cities'), force: on });
     }
     if (a('polities') > 0) {
-      for (const d of polities) {
-        // Label a polity once it is big enough on screen to carry its name.
-        const areaPx = Math.sqrt(geoArea(d.f as GeoPermissibleObjects)) * 180 * k;
-        if (d.xy && areaPx > 26) text(String(d.f.properties.name), scr(d.xy), { size: 11, alpha: a('polities') * 0.95 });
+      // Named states first and always; then only the largest few that are wide enough on screen to carry a name.
+      const sized = polities.filter((d) => d.xy).sort((p, q) => (q.size ?? 0) - (p.size ?? 0));
+      for (const d of sized) if (isHi(d)) text(String(d.f.properties.name), scr(d.xy!), { size: 12.5, alpha: a('polities'), force: true });
+      let n = 0;
+      for (const d of sized) {
+        if (isHi(d) || n >= MAX_POLITY_LABELS) continue;
+        const widthPx = (d.size ?? 0) * k * (w / 360);
+        if (widthPx < 46) break;
+        const before = boxes.length;
+        text(String(d.f.properties.name), scr(d.xy!), { size: 11, color: COLORS.muted, alpha: a('polities') * 0.9 });
+        if (boxes.length > before) n++;
       }
     }
     if (a('hominins') > 0) for (const d of this.layers.get('hominins') ?? []) if (d.xy && this.alive(d.f.properties)) text(String(d.f.properties.name), scr(d.xy), { size: 11, color: '#e8a48f', alpha: a('hominins'), italic: true, dy: d.path ? 0 : 22 });

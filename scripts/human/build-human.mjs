@@ -82,6 +82,7 @@ function checkMap(where, m) {
   }
   for (const p of m.highlight?.places ?? []) if (!featureIds.places.has(p)) err(where, `highlight place "${p}" is not in cities.geojson`);
   for (const r of m.highlight?.routes ?? []) if (!featureIds.routes.has(r)) err(where, `highlight route "${r}" is not in a hand-authored layer`);
+  if (m.centerLon != null && (typeof m.centerLon !== 'number' || Math.abs(m.centerLon) > 180)) err(where, 'map.centerLon must be a longitude');
   for (const l of m.labels ?? []) if (Math.abs(l.lat) > 90 || Math.abs(l.lon) > 180 || !l.text) err(where, 'bad label');
 }
 

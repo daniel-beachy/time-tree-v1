@@ -10,6 +10,8 @@ export type LayerId = 'land' | 'borders' | 'paleo' | 'hominins' | 'dispersal' | 
 export interface MapState {
   year: Year;
   view: 'world' | RegionId | { center: [number, number]; zoom: number };
+  /** Longitude at the middle of the map, for stories that cross the Pacific. Default 0. */
+  centerLon?: number;
   layers: LayerId[];
   highlight?: { places?: string[]; routes?: string[]; polities?: string[] };
   labels?: { lat: number; lon: number; text: string }[];

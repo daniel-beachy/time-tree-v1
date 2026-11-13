@@ -562,7 +562,16 @@ The scheduled night-1 job (2:15 AM Fri) failed to start: an API authentication e
   - Chapter 7: Met essays, the Pitt Tokugawa page and Parker 2008 were read only through search results. The Cajamarca date is given as 1532 to 1533.
   - Chapter 1: Florisbad's age rests on a university news page.
   - Many UNESCO, Met and Britannica pages blocked automated fetching.
-- **Map gaps found:** the engine draws no `highlight.polities`, and the projection can't rotate, so the Polynesia stop uses the world view.
+- **Map gaps found:** the engine draws no `highlight.polities`, and the projection can't rotate, so the Polynesia stop uses the world view. *(Both fixed in the map polish below.)*
 - **Not looked at in the browser:** chapters 1, 5, 6 and 7's map states.
 - **Still to do (section 9 order):** chapters 8 and 9, finishing chapters 2 and 4, then the verifier pass.
 - **Usage at handoff:** weekly 54%, 5-hour window 86%.
+
+### Map polish (2026-11-13, Fable)
+
+- **Named states stand out.** A stop's `map.highlight.polities` (names as they appear in the Cliopatria slice, case ignored) are drawn stronger with a light outline and always labelled; every other state steps back.
+- **Fewer state names.** Beyond the highlighted ones, a map labels at most the seven largest states that are wide enough on screen (`MAX_POLITY_LABELS` in `engine.ts`).
+- **Farming centres** have a stronger fill, and a fixed-size marker when the region is only a few pixels wide.
+- **Pacific-centred maps.** A map state may set `centerLon` (a longitude) to put that meridian in the middle. The map cuts to it instead of gliding, because every layer is re-projected. Used by `polynesian-voyagers` (`centerLon: -160`). Region views (`REGION_BOX`) assume the default; use `{ center, zoom }` with `centerLon`.
+
+Still owed from the spot check, for the verifier pass: chapter 5 lists Kush after the Silk Roads and Gupta before the Roman plagues; `zheng-he` and `around-africa` rest on one web source each; "Babur defeated the Lodi sultan by 1527" should say 1526; chapter 7 has no stop on an African kingdom.

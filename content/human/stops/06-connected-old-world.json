@@ -575,7 +575,7 @@
   "major": true,
   "map": {
    "year": 1200,
-   "view": "world",
+   "centerLon": -160, "view": { "center": [-160, -8], "zoom": 1.7 },
    "layers": [
     "land",
     "routes"
