@@ -1,0 +1,347 @@
+[
+ {
+  "id": "ottomans-safavids-mughals",
+  "kind": "map",
+  "title": "Ottomans, Safavids and Mughals",
+  "year": 1453,
+  "yearEnd": 1600,
+  "precision": "range",
+  "place": {
+   "name": "Istanbul, Turkey",
+   "lat": 41.01,
+   "lon": 28.98
+  },
+  "regions": [
+   "sw-asia",
+   "s-asia",
+   "europe"
+  ],
+  "themes": [
+   "power",
+   "belief",
+   "art"
+  ],
+  "blurb": "In 1453 the Ottoman sultan Mehmed II captured Constantinople and made it his capital; over time it came to be called Istanbul. In 1501 Ismail was crowned the first Safavid shah of Iran, and his successor Abbas moved the capital to Isfahan in 1597–98. In India, Babur defeated the Lodi sultan by 1527, and his grandson Akbar built the Mughal Empire.",
+  "confidence": "established",
+  "sources": [
+   "met-ottomans",
+   "met-safavids",
+   "met-mughals",
+   "cliopatria-2025"
+  ],
+  "links": [
+   {
+    "label": "Ottoman Empire",
+    "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+   },
+   {
+    "label": "Safavid Iran",
+    "url": "https://en.wikipedia.org/wiki/Safavid_Iran"
+   },
+   {
+    "label": "Mughal Empire",
+    "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1600,
+   "view": {
+    "center": [
+     52,
+     32
+    ],
+    "zoom": 2.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "istanbul",
+     "isfahan",
+     "agra"
+    ],
+    "polities": [
+     "Ottoman Empire",
+     "Safavid Dynasty",
+     "Mughal Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "around-africa",
+  "kind": "map",
+  "title": "By sea around Africa to India",
+  "year": 1488,
+  "yearEnd": 1498,
+  "precision": "range",
+  "place": {
+   "name": "Cape of Good Hope, South Africa",
+   "lat": -34.36,
+   "lon": 18.47
+  },
+  "regions": [
+   "africa",
+   "s-asia",
+   "europe"
+  ],
+  "themes": [
+   "movement",
+   "exchange"
+  ],
+  "blurb": "Portuguese crews had been sailing south along the West African coast since the mid-1400s. In 1488 Bartolomeu Dias rounded the Cape of Good Hope, the southern end of the continent. In 1497 Vasco da Gama followed, called at Mombasa and Malindi, where he hired an experienced navigator, and in May 1498 reached Calicut in India, a great port of the spice trade.",
+  "confidence": "established",
+  "sources": [
+   "museogalileo-africa"
+  ],
+  "links": [
+   {
+    "label": "Bartolomeu Dias",
+    "url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+   },
+   {
+    "label": "Vasco da Gama",
+    "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1498,
+   "view": {
+    "center": [
+     30,
+     0
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "lisbon",
+     "cape-of-good-hope",
+     "malindi",
+     "calicut"
+    ],
+    "routes": [
+     "portuguese-cape-route"
+    ],
+    "polities": [
+     "Kingdom of Portugal"
+    ]
+   }
+  }
+ },
+ {
+  "id": "atlantic-crossing",
+  "kind": "map",
+  "title": "Across the Atlantic and around the world",
+  "year": 1492,
+  "yearEnd": 1522,
+  "precision": "range",
+  "place": {
+   "name": "Guanahani (San Salvador), Bahamas",
+   "lat": 24.05,
+   "lon": -74.5
+  },
+  "regions": [
+   "c-s-america",
+   "europe",
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "In 1492 Christopher Columbus, sailing for the Spanish crown, reached Guanahani in the Bahamas, home of the Taíno, the most numerous people of the Caribbean. He believed to the end that he had reached Asia. In 1519 five ships and 237 men left Seville under Ferdinand Magellan. One ship and 18 men came back in 1522, the first crew to sail around the world.",
+  "confidence": "established",
+  "dateNote": "Magellan himself was killed in 1521 at Mactan in the Philippines, fighting forces led by Lapulapu; Juan Sebastián de Elcano brought the last ship home.",
+  "sources": [
+   "loc-columbus-taino",
+   "princeton-magellan"
+  ],
+  "links": [
+   {
+    "label": "Voyages of Christopher Columbus",
+    "url": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
+   },
+   {
+    "label": "Magellan expedition",
+    "url": "https://en.wikipedia.org/wiki/Magellan_expedition"
+   },
+   {
+    "label": "Taíno",
+    "url": "https://en.wikipedia.org/wiki/Taíno"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1522,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "guanahani",
+     "seville"
+    ],
+    "routes": [
+     "columbus-1492",
+     "magellan-elcano"
+    ]
+   }
+  }
+ },
+ {
+  "id": "columbian-exchange",
+  "kind": "map",
+  "title": "The Columbian Exchange",
+  "year": 1492,
+  "yearEnd": 1700,
+  "precision": "range",
+  "regions": [
+   "global",
+   "c-s-america",
+   "n-america",
+   "africa",
+   "e-asia",
+   "europe"
+  ],
+  "themes": [
+   "food",
+   "health",
+   "exchange"
+  ],
+  "blurb": "After 1492, crops, germs, ideas and people crossed the oceans between the Americas and the rest of the world. Maize, potatoes, sweet potatoes and cassava became staple foods in Africa, Asia and Europe, and chili peppers changed cooking from Hungary to Thailand. Wheat, sugar cane, coffee and bananas went the other way. So did smallpox, measles and other diseases new to the Americas.",
+  "confidence": "established",
+  "debate": "How much the new crops raised Old World populations is still being measured. Nunn and Qian estimate the potato alone explains about an eighth of the population increase where it could be grown.",
+  "sources": [
+   "nunn-qian-2010",
+   "flynn-giraldez-2002"
+  ],
+  "links": [
+   {
+    "label": "Columbian exchange",
+    "url": "https://en.wikipedia.org/wiki/Columbian_exchange"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1600,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "routes": [
+     "manila-galleons",
+     "atlantic-system",
+     "portuguese-cape-route"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 15,
+     "lon": -90,
+     "text": "maize, potatoes, cacao"
+    },
+    {
+     "lat": 40,
+     "lon": 90,
+     "text": "wheat, rice, sugar cane"
+    }
+   ]
+  }
+ },
+ {
+  "id": "great-dying",
+  "kind": "event",
+  "title": "The Great Dying in the Americas",
+  "year": 1492,
+  "yearEnd": 1650,
+  "precision": "range",
+  "place": {
+   "name": "Teposcolula-Yucundaa, Oaxaca, Mexico",
+   "lat": 17.51,
+   "lon": -97.49
+  },
+  "regions": [
+   "c-s-america",
+   "n-america"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "Smallpox, measles, typhus and other diseases from Afro-Eurasia reached peoples in the Americas who had never met them. Epidemics came in waves, alongside conquest and war. A 2019 review estimates that about 90 percent of the Indigenous population died within a century of 1492, some 56 million people. Central Mexico, home to just under 15 million people in 1519, had about 1.5 million a century later.",
+  "confidence": "debated",
+  "debate": "Published estimates of the population in 1492 range from about 8 million to over 110 million. Koch and colleagues combine them into a middle estimate of about 60 million.",
+  "sources": [
+   "koch-2019",
+   "nunn-qian-2010",
+   "vagene-2018",
+   "fitch-aha-conquest"
+  ],
+  "links": [
+   {
+    "label": "Population history of the Indigenous peoples of the Americas",
+    "url": "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas"
+   },
+   {
+    "label": "Cocoliztli epidemics",
+    "url": "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1550,
+   "view": {
+    "center": [
+     -80,
+     8
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "mexico-city",
+     "cusco"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 17.51,
+     "lon": -97.49,
+     "text": "Teposcolula-Yucundaa"
+    },
+    {
+     "lat": 19,
+     "lon": -71,
+     "text": "Hispaniola"
+    }
+   ]
+  }
+ }
+]
