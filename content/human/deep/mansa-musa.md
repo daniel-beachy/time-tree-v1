@@ -2,7 +2,7 @@
 
 From the 700s to the 1500s, caravans of hundreds of camels crossed the Sahara. They carried gold, salt, textiles and jewellery between West Africa and the Mediterranean world. Sijilmasa, in what is now Morocco, stood at the northern edge of the desert; Tadmekka and Timbuktu, in today's Mali, stood at the southern edge, linked to the Niger River. West African gold was prized for its purity and was used to mint coins.
 
-In the early 1300s the empire of Mali spread over lands that today lie in Mauritania, Senegal, Mali, Niger and beyond. In 1324 its ruler, Mansa Musa, set out on the hajj, the pilgrimage to Mecca that Islam asks of every Muslim who is able to make it. On the way he stayed in Cairo, then ruled by the Mamluk sultans. When he returned, he had the Djinguereber mosque built in Timbuktu with the help of scholars and an architect from Andalusia, in Muslim Spain, who came back with him.
+In the early 1300s the empire of Mali spread over lands that today lie in Mauritania, Senegal, Mali, Niger and beyond. In 1324 its ruler, Mansa Musa, set out on the hajj, the pilgrimage to Mecca that Islam asks of every Muslim who is able to make it. On the way he stayed in Cairo, where he met the sultan, al-Malik al-Nasir. When he returned, he had the Djinguereber mosque built in Timbuktu with the help of scholars and an architect from Andalusia, in Muslim Spain, who came back with him.
 
 ## How we know
 

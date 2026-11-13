@@ -32,7 +32,7 @@ export function recordProblems(stop, deep, record) {
   if (deep && n('deep') < MIN_DEEP_CLAIMS) out.push(`record has ${n('deep')} deep-dive claims (at least ${MIN_DEEP_CLAIMS})`);
   for (const c of claims) {
     const label = `claim "${String(c.text).slice(0, 40)}"`;
-    if (!c.text || !['blurb', 'deep'].includes(c.in)) out.push(`${label}: needs text and in: blurb | deep`);
+    if (!c.text || !['blurb', 'deep', 'map', 'chart'].includes(c.in)) out.push(`${label}: needs text and in: blurb | deep | map | chart`);
     if (c.verdict !== 'supported') out.push(`${label}: verdict is "${c.verdict}", so the stop cannot be checked`);
     if (!(stop.sources ?? []).includes(c.source)) out.push(`${label}: source "${c.source}" is not one of the stop's sources`);
     if (!c.evidence || c.evidence.split(/\s+/).length > 40) out.push(`${label}: evidence must say where the source supports it, in 40 words or fewer`);

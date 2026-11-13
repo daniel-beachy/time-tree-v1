@@ -1,0 +1,26 @@
+{
+ "stops": {
+  "mansa-musa": {
+   "hash": "df840f5eb79b",
+   "date": "2026-11-13",
+   "claims": [
+    { "in": "blurb", "text": "From the 700s to the 1500s camel caravans carried West African gold across the Sahara", "verdict": "supported", "source": "northwestern-caravans", "evidence": "Opening paragraph: caravans crossed 'from the 8th to the 16th centuries' carrying gold" },
+    { "in": "blurb", "text": "In 1324 Mansa Musa, ruler of Mali, passed through Cairo on pilgrimage to Mecca", "verdict": "supported", "source": "bu-al-umari", "evidence": "Headnote: 'the visit to Cairo in 1324 by the King of Mali, Mansa Musa'" },
+    { "in": "blurb", "text": "Al-Umari wrote that he gave away so much gold that its price in Egypt fell for years", "verdict": "supported", "source": "bu-al-umari", "evidence": "Final paragraphs: gold's price fell and stayed low 'for about twelve years'" },
+    { "in": "blurb", "text": "Timbuktu grew into a centre of Islamic learning", "verdict": "supported", "source": "northwestern-mansa-musa", "evidence": "Last paragraph: Timbuktu 'drew scholars from all over the Islamic world'" },
+    { "in": "deep", "text": "Sijilmasa stood at the northern edge of the desert; Tadmekka and Timbuktu at the southern edge, linked to the Niger; the gold was prized for purity and minted into coins", "verdict": "supported", "source": "northwestern-caravans", "evidence": "Second and third paragraphs give the three towns, the Niger link, purity and minting" },
+    { "in": "deep", "text": "Mali spread over lands that today lie in Mauritania, Senegal, Mali, Niger and beyond", "verdict": "supported", "source": "northwestern-mansa-musa", "evidence": "Fourth paragraph lists the modern countries the kingdom covered" },
+    { "in": "deep", "text": "He stayed in Cairo, where he met the sultan, al-Malik al-Nasir", "verdict": "supported", "source": "bu-al-umari", "evidence": "First paragraph of the account names the sultan and describes the audience. The draft said 'Mamluk sultans', which no listed source says; reworded." },
+    { "in": "deep", "text": "He had the Djinguereber mosque built with scholars and an architect from Andalusia who came back with him", "verdict": "supported", "source": "northwestern-mansa-musa", "evidence": "Fifth paragraph: he 'brought back scholars and an Andalusian architect' to build Djinguereber" },
+    { "in": "deep", "text": "Al-Umari was a 14th-century Arab historian who wrote at least a decade after the visit", "verdict": "supported", "source": "bu-al-umari", "evidence": "Headnote says he came to Cairo years later; his text says prices had stayed low 'about twelve years until this day'" },
+    { "in": "deep", "text": "Musa said he came for the pilgrimage and nothing else, sent unworked gold to the treasury, and gave gold to every emir and officeholder", "verdict": "supported", "source": "bu-al-umari", "evidence": "The emir's report in the first paragraph, and the 'flooded Cairo with his benefactions' paragraph" },
+    { "in": "deep", "text": "The mithqal was worth at least 25 dirhams before the visit and no more than 22 for about twelve years after", "verdict": "supported", "source": "bu-al-umari", "evidence": "Last paragraph gives 25 dirhams, 22 dirhams and twelve years" },
+    { "in": "deep", "text": "Excavations at Sijilmasa, Gao and Tadmekka found glazed pottery, glass, beads and silk", "verdict": "supported", "source": "northwestern-caravans", "evidence": "Paragraph on archaeological discoveries, and the caption listing finds from Essouk-Tadmekka" },
+    { "in": "deep", "text": "Finds in Mali suggest Arabic was spreading south of the Sahara by the 900s", "verdict": "supported", "source": "northwestern-caravans", "evidence": "Section 'All that Glitters': Esmeralda Kale on Arabic 'making inroads' in the 10th century" },
+    { "in": "deep", "text": "Modern accounts repeat 8,000 courtiers, 12,000 servants and a hundred camel loads of gold, and call him the richest person who ever lived", "verdict": "supported", "source": "northwestern-mansa-musa", "evidence": "Second and fourth paragraphs give all three numbers and the 'richest person in history' claim" },
+    { "in": "deep", "text": "Numbers like these are hard to verify, and wealth across seven centuries cannot be compared in any exact way", "verdict": "unsupported", "source": "northwestern-mansa-musa", "evidence": "No listed source doubts the numbers; this one repeats them as fact. Needs a source that questions the entourage figures or the wealth comparison." },
+    { "in": "map", "text": "The map shows the Mali Empire's extent around 1300", "verdict": "supported", "source": "cliopatria-2025", "evidence": "The 1300 slice built from the dataset has one polity named 'Mali Empire'" }
+   ]
+  }
+ }
+}

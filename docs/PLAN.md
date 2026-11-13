@@ -660,6 +660,12 @@ It opens every source, image page and "learn more" link, and compares each DOI's
 
 **Audit.** After a chapter is checked, Fable or Dan reads the records for two stops picked at random and opens the sources. If either fails, the chapter is checked again.
 
+**Trial run (2026-11-13).** Fable checked `mansa-musa` to test the process; its record is the model to copy. Sixteen claims: fourteen held, one was reworded ("ruled by the Mamluk sultans" was true but in no listed source), and one is flagged, so the stop is not yet `checked`: the deep dive says the entourage numbers are "hard to verify", while its only source for them repeats them as fact. It needs a source that questions them. The trial added three rules:
+
+- A source that only backs the picture gets a claim with `"in": "map"` or `"in": "chart"` saying what the picture shows.
+- A gloss of an everyday term (what a hajj is, which modern country a place is in) is not a claim.
+- A sentence that only says how sure we can be is not a claim. But a statement that something is doubted or debated is one: a source must show the doubt.
+
 **Order.** Chapter by chapter, weakest sourcing first: 7, 5, 3, 1, 6, then 2, 4, 8, 9 once written. One chapter is one unit of work; commit after each.
 
 ### Arc review: stops to add, merge or move (2026-11-13, Fable)
