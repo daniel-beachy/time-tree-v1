@@ -31,3 +31,4 @@ worker/.wrangler
 
 # Local tooling
 .claude
+scripts/human/.cache

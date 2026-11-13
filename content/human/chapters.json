@@ -1,0 +1,179 @@
+[
+ {
+  "id": "becoming-human",
+  "n": 1,
+  "title": "Becoming human",
+  "subtitle": "300,000 to 70,000 years ago",
+  "from": -298000,
+  "to": -68000,
+  "color": "#8a6a9e",
+  "status": "draft",
+  "intro": "Our species appears in Africa about 300,000 years ago, and for most of the time since, that is where everyone lived. People made tools, fire, pigments and beads, buried their dead, and shared the planet with several other kinds of human. Almost nothing from these two hundred thousand years was written down, because writing was still far in the future.",
+  "map": {
+   "year": -298000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "hominins"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "across-the-world",
+  "n": 2,
+  "title": "Across the world",
+  "subtitle": "70,000 to 12,000 years ago",
+  "from": -68000,
+  "to": -10000,
+  "color": "#4f8f9c",
+  "status": "draft",
+  "intro": "In about fifty thousand years, people walked and paddled from Africa to every continent except Antarctica. They met other humans along the way, painted caves, made music, tamed the wolf, and lived through an ice age that locked up enough water to redraw the coastlines. By the end, humans were the only human species left.",
+  "map": {
+   "year": -68000,
+   "view": "world",
+   "layers": [
+    "land",
+    "hominins",
+    "dispersal"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "settling-down",
+  "n": 3,
+  "title": "Settling down",
+  "subtitle": "10,000 to 3500 BCE",
+  "from": -10000,
+  "to": -3500,
+  "color": "#7da35c",
+  "status": "draft",
+  "intro": "As the ice age ended, people in several parts of the world, with no contact between them, began to plant crops and keep animals. Farming fed far more people from the same land. It also tied them to one place, and brought villages, stored wealth, new diseases and harder work. Most of what followed depends on it.",
+  "map": {
+   "year": -10000,
+   "view": "world",
+   "layers": [
+    "land"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "first-cities",
+  "n": 4,
+  "title": "First cities and writing",
+  "subtitle": "3500 to 1200 BCE",
+  "from": -3500,
+  "to": -1200,
+  "color": "#d1a53c",
+  "status": "draft",
+  "intro": "In a few river valleys, villages grew into cities of tens of thousands of strangers. Running them took new inventions: writing, law, mathematics, kings, armies and taxes. Bronze tied distant regions together through trade in copper and tin. Cities appeared separately in Mesopotamia, Egypt, the Indus valley, China and Peru, and by the end the first international system had risen and collapsed.",
+  "map": {
+   "year": -3500,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "empires-and-ideas",
+  "n": 5,
+  "title": "Empires and big ideas",
+  "subtitle": "1200 BCE to 500 CE",
+  "from": -1200,
+  "to": 500,
+  "color": "#e28c3a",
+  "status": "draft",
+  "intro": "Iron tools and weapons, alphabets and coins spread widely. Empires grew larger than anything before them: Persia, the Mauryas, Han China, Rome. In the same centuries, teachers in China, India, Persia, Israel and Greece asked how a person should live, and their answers still shape how billions of people think. Roads and sea lanes began to link the empires.",
+  "map": {
+   "year": -1200,
+   "view": "world",
+   "layers": [
+    "land"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "connected-old-world",
+  "n": 6,
+  "title": "A connected Old World",
+  "subtitle": "500 to 1450",
+  "from": 500,
+  "to": 1450,
+  "color": "#d96a4a",
+  "status": "draft",
+  "intro": "Africa, Asia and Europe grew into one web of trade, faith and learning. Paper, printing, gunpowder, the compass and the number system we use travelled along it. So did plague. In the Pacific, voyagers settled the last empty islands, and in the Americas great cities rose with no knowledge of the other half of the world.",
+  "map": {
+   "year": 500,
+   "view": "world",
+   "layers": [
+    "land"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "one-world",
+  "n": 7,
+  "title": "One world",
+  "subtitle": "1450 to 1750",
+  "from": 1450,
+  "to": 1750,
+  "color": "#c4527c",
+  "status": "draft",
+  "intro": "Ocean voyages joined the two halves of the world for the first time since the ice age. Crops, animals, silver, people and diseases crossed the oceans. For the Americas it was a catastrophe; for millions of Africans it meant enslavement. A single global economy took shape, and a new way of finding things out, science, began to pay off.",
+  "map": {
+   "year": 1450,
+   "view": "world",
+   "layers": [
+    "land"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "age-of-industry",
+  "n": 8,
+  "title": "The age of industry",
+  "subtitle": "1750 to 1914",
+  "from": 1750,
+  "to": 1914,
+  "color": "#8f72d2",
+  "status": "draft",
+  "intro": "For all of history, work had been done by muscle, wind, water and wood. Then people learned to turn coal into motion. Factories, railways, steamships and telegraphs followed within a few lifetimes. Population, wealth and life expectancy began climbing in ways never seen before, very unevenly, as industrial powers took control of much of the world.",
+  "map": {
+   "year": 1750,
+   "view": "world",
+   "layers": [
+    "land"
+   ]
+  },
+  "keyNumbers": []
+ },
+ {
+  "id": "modern-world",
+  "n": 9,
+  "title": "The modern world",
+  "subtitle": "1914 to today",
+  "from": 1914,
+  "to": 2026,
+  "color": "#5aa5dc",
+  "status": "draft",
+  "intro": "In one long lifetime, the number of people quadrupled and most of them moved to cities. Two world wars killed tens of millions. Empires broke up into nearly two hundred countries. Vaccines, fertiliser, electricity and computers changed daily life almost everywhere. This chapter is told mostly in charts, because the numbers are the story.",
+  "map": {
+   "year": 1914,
+   "view": "world",
+   "layers": [
+    "land",
+    "borders"
+   ]
+  },
+  "keyNumbers": []
+ }
+]

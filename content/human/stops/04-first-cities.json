@@ -1,0 +1,339 @@
+[
+ {
+  "id": "uruk",
+  "kind": "event",
+  "title": "Uruk, the first big city",
+  "year": -3300,
+  "precision": "circa",
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "settlement",
+   "power"
+  ],
+  "blurb": "By about 3300 BCE, Uruk in southern Mesopotamia had grown into something new: a city of tens of thousands of people, most of whom did not grow their own food. It had huge temple buildings, mass-produced pottery, and officials who kept track of grain, sheep and labour. Its goods and styles turn up from Iran to Syria and Anatolia.",
+  "confidence": "established",
+  "sources": [
+   "algaze-2008"
+  ],
+  "links": [
+   {
+    "label": "Uruk",
+    "url": "https://en.wikipedia.org/wiki/Uruk"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Uruk, Iraq",
+   "lat": 31.32,
+   "lon": 45.64
+  },
+  "map": {
+   "year": -3000,
+   "view": {
+    "center": [
+     44,
+     32
+    ],
+    "zoom": 5.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "uruk"
+    ]
+   }
+  }
+ },
+ {
+  "id": "writing-begins",
+  "kind": "artifact",
+  "title": "Writing begins as bookkeeping",
+  "year": -3250,
+  "precision": "circa",
+  "regions": [
+   "sw-asia",
+   "africa",
+   "e-asia",
+   "c-s-america"
+  ],
+  "themes": [
+   "knowledge",
+   "exchange"
+  ],
+  "blurb": "The first writing was accounting. Around 3300 BCE, Uruk's administrators pressed signs into clay tablets to record grain, beer, cloth and livestock. Over the next centuries the signs came to stand for sounds, so they could record names, laws, letters and stories. Egyptian hieroglyphs appeared at almost the same time. Writing was later invented from scratch in China and in Mesoamerica.",
+  "confidence": "established",
+  "sources": [
+   "damerow-2006",
+   "algaze-2008"
+  ],
+  "links": [
+   {
+    "label": "Proto-cuneiform",
+    "url": "https://en.wikipedia.org/wiki/Proto-cuneiform"
+   },
+   {
+    "label": "History of writing",
+    "url": "https://en.wikipedia.org/wiki/History_of_writing"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "place": {
+   "name": "Uruk, Iraq",
+   "lat": 31.32,
+   "lon": 45.64
+  },
+  "dateNote": "The oldest tablets from Uruk are dated to roughly 3350 to 3200 BCE.",
+  "map": {
+   "year": -3000,
+   "view": {
+    "center": [
+     40,
+     30
+    ],
+    "zoom": 3.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "uruk"
+    ]
+   }
+  }
+ },
+ {
+  "id": "indus-cities",
+  "kind": "map",
+  "title": "The planned cities of the Indus",
+  "year": -2600,
+  "precision": "range",
+  "regions": [
+   "s-asia"
+  ],
+  "themes": [
+   "settlement",
+   "exchange"
+  ],
+  "blurb": "From about 2600 BCE, cities rose along the Indus and neighbouring rivers in what is now Pakistan and northwest India. Mohenjo-daro and Harappa were laid out in an orderly plan, with baked-brick houses, wells, bathing rooms and covered drains. Their people traded by sea with Mesopotamia and used a script nobody has deciphered. After about 1900 BCE the cities emptied, probably as the monsoon weakened.",
+  "confidence": "established",
+  "sources": [
+   "giosan-2012",
+   "unesco-mohenjo-daro"
+  ],
+  "links": [
+   {
+    "label": "Indus Valley Civilisation",
+    "url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+   }
+  ],
+  "yearEnd": -1900,
+  "place": {
+   "name": "Mohenjo-daro, Pakistan",
+   "lat": 27.33,
+   "lon": 68.14
+  },
+  "map": {
+   "year": -2400,
+   "view": {
+    "center": [
+     60,
+     28
+    ],
+    "zoom": 3.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "mohenjo-daro",
+     "harappa"
+    ],
+    "routes": [
+     "gulf-trade"
+    ]
+   }
+  }
+ },
+ {
+  "id": "caral",
+  "kind": "event",
+  "title": "Caral: cities on the far side of the world",
+  "year": -2600,
+  "precision": "range",
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "settlement"
+  ],
+  "blurb": "While pyramids were rising in Egypt, people on the desert coast of Peru were raising their own. Caral, occupied from about 2600 to 2000 BCE, had six large platform mounds and sunken circular plazas, fed by irrigated fields. Its builders had no pottery and no writing, and no contact with any other city-builders. Cities were invented more than once.",
+  "confidence": "established",
+  "sources": [
+   "shady-2001"
+  ],
+  "links": [
+   {
+    "label": "Caral–Supe civilization",
+    "url": "https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization"
+   }
+  ],
+  "yearEnd": -2000,
+  "place": {
+   "name": "Caral, Peru",
+   "lat": -10.89,
+   "lon": -77.52
+  },
+  "map": {
+   "year": -2500,
+   "view": {
+    "center": [
+     -72,
+     -12
+    ],
+    "zoom": 3.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "caral"
+    ]
+   }
+  }
+ },
+ {
+  "id": "great-pyramid",
+  "kind": "event",
+  "title": "The Great Pyramid, and the last mammoths",
+  "year": -2560,
+  "precision": "circa",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "technology"
+  ],
+  "blurb": "Around 2560 BCE, Egypt's king Khufu had the Great Pyramid built at Giza. Papyrus logbooks found at a Red Sea harbour, the oldest inscribed papyri known, record a work crew ferrying limestone blocks to the site. Far to the north, a small herd of woolly mammoths was still alive on Wrangel Island in the Arctic. They died out about 4,000 years ago.",
+  "confidence": "established",
+  "sources": [
+   "tallet-2014",
+   "dehasque-2024"
+  ],
+  "links": [
+   {
+    "label": "Great Pyramid of Giza",
+    "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+   },
+   {
+    "label": "Diary of Merer",
+    "url": "https://en.wikipedia.org/wiki/Diary_of_Merer"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Giza, Egypt",
+   "lat": 29.98,
+   "lon": 31.13
+  },
+  "map": {
+   "year": -2500,
+   "view": {
+    "center": [
+     32,
+     27
+    ],
+    "zoom": 4.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "giza"
+    ]
+   }
+  }
+ },
+ {
+  "id": "bronze-age-collapse",
+  "kind": "event",
+  "title": "The Bronze Age world falls apart",
+  "year": -1200,
+  "precision": "circa",
+  "regions": [
+   "sw-asia",
+   "europe",
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "exchange",
+   "environment"
+  ],
+  "blurb": "Within about fifty years of 1200 BCE, the connected world of the eastern Mediterranean came apart. The Hittite empire vanished, the Mycenaean palaces burned, the trading city of Ugarit was destroyed and never rebuilt, and Egypt lost its lands abroad. Historians point to drought, earthquakes, migration and war, and to how much these states had come to depend on one another.",
+  "confidence": "debated",
+  "sources": [
+   "knapp-2016",
+   "kaniewski-2013",
+   "pulak-1998"
+  ],
+  "links": [
+   {
+    "label": "Late Bronze Age collapse",
+    "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+   }
+  ],
+  "major": true,
+  "debate": "No single cause is agreed. Knapp and Manning argue for many local crises over decades; others give more weight to a long drought.",
+  "map": {
+   "year": -1200,
+   "view": {
+    "center": [
+     32,
+     35
+    ],
+    "zoom": 4.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "ugarit",
+     "hattusa",
+     "mycenae"
+    ],
+    "routes": [
+     "east-med-trade"
+    ]
+   }
+  }
+ }
+]
