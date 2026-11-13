@@ -141,7 +141,7 @@ export function Chapter({ index, chapter, stopId, deepOpen }: { index: HumanInde
 
         {err && <p className="error">Couldn't load this chapter: {err}</p>}
         {data && stops.length === 0 && (
-          <article className="hs-card"><h3>This chapter is still being written</h3><p className="muted">Its stops will appear here. Chapters 2 and 4 are ready to explore.</p></article>
+          <article className="hs-card"><h3>This chapter is still being written</h3><p className="muted">Its stops will appear here. The other chapters are ready to explore.</p></article>
         )}
 
         {stops.map((s, i) => (

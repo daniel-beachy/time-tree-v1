@@ -76,7 +76,9 @@ export function TimeChart({ series, from, to, log, at, marks = [], height, compa
   const endLabels = many && !narrow;
   // Room on the right for the name of each line, written at its end.
   const m = { l: 10, r: endLabels ? 74 : 14, t: marks.length ? 34 : 14, b: 26 };
-  const x = scaleLinear().domain([x0, x1]).range([m.l, Math.max(m.l + 10, width - m.r)]);
+  // The lines start to the right of the axis numbers, so the two never overlap.
+  const axisPad = format === 'years' || format === 'percent' ? 26 : 62;
+  const x = scaleLinear().domain([x0, x1]).range([m.l + axisPad, Math.max(m.l + axisPad + 10, width - m.r)]);
   const vals = data.flatMap((d) => d.pts.map((p) => p[1]));
   const y = (log ? scaleLog().domain([Math.min(...vals), Math.max(...vals)]) : scaleLinear().domain([0, Math.max(...vals) * 1.06])).range([h - m.b, m.t]);
   const path = d3line<[Year, number]>().x((p) => x(p[0])).y((p) => y(p[1]));
