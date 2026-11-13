@@ -282,5 +282,385 @@
     ]
    }
   }
+ },
+ {
+  "id": "by-the-sea",
+  "kind": "event",
+  "title": "Living by the sea",
+  "year": -162000,
+  "precision": "circa",
+  "dateNote": "The shellfish layers at Pinnacle Point are dated to about 164,000 years ago, give or take 12,000.",
+  "place": {
+   "name": "Pinnacle Point, South Africa",
+   "lat": -34.21,
+   "lon": 22.09
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "food",
+   "environment",
+   "technology"
+  ],
+  "blurb": "In a cave at Pinnacle Point on the south coast of South Africa, people were eating shellfish by about 164,000 years ago, the oldest known use of food from the sea. Much of Africa was then cold and dry. The same layers hold red pigment that had been worked, tiny blade tools, and stone that had been heated so it would flake more easily.",
+  "confidence": "established",
+  "sources": [
+   "marean-2007",
+   "brown-2009"
+  ],
+  "links": [
+   {
+    "label": "Pinnacle Point",
+    "url": "https://en.wikipedia.org/wiki/Pinnacle_Point"
+   }
+  ],
+  "map": {
+   "year": -162000,
+   "view": {
+    "center": [
+     22,
+     -33
+    ],
+    "zoom": 5.5
+   },
+   "layers": [
+    "land",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "pinnacle-point"
+    ]
+   }
+  }
+ },
+ {
+  "id": "beads-and-ochre",
+  "kind": "artifact",
+  "title": "Beads, ochre and the first patterns",
+  "year": -140000,
+  "yearEnd": -71000,
+  "precision": "range",
+  "dateNote": "The Bizmoune beads are at least 142,000 years old; the Blombos finds range from about 100,000 to 73,000 years ago.",
+  "place": {
+   "name": "Blombos Cave, South Africa",
+   "lat": -34.41,
+   "lon": 21.22
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "art",
+   "belief"
+  ],
+  "blurb": "Some of the oldest known ornaments are small sea-snail shells, pierced and worn as beads. At Bizmoune Cave in Morocco they are at least 142,000 years old. At Blombos Cave in South Africa, people mixed a red ochre paste in abalone shells 100,000 years ago, engraved lines on lumps of ochre, and about 73,000 years ago drew crossed lines on a stone flake.",
+  "confidence": "established",
+  "sources": [
+   "sehasseh-2021",
+   "bouzouggar-2007",
+   "derrico-2005",
+   "henshilwood-2009",
+   "henshilwood-2011",
+   "henshilwood-2018"
+  ],
+  "links": [
+   {
+    "label": "Blombos Cave",
+    "url": "https://en.wikipedia.org/wiki/Blombos_Cave"
+   },
+   {
+    "label": "Bizmoune Cave",
+    "url": "https://en.wikipedia.org/wiki/Bizmoune_Cave"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": -100000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "bizmoune",
+     "taforalt",
+     "blombos"
+    ]
+   }
+  }
+ },
+ {
+  "id": "language",
+  "kind": "event",
+  "title": "When did language begin?",
+  "year": -133000,
+  "precision": "circa",
+  "dateNote": "No date can be fixed. 135,000 years ago is one recent estimate of the latest time by which the capacity for language existed; others put it far earlier.",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "knowledge"
+  ],
+  "blurb": "Speech leaves no fossils, so nobody knows when language began. Every human population today has full language, so the capacity probably existed before the oldest splits between living populations, which genetic studies place about 135,000 years ago. Some researchers argue that Neanderthals could speak too, which would push language back half a million years or more. The evidence does not yet decide it.",
+  "confidence": "uncertain",
+  "debate": "Miyagawa and colleagues argue the capacity for language existed by 135,000 years ago at the latest; Dediu and Levinson argue that it goes back to the common ancestor of Neanderthals and modern humans, more than half a million years ago.",
+  "sources": [
+   "miyagawa-2025",
+   "dediu-2013",
+   "sehasseh-2021"
+  ],
+  "links": [
+   {
+    "label": "Origin of language",
+    "url": "https://en.wikipedia.org/wiki/Origin_of_language"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -133000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ]
+  }
+ },
+ {
+  "id": "green-sahara",
+  "kind": "map",
+  "title": "When the Sahara turned green",
+  "year": -123000,
+  "precision": "circa",
+  "dateNote": "Green Sahara periods came and went many times. This stop shows the one around 125,000 years ago, in the last warm interglacial.",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "environment",
+   "movement"
+  ],
+  "blurb": "The Sahara has not always been a desert. Changes in Earth's orbit strengthen the African monsoon from time to time, and in the last eight million years the Sahara turned green more than 230 times. Each green phase lasted several thousand years. About 125,000 years ago, green corridors crossed it, possible paths north for animals and perhaps for people.",
+  "confidence": "established",
+  "sources": [
+   "larrasoana-2013",
+   "drake-2011"
+  ],
+  "links": [
+   {
+    "label": "African humid period",
+    "url": "https://en.wikipedia.org/wiki/African_humid_period"
+   },
+   {
+    "label": "Sahara pump theory",
+    "url": "https://en.wikipedia.org/wiki/Sahara_pump_theory"
+   }
+  ],
+  "map": {
+   "year": -123000,
+   "view": {
+    "center": [
+     15,
+     22
+    ],
+    "zoom": 2.4
+   },
+   "layers": [
+    "land",
+    "cities"
+   ],
+   "labels": [
+    {
+     "lat": 23,
+     "lon": 10,
+     "text": "Green Sahara"
+    },
+    {
+     "lat": 31,
+     "lon": 31,
+     "text": "Nile"
+    }
+   ]
+  }
+ },
+ {
+  "id": "fire-and-cooking",
+  "kind": "event",
+  "title": "Fire and cooking",
+  "year": -118000,
+  "precision": "circa",
+  "dateNote": "Burning in Wonderwerk Cave is about a million years old; the cooked starchy plants at Klasies River are about 120,000 years old.",
+  "place": {
+   "name": "Klasies River, South Africa",
+   "lat": -34.06,
+   "lon": 24.24
+  },
+  "regions": [
+   "africa",
+   "europe"
+  ],
+  "themes": [
+   "technology",
+   "food"
+  ],
+  "blurb": "Our species inherited fire from older humans. Burnt bone and plant ash show fires inside Wonderwerk Cave in South Africa about a million years ago, and pyrite found with burnt flint at Barnham in England suggests fire was being made there 400,000 years ago. Early Homo sapiens heated stone to make it flake better, and cooked starchy plants in hearths at Klasies River 120,000 years ago.",
+  "confidence": "established",
+  "sources": [
+   "berna-2012",
+   "davis-2025",
+   "brown-2009",
+   "larbey-2019"
+  ],
+  "links": [
+   {
+    "label": "Control of fire by early humans",
+    "url": "https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans"
+   }
+  ],
+  "map": {
+   "year": -118000,
+   "view": {
+    "center": [
+     15,
+     8
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "wonderwerk",
+     "barnham",
+     "klasies-river"
+    ]
+   }
+  }
+ },
+ {
+  "id": "panga-ya-saidi",
+  "kind": "event",
+  "title": "The oldest known burial in Africa",
+  "year": -76300,
+  "precision": "circa",
+  "dateNote": "The burial is dated to 78,300 years ago, give or take 4,100.",
+  "place": {
+   "name": "Panga ya Saidi, Kenya",
+   "lat": -3.66,
+   "lon": 39.72
+  },
+  "regions": [
+   "africa",
+   "sw-asia"
+  ],
+  "themes": [
+   "belief"
+  ],
+  "blurb": "About 78,000 years ago, in the cave of Panga ya Saidi near the coast of Kenya, a child of two and a half to three years was laid in a dug pit with legs drawn up, and covered with earth. The bones were still joined, so the body decayed where it was placed. It is the oldest known human burial in Africa, though burials at Skhul and Qafzeh are older.",
+  "confidence": "established",
+  "debate": "Berger and colleagues argue that Homo naledi buried its dead in Rising Star Cave more than 236,000 years ago; Martinón-Torres and colleagues reply that natural causes have not been ruled out.",
+  "sources": [
+   "martinon-torres-2021",
+   "grun-2005",
+   "berger-2025",
+   "martinon-torres-2024",
+   "griffith-naledi-2023"
+  ],
+  "links": [
+   {
+    "label": "Panga ya Saidi",
+    "url": "https://en.wikipedia.org/wiki/Panga_ya_Saidi"
+   }
+  ],
+  "map": {
+   "year": -76300,
+   "view": {
+    "center": [
+     36,
+     -3
+    ],
+    "zoom": 4
+   },
+   "layers": [
+    "land",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "panga-ya-saidi"
+    ]
+   }
+  }
+ },
+ {
+  "id": "toba",
+  "kind": "event",
+  "title": "The Toba eruption",
+  "year": -72000,
+  "precision": "circa",
+  "dateNote": "The eruption is dated to about 74,000 years ago.",
+  "place": {
+   "name": "Toba, Sumatra",
+   "lat": 2.6,
+   "lon": 98.83
+  },
+  "regions": [
+   "se-asia-pacific",
+   "s-asia",
+   "africa"
+  ],
+  "themes": [
+   "environment"
+  ],
+  "blurb": "About 74,000 years ago the Toba volcano on Sumatra erupted, the most explosive eruption of the last 2.6 million years. Its ash fell across the Indian Ocean and as far as South Africa. One theory held that the cold that followed nearly wiped out our species. Yet at sites in India and South Africa, people went on living and making tools above and below the ash.",
+  "confidence": "debated",
+  "debate": "Ambrose proposed that Toba's volcanic winter caused a human population bottleneck; ash in Lake Malawi shows no major cooling in East Africa, and sites in India and South Africa show people living through it.",
+  "sources": [
+   "ambrose-1998",
+   "lane-2013",
+   "petraglia-2007",
+   "smith-2018"
+  ],
+  "links": [
+   {
+    "label": "Youngest Toba eruption",
+    "url": "https://en.wikipedia.org/wiki/Youngest_Toba_eruption"
+   },
+   {
+    "label": "Toba catastrophe theory",
+    "url": "https://en.wikipedia.org/wiki/Toba_catastrophe_theory"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": -72000,
+   "view": {
+    "center": [
+     65,
+     -5
+    ],
+    "zoom": 1.6
+   },
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "toba",
+     "jwalapuram",
+     "pinnacle-point"
+    ]
+   }
+  }
  }
 ]
