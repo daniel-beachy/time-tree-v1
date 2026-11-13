@@ -13,7 +13,14 @@ const ZIP_URL = 'https://github.com/Seshat-Global-History-Databank/cliopatria/ra
 
 // Years to slice at. Milestone 1 ships the slices chapter 4 needs; milestone 2 extends this list
 // (about every 500 years before 1 CE, every 100 years to 1800, then the years stops need).
-export const YEARS = [-3000, -2500, -2000, -1750, -1500, -1300, -1200];
+export const YEARS = [
+  // Before 1 CE: about every 500 years, denser across the first-millennium-BCE empires chapter 5 covers.
+  -3000, -2500, -2000, -1750, -1500, -1300, -1200, -1000, -750, -500, -400, -300, -200, -100,
+  // 1 CE to 1800: every 100 years (there is no year 0, so the first slice is 1 CE).
+  1, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800,
+  // After 1800: the years chapters 8 and 9 turn on.
+  1850, 1900, 1914, 1950, 2000,
+];
 
 mkdirSync(CACHE, { recursive: true });
 mkdirSync(OUT, { recursive: true });
