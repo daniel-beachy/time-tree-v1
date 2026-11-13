@@ -542,3 +542,27 @@ Differences the next builder should know:
 - **Nav.** With seven items, the nav hides its emoji icons between 761 and 1180 px.
 
 Known rough edges left for milestone 2: map labels can still crowd each other near a highlighted place; the Sahul route stops short of Australia; images are not used yet (the card supports them); the chart component has only been used for world population.
+
+### Friday run handoff (2026-11-13)
+
+The scheduled night-1 job (2:15 AM Fri) failed to start: an API authentication error (403) ended it after a few seconds, with no work done. The Friday usage check-in ran the same units instead, on Opus, with up to three agents in separate worktrees, merged into `human-story`. **Committed locally only: not pushed.**
+
+- **Map data:** polity slices now run 3000 BCE to 2000 CE (every 100 years from 1 CE to 1800, plus 1850, 1900, 1914, 1950, 2000). Total `public/data/human` is 2.8 MB, under the 4 MB budget.
+- **Chapters drafted:** 1 (12 stops, 4 deep dives), 3 (14, 5), 5 (14, 5), 6 (14, 5), 7 (14, 4). All stay `draft`: `complete` needs every stop `checked`, which only the verifier pass sets. Content now has 80 stops and 235 sources; every DOI was checked against Crossref.
+- **src/ change:** about 25 lines in `src/human/map/engine.ts` so the new `farming` layer (`content/human/map/farming.geojson`) draws.
+- **Merges:** sources, cities and routes were merged by id. Tikal appeared in chapters 5 and 6 with different spans and now runs 600 BCE to 950 CE.
+- **Choices where the plan was unclear:**
+  - Chapter 1: Jebel Irhoud and Olorgesailie are older than the chapter's start, so they sit at -298000 and their `dateNote` gives the true ages. Pinnacle Point was added. No early dispersal lines were drawn, since they would show in later chapters too.
+  - Chapter 3: millet and rice, maize and Mehrgarh stops were added for regional balance. "Pottery, weaving, beer and bread" is folded in, and Newgrange is left out because no dated source opened. The farming map stop is set at -2500.
+  - Chapter 5: coinage is folded into Persia; Athens, Greek science and Alexandria are one stop; Roman law was dropped (no source opened).
+  - Chapter 6: universities were dropped, and movable type and Gutenberg are folded into chinese-inventions.
+  - Chapter 7: Russia crossing Siberia was dropped (no source opened), and the circumnavigation is folded into atlantic-crossing. The intro wording was changed so it doesn't clash with chapter 6's Norse and Polynesian stops.
+- **For the verifier (weaker sourcing):**
+  - Chapter 3: the -7000 start of the farming spread lines and the span for domestic forms.
+  - Chapter 7: Met essays, the Pitt Tokugawa page and Parker 2008 were read only through search results. The Cajamarca date is given as 1532 to 1533.
+  - Chapter 1: Florisbad's age rests on a university news page.
+  - Many UNESCO, Met and Britannica pages blocked automated fetching.
+- **Map gaps found:** the engine draws no `highlight.polities`, and the projection can't rotate, so the Polynesia stop uses the world view.
+- **Not looked at in the browser:** chapters 1, 5, 6 and 7's map states.
+- **Still to do (section 9 order):** chapters 8 and 9, finishing chapters 2 and 4, then the verifier pass.
+- **Usage at handoff:** weekly 54%, 5-hour window 86%.
