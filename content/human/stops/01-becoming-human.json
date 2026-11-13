@@ -1,0 +1,286 @@
+[
+ {
+  "id": "jebel-irhoud",
+  "kind": "event",
+  "title": "The oldest Homo sapiens: Jebel Irhoud",
+  "year": -298000,
+  "precision": "circa",
+  "dateNote": "Flint tools heated in fires date the fossils to 315,000 years ago, give or take 34,000; a tooth gave 286,000, give or take 32,000. The timeline starts at 300,000 years ago, so the stop sits there.",
+  "place": {
+   "name": "Jebel Irhoud, Morocco",
+   "lat": 31.85,
+   "lon": -8.87
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "movement",
+   "technology"
+  ],
+  "blurb": "At Jebel Irhoud in Morocco, excavators found skulls, jaws and teeth of early humans lying with stone tools. Flint tools that had been heated in fires date them to about 315,000 years ago. Their faces and teeth look much like ours, but the braincase keeps an older, more primitive shape. They are the oldest fossils yet assigned to our species, Homo sapiens.",
+  "confidence": "established",
+  "sources": [
+   "hublin-2017",
+   "richter-2017"
+  ],
+  "links": [
+   {
+    "label": "Jebel Irhoud",
+    "url": "https://en.wikipedia.org/wiki/Jebel_Irhoud"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": -298000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "jebel-irhoud"
+    ]
+   }
+  }
+ },
+ {
+  "id": "middle-stone-age",
+  "kind": "artifact",
+  "title": "New tools, and stone from far away",
+  "year": -298000,
+  "precision": "circa",
+  "dateNote": "Argon and uranium-series dates put the earliest Middle Stone Age layers at Olorgesailie between about 320,000 and 295,000 years ago. The timeline starts at 300,000 years ago, so the stop sits there.",
+  "place": {
+   "name": "Olorgesailie, Kenya",
+   "lat": -1.58,
+   "lon": 36.45
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "technology",
+   "exchange"
+  ],
+  "blurb": "In the Olorgesailie basin of southern Kenya, people made large hand axes for hundreds of thousands of years. By about 320,000 years ago they were making smaller, carefully shaped points instead, the start of what archaeologists call the Middle Stone Age. The basin has no obsidian, a volcanic glass, yet tools there were made from obsidian found 25 to about 90 kilometres away.",
+  "confidence": "established",
+  "sources": [
+   "brooks-2018",
+   "potts-2018",
+   "utah-olorgesailie-2018"
+  ],
+  "links": [
+   {
+    "label": "Olorgesailie",
+    "url": "https://en.wikipedia.org/wiki/Olorgesailie"
+   },
+   {
+    "label": "Middle Stone Age",
+    "url": "https://en.wikipedia.org/wiki/Middle_Stone_Age"
+   }
+  ],
+  "map": {
+   "year": -298000,
+   "view": {
+    "center": [
+     36.5,
+     -1.5
+    ],
+    "zoom": 5
+   },
+   "layers": [
+    "land",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "olorgesailie"
+    ]
+   }
+  }
+ },
+ {
+  "id": "not-alone",
+  "kind": "map",
+  "title": "Not the only humans",
+  "year": -298000,
+  "yearEnd": -68000,
+  "precision": "range",
+  "dateNote": "Each species has its own dates. The map shows the world about 275,000 years ago.",
+  "regions": [
+   "africa",
+   "europe",
+   "e-asia",
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "movement",
+   "environment"
+  ],
+  "blurb": "Homo sapiens shared the world with other kinds of human. Neanderthals lived in Europe and western Asia, and Denisovans further east. In South Africa the small-brained Homo naledi lived between about 335,000 and 236,000 years ago, and the Broken Hill skull from Zambia, of a different lineage, is about 299,000 years old. On Java, Homo erectus lasted until about 110,000 years ago.",
+  "confidence": "established",
+  "sources": [
+   "dirks-2017",
+   "grun-2020",
+   "rizal-2020",
+   "chen-2019",
+   "higham-2014"
+  ],
+  "links": [
+   {
+    "label": "Homo naledi",
+    "url": "https://en.wikipedia.org/wiki/Homo_naledi"
+   },
+   {
+    "label": "Kabwe 1",
+    "url": "https://en.wikipedia.org/wiki/Kabwe_1"
+   },
+   {
+    "label": "Homo erectus",
+    "url": "https://en.wikipedia.org/wiki/Homo_erectus"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": -275000,
+   "view": {
+    "center": [
+     50,
+     15
+    ],
+    "zoom": 1.3
+   },
+   "layers": [
+    "land",
+    "hominins"
+   ]
+  }
+ },
+ {
+  "id": "across-africa",
+  "kind": "map",
+  "title": "Many cradles across Africa",
+  "year": -258000,
+  "yearEnd": -231000,
+  "precision": "range",
+  "dateNote": "Florisbad is dated to about 260,000 years ago. For Omo I, 233,000 years ago is a minimum age: the fossil lies below a volcanic ash of that age.",
+  "place": {
+   "name": "Omo Kibish, Ethiopia",
+   "lat": 5.4,
+   "lon": 35.95
+  },
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "Jebel Irhoud lies in the far northwest of Africa, but other early fossils with some features like ours come from the south and east. A skull from Florisbad in South Africa is about 260,000 years old, and the Omo I skull from Ethiopia is at least 233,000. Many researchers now think our species took shape across the continent, among groups that split, met and mixed over a long time.",
+  "confidence": "debated",
+  "debate": "Scerri and colleagues argue that our species formed among many linked populations across Africa, against the older view of one population in one region; the few fossils cannot yet settle it.",
+  "sources": [
+   "scerri-2018",
+   "bergstrom-2021",
+   "vidal-2022",
+   "ufs-florisbad-2019",
+   "hublin-2017"
+  ],
+  "links": [
+   {
+    "label": "Omo remains",
+    "url": "https://en.wikipedia.org/wiki/Omo_remains"
+   },
+   {
+    "label": "Florisbad Skull",
+    "url": "https://en.wikipedia.org/wiki/Florisbad_Skull"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -235000,
+   "view": "africa",
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "jebel-irhoud",
+     "florisbad",
+     "omo-kibish"
+    ]
+   }
+  }
+ },
+ {
+  "id": "early-ventures",
+  "kind": "event",
+  "title": "Early ventures out of Africa",
+  "year": -192000,
+  "yearEnd": -88000,
+  "precision": "range",
+  "dateNote": "Misliya is dated to 194,000 to 177,000 years ago, a date that is disputed. Skhul and Qafzeh fall roughly between 130,000 and 90,000 years ago.",
+  "place": {
+   "name": "Misliya Cave, Israel",
+   "lat": 32.7,
+   "lon": 34.97
+  },
+  "regions": [
+   "sw-asia",
+   "europe",
+   "africa"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "People of our species left Africa long before the migration that gave rise to most people outside Africa today. A jaw with teeth from Misliya Cave in Israel has been dated to between 194,000 and 177,000 years ago. Burials at Skhul and Qafzeh, also in Israel, date to roughly 130,000 to 90,000 years ago. Ancient DNA suggests an early African group even mixed with Neanderthals.",
+  "confidence": "debated",
+  "debate": "Sharp and Paces argue that the uranium-series data give the Misliya jaw a minimum age of only about 60,000 to 70,000 years; the excavators defend the older date.",
+  "sources": [
+   "hershkovitz-2018",
+   "sharp-paces-2018",
+   "grun-2005",
+   "harvati-2019",
+   "posth-2017",
+   "bergstrom-2021"
+  ],
+  "links": [
+   {
+    "label": "Misliya cave",
+    "url": "https://en.wikipedia.org/wiki/Misliya_cave"
+   },
+   {
+    "label": "Skhul and Qafzeh hominins",
+    "url": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -150000,
+   "view": {
+    "center": [
+     30,
+     33
+    ],
+    "zoom": 4.2
+   },
+   "layers": [
+    "land",
+    "hominins",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "misliya",
+     "skhul",
+     "qafzeh",
+     "apidima"
+    ]
+   }
+  }
+ }
+]
