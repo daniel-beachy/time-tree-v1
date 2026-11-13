@@ -661,3 +661,89 @@ It opens every source, image page and "learn more" link, and compares each DOI's
 **Audit.** After a chapter is checked, Fable or Dan reads the records for two stops picked at random and opens the sources. If either fails, the chapter is checked again.
 
 **Order.** Chapter by chapter, weakest sourcing first: 7, 5, 3, 1, 6, then 2, 4, 8, 9 once written. One chapter is one unit of work; commit after each.
+
+### Arc review: stops to add, merge or move (2026-11-13, Fable)
+
+A read of all nine chapters as one story, after 83 stops. This is the work list for the next content pass. Every date below is a pointer, not a fact: the writer confirms it from a source. The 10 to 14 stop limit stays.
+
+**What works and should not change.** Chapters 1, 3 and 6 are balanced and well paced. Africa is present in every chapter. The "how we know" habit is consistent. Threads already run across chapters without being forced: the Sahara (chapters 1 and 3), sea crossings (Sahul, Polynesia, Zheng He, the Cape), pandemics (Rome, Justinian, the Black Death, the Great Dying), numbers and writing (bookkeeping, the alphabet, zero twice, algebra, printing).
+
+**The three biggest gaps, in order.**
+
+1. **China disappears for 8,000 years.** Between millet and rice (chapter 3) and Qin (221 BCE) there is no East Asian stop. Chapter 4 needs Shang China and the oracle bones.
+2. **Chapter 7 is Europe's chapter.** Ten of its 14 stops are tagged Europe, and Africa appears only through the slave trade. It needs a stop on African states in their own right.
+3. **Christianity has no stop**, and Buddhism's spread is two half-sentences. The plan listed "Christianity and Buddhism spread" for chapter 5 and it was lost.
+
+**Chapter 2 (6 stops; add 5).**
+
+- Add **dogs**, the first domesticated animal. It hands off to chapter 3.
+- Add **the giant animals vanish** (megafauna extinctions). It is the first worldwide mark people left on nature, and chapter 9's carbon stop answers it.
+- Add **the first pottery** (China and Japan, made by foragers). It corrects the idea that pots came with farming.
+- Add **the Natufians**: settled villages before farming. Göbekli Tepe opens chapter 3 straight after.
+- Add **the Younger Dryas and the start of the Holocene** as the closing stop.
+- Fold needles and clothing into `ice-age-peak`, and the last Neanderthals into `meeting-the-relatives` (already there). Leave Sunghir out unless a stop is short.
+
+**Chapter 4 (6 stops; add 7).**
+
+- Add **Shang China and the oracle bones**.
+- Add **the first empire and the first written laws** (Sargon, Ur-Nammu, Hammurabi) as one stop.
+- Add **Enheduanna and Gilgamesh**: the first author we can name.
+- Add **steppe herders and the Indo-European languages**. It follows `horse-and-wheel` and is a strong ancient-DNA story.
+- Add **bronze, tin and the Uluburun ship** as one stop. It shows the trade web whose failure `bronze-age-collapse` then describes.
+- Add **Kerma and Nubia**. `kush-and-aksum` picks it up in chapter 5.
+- Add **the Lapita voyagers**. `polynesian-voyagers` picks it up in chapter 6.
+- If a slot is left: **the Olmec**, if a sourced start date falls before 1200 BCE. Otherwise name them in `teotihuacan-maya`.
+- Leave Babylonian mathematics and the alphabet out of this chapter. Chapter 5 has the alphabet.
+
+**Chapter 5 (14 stops; one swap).**
+
+- Replace `ashoka` with a wider stop, **faiths that crossed borders**, starting at Ashoka's edicts and running to about 400 CE: Buddhism to Sri Lanka, Central Asia and China; Christianity through the Roman world, Armenia and Aksum. Ashoka's remorse and edicts open it. It gets the deep dive Ashoka did not have.
+- `fire-and-cooking` in chapter 1 and `kush-and-aksum` here show their start date but mostly describe other times. Each needs a `dateNote` saying so.
+
+**Chapter 7 (14 stops; one merge, one addition).**
+
+- Merge `around-africa` and `atlantic-crossing` into one stop, **sea routes join the oceans** (1488 to 1522). They are the same kind of event six years apart, and the chapter has four more stops on what followed in the Americas.
+- Add **Songhai, Benin and Kongo** (about 1464 to 1591): states that traded with, resisted and corresponded with Europeans. It goes before `atlantic-slave-trade`.
+- Fix from the spot check: Babur's victory over the Lodi sultan was in 1526.
+
+**Chapter 8 (not written). A proposed 14.** Chart stops marked (chart).
+
+1. Coal and steam in Britain
+2. Burning buried sunshine (chart: `co2-world`, 1750 to 1914)
+3. The Atlantic revolutions: North America, France, Latin America
+4. Haiti and the long end of slavery (one stop: the Haitian Revolution through abolition in Brazil, 1888)
+5. Vaccination, germs and clean water
+6. The first billion people (chart: `world-population`, 1500 to 1914)
+7. Railways, steamships and the telegraph (map with routes)
+8. The Opium Wars and the Taiping war
+9. Fifty million people on the move (mass migration; map)
+10. Darwin. This stop links to the Tree of Life area of the app: it is where the two halves of Deep Roots meet.
+11. The Meiji Restoration
+12. Empire: the Raj and the Scramble for Africa (map; polity slices 1850, 1900 and 1914 exist, and an 1880 slice would show the change best). Its deep dive covers the famines in India and the Congo Free State.
+13. Electricity, the telephone and flight
+14. Votes for women and schools for all (small chart: literacy, if the series' licence is clear)
+
+**Chapter 9 (3 chart stops exist). A proposed 14.**
+
+1. The First World War, with the 1918 influenza in its deep dive (map: 1914 slice)
+2. The Russian Revolution and the Great Depression
+3. `two-to-eight-billion` (exists). Give it a deep dive on fertiliser and the Green Revolution: how eight billion are fed.
+4. The Second World War and the Holocaust (deep dive)
+5. The atomic bomb and the Cold War (one stop, 1945 to 1991)
+6. Empires end: the United Nations, partition in India, decolonisation (map: 1950 and 2000 slices)
+7. China: revolution, famine and reform
+8. `living-longer` (exists). Antibiotics, vaccines and the end of smallpox belong in its deep dive.
+9. `carbon-dioxide` (exists)
+10. Into space
+11. Fewer people in extreme poverty, more who can read (chart)
+12. Computers and the internet (chart: share of people online)
+13. A world of cities (chart: share living in cities; the halfway point came about 2007)
+14. Eight billion: a short closing stop at 2022 that points back to the time strip on the landing page.
+
+Because stops run in start-date order, a chart stop's `year` should be the turning point it describes (2007 for cities, about 1990 for the internet), not the first year on its axis. The axis is set by `chart.from`.
+
+**Smaller notes.**
+
+- Chapter 7 has three stops that start in 1492. That is correct, and they read well in the present order.
+- Deep dives sit at about a third of stops everywhere except chapters 2, 4 and 9. Each new batch should bring those up.
+- South Asia and the Americas have the fewest stops overall (15 and 23 of 83). The additions above add two for East Asia, one for the Pacific and three for Africa; when a choice is otherwise even, prefer South Asia or the Americas.
