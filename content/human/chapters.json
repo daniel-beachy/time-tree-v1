@@ -222,15 +222,41 @@
   "to": 1750,
   "color": "#c4527c",
   "status": "draft",
-  "intro": "Ocean voyages joined the two halves of the world for the first time since the ice age. Crops, animals, silver, people and diseases crossed the oceans. For the Americas it was a catastrophe; for millions of Africans it meant enslavement. A single global economy took shape, and a new way of finding things out, science, began to pay off.",
+  "intro": "Ocean voyages joined the two halves of the world, this time for good. Crops, animals, silver, people and diseases crossed the oceans. For the Americas it was a catastrophe; for millions of Africans it meant enslavement. A single global economy took shape, and a new way of finding things out, science, began to pay off.",
   "map": {
    "year": 1450,
    "view": "world",
    "layers": [
-    "land"
+    "land",
+    "polities",
+    "cities",
+    "routes"
    ]
   },
-  "keyNumbers": []
+  "keyNumbers": [
+   {
+    "label": "Indigenous population of the Americas lost within a century of 1492",
+    "value": "about 90%",
+    "sources": [
+     "koch-2019",
+     "nunn-qian-2010"
+    ]
+   },
+   {
+    "label": "Africans forced onto slave ships for the Americas, 1501 to 1750",
+    "value": "about 4.7 million",
+    "sources": [
+     "slavevoyages-estimates"
+    ]
+   },
+   {
+    "label": "Silver reaching China across the Pacific each year after 1571",
+    "value": "about 50 tons",
+    "sources": [
+     "flynn-giraldez-2002"
+    ]
+   }
+  ]
  },
  {
   "id": "age-of-industry",

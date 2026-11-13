@@ -1391,5 +1391,257 @@
   "citation": "Smith E. I. et al. (2018). Humans thrived in South Africa through the Toba eruption about 74,000 years ago. Nature 555, 511–515.",
   "url": "https://doi.org/10.1038/nature25967",
   "accessed": "2026-11-13"
+ },
+ {
+  "id": "koch-2019",
+  "type": "paper",
+  "citation": "Koch A., Brierley C., Maslin M. M. & Lewis S. L. (2019). Earth system impacts of the European arrival and Great Dying in the Americas after 1492. Quaternary Science Reviews 207, 13–36.",
+  "url": "https://doi.org/10.1016/j.quascirev.2018.12.004",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "nunn-qian-2010",
+  "type": "paper",
+  "citation": "Nunn N. & Qian N. (2010). The Columbian Exchange: a history of disease, food, and ideas. Journal of Economic Perspectives 24(2), 163–188.",
+  "url": "https://doi.org/10.1257/jep.24.2.163",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "vagene-2018",
+  "type": "paper",
+  "citation": "Vågene Å. J. et al. (2018). Salmonella enterica genomes from victims of a major sixteenth-century epidemic in Mexico. Nature Ecology & Evolution 2, 520–528.",
+  "url": "https://doi.org/10.1038/s41559-017-0446-6",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "dittmar-2011",
+  "type": "paper",
+  "citation": "Dittmar J. E. (2011). Information technology and economic change: the impact of the printing press. Quarterly Journal of Economics 126(3), 1133–1172.",
+  "url": "https://doi.org/10.1093/qje/qjr035",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "rubin-2014",
+  "type": "paper",
+  "citation": "Rubin J. (2014). Printing and Protestants: an empirical test of the role of printing in the Reformation. Review of Economics and Statistics 96(2), 270–286.",
+  "url": "https://doi.org/10.1162/REST_a_00368",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "gelderblom-2013",
+  "type": "paper",
+  "citation": "Gelderblom O., de Jong A. & Jonker J. (2013). The formative years of the modern corporation: the Dutch East India Company VOC, 1602–1623. Journal of Economic History 73(4), 1050–1076.",
+  "url": "https://doi.org/10.1017/S0022050713000879",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "gelderblom-jonker-2004",
+  "type": "paper",
+  "citation": "Gelderblom O. & Jonker J. (2004). Completing a financial revolution: the finance of the Dutch East India trade and the rise of the Amsterdam capital market, 1595–1612. Journal of Economic History 64(3), 641–672.",
+  "url": "https://doi.org/10.1017/S002205070400292X",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "neukom-2019",
+  "type": "paper",
+  "citation": "Neukom R. et al. (2019). No evidence for globally coherent warm and cold periods over the preindustrial Common Era. Nature 571, 550–554.",
+  "url": "https://doi.org/10.1038/s41586-019-1401-2",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "degroot-2018",
+  "type": "paper",
+  "citation": "Degroot D. (2018). Climate change and society in the 15th to 18th centuries. WIREs Climate Change 9(3), e518.",
+  "url": "https://doi.org/10.1002/wcc.518",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "parker-2008",
+  "type": "paper",
+  "citation": "Parker G. (2008). Crisis and catastrophe: the global crisis of the seventeenth century reconsidered. American Historical Review 113(4), 1053–1079.",
+  "url": "https://doi.org/10.1086/ahr.113.4.1053",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "flynn-giraldez-2002",
+  "type": "paper",
+  "citation": "Flynn D. O. & Giráldez A. (2002). Cycles of silver: global economic unity through the mid-eighteenth century. Journal of World History 13(2), 391–427.",
+  "url": "https://doi.org/10.1353/jwh.2002.0035",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "dell-2010",
+  "type": "paper",
+  "citation": "Dell M. (2010). The persistent effects of Peru's mining mita. Econometrica 78(6), 1863–1903.",
+  "url": "https://doi.org/10.3982/ECTA8121",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "nunn-2008",
+  "type": "paper",
+  "citation": "Nunn N. (2008). The long-term effects of Africa's slave trades. Quarterly Journal of Economics 123(1), 139–176.",
+  "url": "https://doi.org/10.1162/qjec.2008.123.1.139",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "lane-2021-potosi",
+  "type": "book",
+  "citation": "Lane K. (2021). Potosí. In M. Thurner & J. Pimentel (eds), New World Objects of Knowledge. University of London Press (open access).",
+  "url": "https://read.uolpress.co.uk/read/new-world-objects-of-knowledge/section/8931f828-06b4-495b-8171-38472a1abd0b",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "slavevoyages-estimates",
+  "type": "dataset",
+  "citation": "SlaveVoyages. Trans-Atlantic Slave Trade: Estimates, 1501–1866 (captives embarked, by 25-year period).",
+  "url": "https://legacy.slavevoyages.org/assessment/estimates",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "eltis-slavevoyages-method",
+  "type": "web",
+  "citation": "Eltis D. (2008, reposted 2024). The Trans-Atlantic Slave Trade Database: methodology. SlaveVoyages.",
+  "url": "https://legacy.slavevoyages.org/blog/methodology-trans-atlantic",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "eltis-richardson-maps",
+  "type": "web",
+  "citation": "Eltis D. & Richardson D. (2024). Introductory maps to the transatlantic slave trade. SlaveVoyages (from their Atlas of the Transatlantic Slave Trade, Yale, 2010).",
+  "url": "https://legacy.slavevoyages.org/blog/all-intro-maps",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "museogalileo-africa",
+  "type": "museum",
+  "citation": "Museo Galileo, Florence. The circumnavigation of Africa (Fra Mauro exhibition: historical context).",
+  "url": "https://mostre.museogalileo.it/framauro/en/historical-context/the-sea-and-trade/the-circumnavigation-of-africa.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "loc-columbus-taino",
+  "type": "museum",
+  "citation": "Library of Congress. Columbus and the Taíno (Exploring the Early Americas exhibition).",
+  "url": "https://loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "princeton-magellan",
+  "type": "web",
+  "citation": "Princeton University Library. Ferdinand Magellan (Pacific Islands maps: explorers).",
+  "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "fitch-aha-conquest",
+  "type": "web",
+  "citation": "Fitch N. (2004). The Conquest of Mexico: what the textbooks have to say. American Historical Association.",
+  "url": "https://www.historians.org/resource/what-the-textbooks-have-to-say-some-suggestions-for-questions-to-ask-of-the-evidence/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mariners-pizarro",
+  "type": "museum",
+  "citation": "The Mariners' Museum and Park. Francisco Pizarro (Exploration through the Ages).",
+  "url": "https://exploration.marinersmuseum.org/subject/francisco-pizarro/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "pitts-95-theses",
+  "type": "museum",
+  "citation": "Pitts Theology Library, Emory University (2017). The Image of a Fractured Church: Martin Luther and the 95 Theses.",
+  "url": "https://pitts.emory.edu/exhibits/95theses2017/index.cfm",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-ottomans",
+  "type": "museum",
+  "citation": "Yalman S. The Art of the Ottomans before 1600. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/en/essays/the-art-of-the-ottomans-before-1600",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-safavids",
+  "type": "museum",
+  "citation": "Yalman S., after Komaroff L. (2002). The Art of the Safavids before 1600. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-mughals",
+  "type": "museum",
+  "citation": "The Art of the Mughals before 1600. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-edo",
+  "type": "museum",
+  "citation": "Art of the Edo Period (1615–1868). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/en/essays/art-of-the-edo-period-1615-1868",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-qing-painting",
+  "type": "museum",
+  "citation": "The Qing Dynasty (1644–1911): Painting. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/de/essays/the-qing-dynasty-1644-1911-painting",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-qing-courtiers",
+  "type": "museum",
+  "citation": "Hearn M. K. (2003). The Qing Dynasty (1644–1911): the courtiers, officials and professional artists. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/en/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "met-manila-galleon",
+  "type": "museum",
+  "citation": "The Manila Galleon Trade (1565–1815). Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+  "url": "https://www.metmuseum.org/es/essays/the-manila-galleon-trade-1565-1815",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "pitt-tokugawa",
+  "type": "web",
+  "citation": "University of Pittsburgh, Japan Information Access Project. Tokugawa Period (1603–1868).",
+  "url": "https://japanpitt.pitt.edu/node/391",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mactutor-copernicus",
+  "type": "reference",
+  "citation": "O'Connor J. J. & Robertson E. F. Nicolaus Copernicus. MacTutor History of Mathematics, University of St Andrews.",
+  "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Copernicus/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mactutor-galileo",
+  "type": "reference",
+  "citation": "O'Connor J. J. & Robertson E. F. Galileo Galilei. MacTutor History of Mathematics, University of St Andrews.",
+  "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galileo/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "mactutor-newton",
+  "type": "reference",
+  "citation": "O'Connor J. J. & Robertson E. F. Isaac Newton. MacTutor History of Mathematics, University of St Andrews.",
+  "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "st-andrews-phil-trans",
+  "type": "web",
+  "citation": "University of St Andrews, Publishing the Philosophical Transactions project. Phil Trans in the 17th century.",
+  "url": "https://arts.st-andrews.ac.uk/philosophicaltransactions/brief-history-of-phil-trans/phil-trans-in-17th-century/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "sep-enlightenment",
+  "type": "reference",
+  "citation": "Stanford Encyclopedia of Philosophy. Enlightenment (first published 2010; substantive revision 2017).",
+  "url": "https://plato.stanford.edu/entries/enlightenment/",
+  "accessed": "2026-11-13"
  }
 ]

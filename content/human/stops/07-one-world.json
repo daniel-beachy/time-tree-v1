@@ -1,0 +1,962 @@
+[
+ {
+  "id": "little-ice-age",
+  "kind": "event",
+  "title": "The Little Ice Age",
+  "year": 1450,
+  "yearEnd": 1800,
+  "precision": "range",
+  "regions": [
+   "global",
+   "europe",
+   "n-america"
+  ],
+  "themes": [
+   "environment"
+  ],
+  "blurb": "Between the 1400s and the 1700s, the climate in many regions turned colder, with several especially chilly spells. Many historians link the cold to failed harvests, famines, revolts, wars and epidemics, and point to a wave of crises in the mid-1600s. But the cold did not strike everywhere at once: the coldest decades came in the 1400s in the Pacific and the 1600s in north-western Europe.",
+  "confidence": "debated",
+  "debate": "How far the cold caused the crises is argued. Some researchers stress that political and economic choices made societies vulnerable or resilient, and Koch and colleagues link part of the cooling to forests regrowing in the depopulated Americas.",
+  "sources": [
+   "degroot-2018",
+   "neukom-2019",
+   "parker-2008",
+   "koch-2019"
+  ],
+  "links": [
+   {
+    "label": "Little Ice Age",
+    "url": "https://en.wikipedia.org/wiki/Little_Ice_Age"
+   },
+   {
+    "label": "General Crisis",
+    "url": "https://en.wikipedia.org/wiki/General_Crisis"
+   }
+  ],
+  "map": {
+   "year": 1650,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "labels": [
+    {
+     "lat": 56,
+     "lon": 0,
+     "text": "coldest in the 1600s"
+    },
+    {
+     "lat": 0,
+     "lon": -120,
+     "text": "coldest in the 1400s"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ottomans-safavids-mughals",
+  "kind": "map",
+  "title": "Ottomans, Safavids and Mughals",
+  "year": 1453,
+  "yearEnd": 1600,
+  "precision": "range",
+  "place": {
+   "name": "Istanbul, Turkey",
+   "lat": 41.01,
+   "lon": 28.98
+  },
+  "regions": [
+   "sw-asia",
+   "s-asia",
+   "europe"
+  ],
+  "themes": [
+   "power",
+   "belief",
+   "art"
+  ],
+  "blurb": "In 1453 the Ottoman sultan Mehmed II captured Constantinople and made it his capital; over time it came to be called Istanbul. In 1501 Ismail was crowned the first Safavid shah of Iran, and his successor Abbas moved the capital to Isfahan in 1597–98. In India, Babur defeated the Lodi sultan by 1527, and his grandson Akbar built the Mughal Empire.",
+  "confidence": "established",
+  "sources": [
+   "met-ottomans",
+   "met-safavids",
+   "met-mughals",
+   "cliopatria-2025"
+  ],
+  "links": [
+   {
+    "label": "Ottoman Empire",
+    "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+   },
+   {
+    "label": "Safavid Iran",
+    "url": "https://en.wikipedia.org/wiki/Safavid_Iran"
+   },
+   {
+    "label": "Mughal Empire",
+    "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1600,
+   "view": {
+    "center": [
+     52,
+     32
+    ],
+    "zoom": 2.2
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "istanbul",
+     "isfahan",
+     "agra"
+    ],
+    "polities": [
+     "Ottoman Empire",
+     "Safavid Dynasty",
+     "Mughal Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "around-africa",
+  "kind": "map",
+  "title": "By sea around Africa to India",
+  "year": 1488,
+  "yearEnd": 1498,
+  "precision": "range",
+  "place": {
+   "name": "Cape of Good Hope, South Africa",
+   "lat": -34.36,
+   "lon": 18.47
+  },
+  "regions": [
+   "africa",
+   "s-asia",
+   "europe"
+  ],
+  "themes": [
+   "movement",
+   "exchange"
+  ],
+  "blurb": "Portuguese crews had been sailing south along the West African coast since the mid-1400s. In 1488 Bartolomeu Dias rounded the Cape of Good Hope, the southern end of the continent. In 1497 Vasco da Gama followed, called at Mombasa and Malindi, where he hired an experienced navigator, and in May 1498 reached Calicut in India, a great port of the spice trade.",
+  "confidence": "established",
+  "sources": [
+   "museogalileo-africa"
+  ],
+  "links": [
+   {
+    "label": "Bartolomeu Dias",
+    "url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+   },
+   {
+    "label": "Vasco da Gama",
+    "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1498,
+   "view": {
+    "center": [
+     30,
+     0
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "lisbon",
+     "cape-of-good-hope",
+     "malindi",
+     "calicut"
+    ],
+    "routes": [
+     "portuguese-cape-route"
+    ],
+    "polities": [
+     "Kingdom of Portugal"
+    ]
+   }
+  }
+ },
+ {
+  "id": "atlantic-crossing",
+  "kind": "map",
+  "title": "Across the Atlantic and around the world",
+  "year": 1492,
+  "yearEnd": 1522,
+  "precision": "range",
+  "place": {
+   "name": "Guanahani (San Salvador), Bahamas",
+   "lat": 24.05,
+   "lon": -74.5
+  },
+  "regions": [
+   "c-s-america",
+   "europe",
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "In 1492 Christopher Columbus, sailing for the Spanish crown, reached Guanahani in the Bahamas, home of the Taíno, the most numerous people of the Caribbean. He believed to the end that he had reached Asia. In 1519 five ships and 237 men left Seville under Ferdinand Magellan. One ship and 18 men came back in 1522, the first crew to sail around the world.",
+  "confidence": "established",
+  "dateNote": "Magellan himself was killed in 1521 at Mactan in the Philippines, fighting forces led by Lapulapu; Juan Sebastián de Elcano brought the last ship home.",
+  "sources": [
+   "loc-columbus-taino",
+   "princeton-magellan"
+  ],
+  "links": [
+   {
+    "label": "Voyages of Christopher Columbus",
+    "url": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
+   },
+   {
+    "label": "Magellan expedition",
+    "url": "https://en.wikipedia.org/wiki/Magellan_expedition"
+   },
+   {
+    "label": "Taíno",
+    "url": "https://en.wikipedia.org/wiki/Taíno"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1522,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "guanahani",
+     "seville"
+    ],
+    "routes": [
+     "columbus-1492",
+     "magellan-elcano"
+    ]
+   }
+  }
+ },
+ {
+  "id": "columbian-exchange",
+  "kind": "map",
+  "title": "The Columbian Exchange",
+  "year": 1492,
+  "yearEnd": 1700,
+  "precision": "range",
+  "regions": [
+   "global",
+   "c-s-america",
+   "n-america",
+   "africa",
+   "e-asia",
+   "europe"
+  ],
+  "themes": [
+   "food",
+   "health",
+   "exchange"
+  ],
+  "blurb": "After 1492, crops, germs, ideas and people crossed the oceans between the Americas and the rest of the world. Maize, potatoes, sweet potatoes and cassava became staple foods in Africa, Asia and Europe, and chili peppers changed cooking from Hungary to Thailand. Wheat, sugar cane, coffee and bananas went the other way. So did smallpox, measles and other diseases new to the Americas.",
+  "confidence": "established",
+  "debate": "How much the new crops raised Old World populations is still being measured. Nunn and Qian estimate the potato alone explains about an eighth of the population increase where it could be grown.",
+  "sources": [
+   "nunn-qian-2010",
+   "flynn-giraldez-2002"
+  ],
+  "links": [
+   {
+    "label": "Columbian exchange",
+    "url": "https://en.wikipedia.org/wiki/Columbian_exchange"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1600,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "routes": [
+     "manila-galleons",
+     "atlantic-system",
+     "portuguese-cape-route"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 15,
+     "lon": -90,
+     "text": "maize, potatoes, cacao"
+    },
+    {
+     "lat": 40,
+     "lon": 90,
+     "text": "wheat, rice, sugar cane"
+    }
+   ]
+  }
+ },
+ {
+  "id": "great-dying",
+  "kind": "event",
+  "title": "The Great Dying in the Americas",
+  "year": 1492,
+  "yearEnd": 1650,
+  "precision": "range",
+  "place": {
+   "name": "Teposcolula-Yucundaa, Oaxaca, Mexico",
+   "lat": 17.51,
+   "lon": -97.49
+  },
+  "regions": [
+   "c-s-america",
+   "n-america"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "Smallpox, measles, typhus and other diseases from Afro-Eurasia reached peoples in the Americas who had never met them. Epidemics came in waves, alongside conquest and war. A 2019 review estimates that about 90 percent of the Indigenous population died within a century of 1492, some 56 million people. Central Mexico, home to just under 15 million people in 1519, had about 1.5 million a century later.",
+  "confidence": "debated",
+  "debate": "Published estimates of the population in 1492 range from about 8 million to over 110 million. Koch and colleagues combine them into a middle estimate of about 60 million.",
+  "sources": [
+   "koch-2019",
+   "nunn-qian-2010",
+   "vagene-2018",
+   "fitch-aha-conquest"
+  ],
+  "links": [
+   {
+    "label": "Population history of the Indigenous peoples of the Americas",
+    "url": "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas"
+   },
+   {
+    "label": "Cocoliztli epidemics",
+    "url": "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1550,
+   "view": {
+    "center": [
+     -80,
+     8
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "mexico-city",
+     "cusco"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 17.51,
+     "lon": -97.49,
+     "text": "Teposcolula-Yucundaa"
+    },
+    {
+     "lat": 19,
+     "lon": -71,
+     "text": "Hispaniola"
+    }
+   ]
+  }
+ },
+ {
+  "id": "atlantic-slave-trade",
+  "kind": "map",
+  "title": "The transatlantic slave trade",
+  "year": 1501,
+  "yearEnd": 1866,
+  "precision": "range",
+  "place": {
+   "name": "Atlantic Ocean",
+   "lat": 0,
+   "lon": -20
+  },
+  "regions": [
+   "africa",
+   "c-s-america",
+   "n-america",
+   "europe"
+  ],
+  "themes": [
+   "movement",
+   "power",
+   "exchange"
+  ],
+  "blurb": "Between the early 1500s and 1866, ships from Europe and the Americas carried about 12.5 million enslaved Africans across the Atlantic; about 10.7 million survived the voyage. Some 4.7 million were taken before 1750, and the trade grew larger after that. West-Central Africa was the largest source. About 95 percent of the captives were landed in the Caribbean and South America, most of them in sugar-growing regions.",
+  "confidence": "established",
+  "dateNote": "Figures are the SlaveVoyages estimates of captives embarked and landed, built from records of about 36,000 voyages.",
+  "sources": [
+   "slavevoyages-estimates",
+   "eltis-slavevoyages-method",
+   "eltis-richardson-maps",
+   "nunn-2008"
+  ],
+  "links": [
+   {
+    "label": "Atlantic slave trade",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+   },
+   {
+    "label": "SlaveVoyages database",
+    "url": "https://www.slavevoyages.org/"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1700,
+   "view": {
+    "center": [
+     -25,
+     8
+    ],
+    "zoom": 1.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "salvador-bahia",
+     "rio-de-janeiro",
+     "liverpool"
+    ],
+    "routes": [
+     "atlantic-system"
+    ]
+   },
+   "labels": [
+    {
+     "lat": -9,
+     "lon": 15,
+     "text": "West-Central Africa"
+    },
+    {
+     "lat": 5,
+     "lon": 3,
+     "text": "Bight of Benin"
+    },
+    {
+     "lat": 18,
+     "lon": -70,
+     "text": "Caribbean"
+    }
+   ]
+  }
+ },
+ {
+  "id": "printing-and-reformation",
+  "kind": "event",
+  "title": "Printing and the Reformation",
+  "year": 1517,
+  "precision": "exact",
+  "place": {
+   "name": "Wittenberg, Germany",
+   "lat": 51.87,
+   "lon": 12.65
+  },
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "knowledge",
+   "belief",
+   "technology"
+  ],
+  "blurb": "Printing with movable metal type spread across Europe from Mainz in the late 1400s. Between 1500 and 1600, cities that had a press in the 1400s grew about 60 percent faster than similar cities without one. On 31 October 1517 Martin Luther published 95 theses challenging the sale of indulgences, generally seen as the start of the Protestant Reformation. Towns with early presses were more likely to turn Protestant.",
+  "confidence": "established",
+  "debate": "How much printing caused the Reformation is argued. Rubin estimates that cities with a press by 1500 were at least 29 percentage points more likely to be Protestant by 1600.",
+  "sources": [
+   "dittmar-2011",
+   "rubin-2014",
+   "pitts-95-theses"
+  ],
+  "links": [
+   {
+    "label": "Printing press",
+    "url": "https://en.wikipedia.org/wiki/Printing_press"
+   },
+   {
+    "label": "Ninety-five Theses",
+    "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+   },
+   {
+    "label": "Reformation",
+    "url": "https://en.wikipedia.org/wiki/Reformation"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1520,
+   "view": {
+    "center": [
+     10,
+     49
+    ],
+    "zoom": 4.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "wittenberg"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 50.0,
+     "lon": 8.27,
+     "text": "Mainz"
+    }
+   ]
+  }
+ },
+ {
+  "id": "fall-of-aztec-and-inca",
+  "kind": "event",
+  "title": "The fall of the Aztec and Inca empires",
+  "year": 1519,
+  "yearEnd": 1533,
+  "precision": "range",
+  "place": {
+   "name": "Tenochtitlan (Mexico City)",
+   "lat": 19.43,
+   "lon": -99.13
+  },
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "power",
+   "health"
+  ],
+  "blurb": "In 1519 Hernán Cortés landed in Mexico. He gained many Indigenous allies, above all Tlaxcala, a long-time enemy of the Mexica. Smallpox weakened Tenochtitlan's defenders, and the city fell after a siege in 1521. Between 1532 and 1533 Francisco Pizarro's small force, arriving during an Inca civil war, captured and executed the ruler Atahualpa despite a huge ransom, then took Cusco.",
+  "confidence": "established",
+  "debate": "Why so few Spaniards won is still argued: accounts variously stress steel and horses, Indigenous allies, disease, and divisions within the two empires.",
+  "sources": [
+   "fitch-aha-conquest",
+   "mariners-pizarro"
+  ],
+  "links": [
+   {
+    "label": "Fall of Tenochtitlan",
+    "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+   },
+   {
+    "label": "Spanish conquest of the Inca Empire",
+    "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1520,
+   "view": {
+    "center": [
+     -85,
+     2
+    ],
+    "zoom": 1.7
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "tenochtitlan",
+     "cajamarca",
+     "cusco"
+    ],
+    "polities": [
+     "Aztec Triple Alliance",
+     "Inca Empire"
+    ]
+   }
+  }
+ },
+ {
+  "id": "new-science",
+  "kind": "event",
+  "title": "A new science: from Copernicus to Newton",
+  "year": 1543,
+  "yearEnd": 1687,
+  "precision": "range",
+  "place": {
+   "name": "London, England",
+   "lat": 51.51,
+   "lon": -0.13
+  },
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "knowledge"
+  ],
+  "blurb": "In 1543 Nicolaus Copernicus published a book placing the Sun, not the Earth, near the centre of the universe. In 1610 Galileo described mountains on the Moon and four moons circling Jupiter, seen through his telescope; in 1633 the Inquisition condemned him. The Royal Society first met in London in 1660. Newton's Principia of 1687 showed one law of gravity governing planets, comets and tides.",
+  "confidence": "established",
+  "sources": [
+   "mactutor-copernicus",
+   "mactutor-galileo",
+   "mactutor-newton",
+   "st-andrews-phil-trans"
+  ],
+  "links": [
+   {
+    "label": "Scientific Revolution",
+    "url": "https://en.wikipedia.org/wiki/Scientific_Revolution"
+   },
+   {
+    "label": "Philosophiæ Naturalis Principia Mathematica",
+    "url": "https://en.wikipedia.org/wiki/Philosophiæ_Naturalis_Principia_Mathematica"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1687,
+   "view": {
+    "center": [
+     5,
+     48
+    ],
+    "zoom": 3.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "london"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 45.44,
+     "lon": 12.33,
+     "text": "Venice"
+    },
+    {
+     "lat": 49.45,
+     "lon": 11.08,
+     "text": "Nuremberg"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potosi-silver",
+  "kind": "map",
+  "title": "Silver, Potosí and the first global economy",
+  "year": 1545,
+  "yearEnd": 1750,
+  "precision": "range",
+  "place": {
+   "name": "Potosí, Bolivia",
+   "lat": -19.58,
+   "lon": -65.75
+  },
+  "regions": [
+   "c-s-america",
+   "e-asia",
+   "se-asia-pacific",
+   "global"
+  ],
+  "themes": [
+   "exchange",
+   "power"
+  ],
+  "blurb": "In 1545 rich silver ore was found in the Cerro Rico, a mountain at Potosí in the Andes. From 1573 a forced labour draft, the mita, sent Indigenous men to its mines, and by 1592 the city held nearly 100,000 people. China had moved its money and taxes onto silver, which made silver worth more there. American and Japanese silver flowed towards China by every route.",
+  "confidence": "established",
+  "sources": [
+   "lane-2021-potosi",
+   "dell-2010",
+   "flynn-giraldez-2002",
+   "met-manila-galleon"
+  ],
+  "links": [
+   {
+    "label": "Potosí",
+    "url": "https://en.wikipedia.org/wiki/Potosí"
+   },
+   {
+    "label": "Mita (Inca)",
+    "url": "https://en.wikipedia.org/wiki/Mita_(Inca)"
+   },
+   {
+    "label": "Manila galleon",
+    "url": "https://en.wikipedia.org/wiki/Manila_galleon"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": 1600,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "potosi",
+     "acapulco",
+     "manila",
+     "seville",
+     "beijing"
+    ],
+    "routes": [
+     "manila-galleons",
+     "silver-to-europe"
+    ],
+    "polities": [
+     "Spanish Empire",
+     "Ming Dynasty"
+    ]
+   }
+  }
+ },
+ {
+  "id": "tokugawa-and-qing",
+  "kind": "map",
+  "title": "Tokugawa Japan and Qing China",
+  "year": 1600,
+  "yearEnd": 1700,
+  "precision": "range",
+  "place": {
+   "name": "Edo (Tokyo), Japan",
+   "lat": 35.69,
+   "lon": 139.69
+  },
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "power",
+   "exchange"
+  ],
+  "blurb": "In 1600 Tokugawa Ieyasu won a decisive battle at Sekigahara, and in 1603 he became shogun, Japan's military ruler; his descendants governed for over 250 years. By the late 1630s foreigners were barred, except Chinese and Dutch merchants trading at Nagasaki. In 1644 the Manchus, from north-east of the Great Wall, conquered the Ming and founded the Qing dynasty, which lasted nearly 300 years.",
+  "confidence": "established",
+  "sources": [
+   "pitt-tokugawa",
+   "met-edo",
+   "met-qing-painting",
+   "met-qing-courtiers"
+  ],
+  "links": [
+   {
+    "label": "Tokugawa shogunate",
+    "url": "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
+   },
+   {
+    "label": "Transition from Ming to Qing",
+    "url": "https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1700,
+   "view": {
+    "center": [
+     122,
+     36
+    ],
+    "zoom": 3.0
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "edo",
+     "nagasaki",
+     "beijing"
+    ],
+    "polities": [
+     "Tokugawa Shogunate",
+     "Qing Dynasty"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dutch-east-india-company",
+  "kind": "event",
+  "title": "Joint-stock companies and the Amsterdam market",
+  "year": 1602,
+  "precision": "exact",
+  "place": {
+   "name": "Amsterdam, Netherlands",
+   "lat": 52.37,
+   "lon": 4.9
+  },
+  "regions": [
+   "europe",
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "exchange",
+   "power"
+  ],
+  "blurb": "The Dutch East India Company, or VOC, was founded in 1602 to trade with Asia. Its shares could be sold on to other investors, and a busy market in them and in related loans grew up in Amsterdam; by 1609 it was strong enough to set terms for government borrowing. With England's East India Company, the VOC is seen as an early model for the modern corporation.",
+  "confidence": "established",
+  "debate": "Gelderblom and colleagues argue that features such as limited liability for managers were not planned at the start, but added step by step to solve the VOC's money problems.",
+  "sources": [
+   "gelderblom-2013",
+   "gelderblom-jonker-2004"
+  ],
+  "links": [
+   {
+    "label": "Dutch East India Company",
+    "url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+   },
+   {
+    "label": "Amsterdam Stock Exchange",
+    "url": "https://en.wikipedia.org/wiki/Amsterdam_Stock_Exchange"
+   }
+  ],
+  "map": {
+   "year": 1650,
+   "view": {
+    "center": [
+     55,
+     10
+    ],
+    "zoom": 1.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "amsterdam"
+    ],
+    "routes": [
+     "voc-route"
+    ],
+    "polities": [
+     "Dutch Republic"
+    ]
+   }
+  }
+ },
+ {
+  "id": "enlightenment-begins",
+  "kind": "event",
+  "title": "The Enlightenment begins",
+  "year": 1687,
+  "yearEnd": 1790,
+  "precision": "range",
+  "place": {
+   "name": "Paris, France",
+   "lat": 48.86,
+   "lon": 2.35
+  },
+  "regions": [
+   "europe",
+   "n-america"
+  ],
+  "themes": [
+   "knowledge",
+   "power",
+   "belief"
+  ],
+  "blurb": "Inspired by the success of the new science, writers in Europe and the Americas argued that human reason, rather than tradition or inherited authority, should guide both knowledge and public life. This movement, the Enlightenment, had centres in France, Scotland and the German lands. In 1784 the philosopher Immanuel Kant defined enlightenment as humanity's release from its self-incurred immaturity.",
+  "confidence": "established",
+  "dateNote": "There is no agreed start date. Its roots lie in the scientific revolution, and the 1790s are a common end point.",
+  "sources": [
+   "sep-enlightenment",
+   "mactutor-newton"
+  ],
+  "links": [
+   {
+    "label": "Age of Enlightenment",
+    "url": "https://en.wikipedia.org/wiki/Age_of_Enlightenment"
+   }
+  ],
+  "map": {
+   "year": 1740,
+   "view": {
+    "center": [
+     -25,
+     45
+    ],
+    "zoom": 1.8
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "places": [
+     "paris",
+     "edinburgh",
+     "london",
+     "amsterdam"
+    ]
+   }
+  }
+ }
+]
