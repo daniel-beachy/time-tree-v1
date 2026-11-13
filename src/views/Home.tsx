@@ -94,6 +94,14 @@ export function Home() {
             </a>
           ))}
         </div>
+        <a className="human-door" href={href('human')}>
+          <div className="hd-icon" aria-hidden>🌍</div>
+          <div>
+            <h3>Zoom in: the Human Story</h3>
+            <p>Our own species is the last sliver of all this. Follow 300,000 years of human history on a map that moves through time.</p>
+          </div>
+          <span className="hd-go">Open →</span>
+        </a>
       </section>
 
       <section className="section">

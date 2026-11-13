@@ -1,0 +1,15 @@
+/* Doors into Human Story from the rest of Deep Roots. Loaded with the main app; the area's own styles are in human.css. */
+/* The entrance in the main nav carries the warm accent everywhere in the app. */
+.nav a.nav-human { color: #f0b35a; }
+.nav a.nav-human.on { background: #f0b35a; color: #100c08; }
+
+/* ── entrances from the rest of the app ── */
+.human-door { display: flex; gap: 18px; align-items: center; margin-top: 16px; padding: 20px 22px; border-radius: var(--radius); color: #f3ead9;
+  background: linear-gradient(100deg, #2a1a0e, #100c08 70%); border: 1px solid #f0b35a55; transition: 0.2s; }
+.human-door:hover { text-decoration: none; border-color: #f0b35a; transform: translateY(-2px); }
+.human-door .hd-icon { font-size: 34px; }
+.human-door h3 { color: #f0b35a; margin-bottom: 4px; }
+.human-door p { color: #d9cdb6; font-size: 14px; }
+.human-door .hd-go { margin-left: auto; color: #f0b35a; font-weight: 600; white-space: nowrap; }
+@media (max-width: 560px) { .human-door { flex-wrap: wrap; } .human-door .hd-go { margin-left: 0; } }
+

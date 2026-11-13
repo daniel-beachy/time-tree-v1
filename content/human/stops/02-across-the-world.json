@@ -3,7 +3,7 @@
   "id": "main-dispersal",
   "kind": "map",
   "title": "The journey out of Africa",
-  "year": -60000,
+  "year": -58000,
   "precision": "range",
   "regions": [
    "africa",
@@ -23,7 +23,7 @@
     "url": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans"
    }
   ],
-  "yearEnd": -50000,
+  "yearEnd": -48000,
   "major": true,
   "dateNote": "Genetic and fossil evidence put the main dispersal between about 60,000 and 50,000 years ago.",
   "map": {
@@ -109,7 +109,7 @@
   "id": "reaching-sahul",
   "kind": "event",
   "title": "Crossing the sea to Australia",
-  "year": -50000,
+  "year": -48000,
   "precision": "circa",
   "regions": [
    "se-asia-pacific"

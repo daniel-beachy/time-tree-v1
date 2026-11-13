@@ -118,6 +118,15 @@ export function DeepTime({ args }: { args: string[] }) {
         </div>
       </div>
 
+      <a className="human-door" href={href('human')} style={{ marginBottom: 46 }}>
+        <div className="hd-icon" aria-hidden>🌍</div>
+        <div>
+          <h3>All of human history is thinner than the line below</h3>
+          <p>On this timeline's true scale, the 300,000 years of our species take up less than half a pixel. The Human Story opens that sliver up.</p>
+        </div>
+        <span className="hd-go">Open →</span>
+      </a>
+
       <div ref={ref} className={'dt-body' + (narrow ? ' narrow' : '')} style={{ height: totalH }}>
         {width > 0 && (
           <>
