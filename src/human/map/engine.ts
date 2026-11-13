@@ -32,6 +32,7 @@ export const REGION_BOX: Record<Exclude<RegionId, 'global'>, [number, number, nu
 const COLORS = {
   water: '#0b1418', land: '#5a4a33', coast: '#8c7755', shelf: '#473c2b', ice: 'rgba(223,233,238,0.78)',
   accent: '#f0b35a', accent2: '#d9694a', text: '#f3ead9', muted: '#a89a84', halo: 'rgba(11,20,24,0.85)',
+  farm: '#9cc46a', farmText: '#c8e3a2',
 };
 // Muted fills for states and empires; a polity's colour is picked from its name so it stays the same across slices.
 const POLITY_COLORS = ['#c98f4a', '#b5654c', '#8f9a5b', '#6f93a0', '#a07fb0', '#c2a24a', '#7d8fc0', '#b0747f'];
@@ -262,6 +263,27 @@ export class MapEngine {
       }
     }
 
+    // Centres of domestication (soft green areas) and the spread of farming (lines), each fading in after its `from` year.
+    const farmShown: { d: Drawn; o: number; on: boolean }[] = [];
+    if (a('farming') > 0) {
+      const hi = new Set(s.highlight?.routes ?? []);
+      for (const d of this.layers.get('farming') ?? []) {
+        const from = d.f.properties.from ?? -Infinity;
+        if (!d.path || this.year < from || !this.alive(d.f.properties)) continue;
+        const o = a('farming') * Math.max(0, Math.min(1, (this.year - from) / 1500 + 0.35));
+        const on = hi.has(String(d.f.properties.id));
+        farmShown.push({ d, o, on });
+        if (d.f.geometry.type === 'LineString') {
+          ctx.globalAlpha = o * 0.9; ctx.strokeStyle = COLORS.farm; ctx.lineWidth = 1.8 * px; ctx.stroke(d.path);
+          const p = d.pts;
+          if (p && p.length > 1) arrow(ctx, p[p.length - 2], p[p.length - 1], 6 * px, COLORS.farm);
+        } else {
+          ctx.globalAlpha = o * (on ? 0.5 : 0.3); ctx.fillStyle = COLORS.farm; ctx.fill(d.path);
+          ctx.globalAlpha = o * 0.9; ctx.strokeStyle = COLORS.farm; ctx.lineWidth = (on ? 1.8 : 1) * px; ctx.stroke(d.path);
+        }
+      }
+    }
+
     const polKey = this.polityKey(this.year);
     const polities = (polKey && this.layers.get(polKey)) || [];
     if (a('polities') > 0) {
@@ -342,6 +364,12 @@ export class MapEngine {
       }
     }
     if (a('hominins') > 0) for (const d of this.layers.get('hominins') ?? []) if (d.xy && this.alive(d.f.properties)) text(String(d.f.properties.name), scr(d.xy), { size: 11, color: '#e8a48f', alpha: a('hominins'), italic: true, dy: d.path ? 0 : 22 });
+    for (const { d, o, on } of farmShown) {
+      const line = d.f.geometry.type === 'LineString';
+      const label = line ? d.f.properties.label : d.f.properties.name;
+      const at = line ? d.pts?.[d.pts.length - 1] : d.xy;
+      if (label && at) text(String(label), scr(at), { dy: line ? 14 : 0, size: on ? 12 : 11, color: COLORS.farmText, alpha: o, force: on });
+    }
     for (const { d, o } of routesShown) {
       const p = d.pts, label = d.f.properties.label;
       if (label && p && p.length) text(String(label), scr(p[p.length - 1]), { dy: 16, size: 11, color: COLORS.accent, alpha: a('dispersal') * o });

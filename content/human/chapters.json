@@ -54,10 +54,33 @@
    "year": -10000,
    "view": "world",
    "layers": [
-    "land"
+    "land",
+    "farming"
    ]
   },
-  "keyNumbers": []
+  "keyNumbers": [
+   {
+    "label": "Regions where farming began independently",
+    "value": "at least 11",
+    "sources": [
+     "larson-2014"
+    ]
+   },
+   {
+    "label": "Extra births per woman as farming took hold",
+    "value": "about 2",
+    "sources": [
+     "bocquet-appel-2011"
+    ]
+   },
+   {
+    "label": "People at Çatalhöyük at its peak",
+    "value": "3,500 to 8,000",
+    "sources": [
+     "osu-catalhoyuk-2019"
+    ]
+   }
+  ]
  },
  {
   "id": "first-cities",

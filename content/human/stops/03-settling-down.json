@@ -1,0 +1,838 @@
+[
+ {
+  "id": "goebekli-tepe",
+  "kind": "event",
+  "title": "Göbekli Tepe: monuments before farming",
+  "year": -9600,
+  "yearEnd": -8200,
+  "precision": "range",
+  "place": {
+   "name": "Göbekli Tepe, Turkey",
+   "lat": 37.22,
+   "lon": 38.92
+  },
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "belief",
+   "settlement",
+   "art"
+  ],
+  "blurb": "On a hilltop in southeastern Turkey, people began raising rings of carved limestone pillars around 9600 BCE. The tallest stand over five metres, and many carry animals in relief. The builders were hunter-gatherers who had not yet domesticated plants or animals. The excavators think people gathered here to feast, and perhaps to drink beer brewed from wild grain.",
+  "confidence": "debated",
+  "debate": "The excavators see the circular buildings as special places for ritual and feasting; Banning argues they may have been large houses rich in symbolic art.",
+  "sources": [
+   "unesco-gobekli",
+   "dietrich-2012",
+   "banning-2011"
+  ],
+  "links": [
+   {
+    "label": "Göbekli Tepe",
+    "url": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": -9500,
+   "view": {
+    "center": [
+     39,
+     37
+    ],
+    "zoom": 6.5
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 37.22,
+     "lon": 38.92,
+     "text": "Göbekli Tepe"
+    }
+   ]
+  }
+ },
+ {
+  "id": "fertile-crescent",
+  "kind": "map",
+  "title": "The first farmers of southwest Asia",
+  "year": -9500,
+  "yearEnd": -7500,
+  "precision": "range",
+  "dateNote": "Cultivation and herd management began by about 9500 BCE; domestic forms took one to two thousand years more to become clear.",
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "food",
+   "environment"
+  ],
+  "blurb": "In an arc of hills from the Levant through southeastern Turkey to the Zagros mountains of Iran, people tended wild cereals and managed wild herds for centuries before these changed into domestic forms. Wheat, barley, lentils and peas, then goats, sheep and cattle, were domesticated in different parts of the arc. It was a slow process spread over a whole region, not a single invention.",
+  "confidence": "established",
+  "sources": [
+   "zeder-2008",
+   "riehl-2013",
+   "larson-2014"
+  ],
+  "links": [
+   {
+    "label": "Fertile Crescent",
+    "url": "https://en.wikipedia.org/wiki/Fertile_Crescent"
+   },
+   {
+    "label": "Neolithic founder crops",
+    "url": "https://en.wikipedia.org/wiki/Neolithic_founder_crops"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": -8500,
+   "view": {
+    "center": [
+     41,
+     34
+    ],
+    "zoom": 4.6
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "highlight": {
+    "routes": [
+     "fc-centre"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 31.5,
+     "lon": 35.0,
+     "text": "Levant"
+    },
+    {
+     "lat": 34.0,
+     "lon": 48.5,
+     "text": "Zagros"
+    }
+   ]
+  }
+ },
+ {
+  "id": "jericho-catalhoyuk",
+  "kind": "event",
+  "title": "Jericho and Çatalhöyük: the first big villages",
+  "year": -8300,
+  "yearEnd": -5950,
+  "precision": "range",
+  "place": {
+   "name": "Çatalhöyük, Turkey",
+   "lat": 37.67,
+   "lon": 32.83
+  },
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "settlement",
+   "belief"
+  ],
+  "blurb": "Farming let villages grow large. At Jericho, beside a spring in the Jordan valley, people built a stone wall and a tower 8.2 metres high between about 8300 and 7800 BCE. At Çatalhöyük in Turkey, from about 7100 BCE, several thousand people lived in mud-brick houses packed so tightly there were no streets. People walked across the roofs and climbed down into their homes.",
+  "confidence": "established",
+  "debate": "Kathleen Kenyon read Jericho's wall as a defence against attackers; Bar-Yosef argued it was built in stages against floods and mudflows.",
+  "sources": [
+   "bar-yosef-1986",
+   "larsen-2019",
+   "osu-catalhoyuk-2019",
+   "hodder-2014",
+   "unesco-catalhoyuk"
+  ],
+  "links": [
+   {
+    "label": "Çatalhöyük",
+    "url": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk"
+   },
+   {
+    "label": "Tell es-Sultan",
+    "url": "https://en.wikipedia.org/wiki/Tell_es-Sultan"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -7000,
+   "view": {
+    "center": [
+     35,
+     34.5
+    ],
+    "zoom": 5.2
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 31.87,
+     "lon": 35.44,
+     "text": "Jericho"
+    },
+    {
+     "lat": 37.67,
+     "lon": 32.83,
+     "text": "Çatalhöyük"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cost-of-farming",
+  "kind": "event",
+  "title": "What farming cost",
+  "year": -8000,
+  "yearEnd": -4000,
+  "precision": "range",
+  "dateNote": "Farming began at different times in different places, so these changes are spread over thousands of years.",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health",
+   "food",
+   "power"
+  ],
+  "blurb": "Farming fed more people, but the bones of early farmers show a price. In most regions studied, adults grew shorter as farming took hold. Crowded villages, living beside their animals and rubbish, suffered more infections, and grain-heavy diets brought tooth decay. Families had more children, so populations grew fast. Over the long run, gaps in wealth between households widened.",
+  "confidence": "established",
+  "sources": [
+   "mummert-2011",
+   "larsen-2019",
+   "osu-catalhoyuk-2019",
+   "bocquet-appel-2011",
+   "kohler-2017"
+  ],
+  "links": [
+   {
+    "label": "Neolithic Revolution",
+    "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -6500,
+   "view": {
+    "center": [
+     33,
+     37.5
+    ],
+    "zoom": 6
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 37.67,
+     "lon": 32.83,
+     "text": "Çatalhöyük"
+    }
+   ]
+  }
+ },
+ {
+  "id": "farming-worldwide",
+  "kind": "map",
+  "title": "Farming begins again and again",
+  "year": -9500,
+  "yearEnd": -2500,
+  "precision": "range",
+  "dateNote": "The map shows each centre from its earliest good evidence, between about 9500 and 3000 BCE.",
+  "regions": [
+   "sw-asia",
+   "e-asia",
+   "se-asia-pacific",
+   "c-s-america",
+   "n-america",
+   "africa",
+   "s-asia"
+  ],
+  "themes": [
+   "food",
+   "environment"
+  ],
+  "blurb": "Farming was not invented once and then spread. It began separately in at least eleven regions, with different plants and animals: wheat and goats in southwest Asia, millet and rice in China, taro and bananas in New Guinea, squash, maize and manioc in the Americas, sorghum in Africa. The dates differ by thousands of years, and the earliest farmers in each place had no contact with the others.",
+  "confidence": "established",
+  "sources": [
+   "larson-2014",
+   "denham-2003",
+   "smith-1997",
+   "piperno-2009",
+   "lu-2009",
+   "fuller-2009",
+   "lombardo-2020",
+   "smith-2006",
+   "winchell-2017"
+  ],
+  "links": [
+   {
+    "label": "Centres of origin",
+    "url": "https://en.wikipedia.org/wiki/Center_of_origin"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": -2500,
+   "view": "world",
+   "layers": [
+    "land",
+    "farming"
+   ]
+  }
+ },
+ {
+  "id": "millet-and-rice",
+  "kind": "event",
+  "title": "Millet, rice and the first wine in China",
+  "year": -8300,
+  "yearEnd": -4600,
+  "precision": "range",
+  "place": {
+   "name": "Jiahu, Henan, China",
+   "lat": 33.61,
+   "lon": 113.67
+  },
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "food",
+   "technology"
+  ],
+  "blurb": "In northern China, people at Cishan were storing broomcorn millet between about 8300 and 6700 BCE, East Asia's first dry-land crop. Further south, rice changed slowly: plants whose ripe grains stay on the stalk, a sign of domestication, were still increasing around 4900 to 4600 BCE. At Jiahu, residues in pottery show a fermented drink of rice, honey and fruit by about 7000 BCE.",
+  "confidence": "established",
+  "sources": [
+   "lu-2009",
+   "fuller-2009",
+   "mcgovern-2004"
+  ],
+  "links": [
+   {
+    "label": "Jiahu",
+    "url": "https://en.wikipedia.org/wiki/Jiahu"
+   },
+   {
+    "label": "Cishan culture",
+    "url": "https://en.wikipedia.org/wiki/Cishan_culture"
+   }
+  ],
+  "map": {
+   "year": -6000,
+   "view": {
+    "center": [
+     114,
+     33
+    ],
+    "zoom": 4.4
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 36.6,
+     "lon": 114.1,
+     "text": "Cishan"
+    },
+    {
+     "lat": 33.61,
+     "lon": 113.67,
+     "text": "Jiahu"
+    }
+   ]
+  }
+ },
+ {
+  "id": "squash-and-maize",
+  "kind": "event",
+  "title": "Squash, maize and manioc in the Americas",
+  "year": -8300,
+  "yearEnd": -6700,
+  "precision": "range",
+  "place": {
+   "name": "Guilá Naquitz, Oaxaca, Mexico",
+   "lat": 16.95,
+   "lon": -96.35
+  },
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "food"
+  ],
+  "blurb": "Farming in the Americas began with squash. Seeds from Guilá Naquitz cave in Oaxaca, Mexico, show domesticated squash between 10,000 and 8,000 years ago. Maize was growing in Mexico's Central Balsas valley by about 6700 BCE. In South America, people in the Bolivian Amazon grew manioc and squash more than 10,000 years ago, and early gardens in northern Peru held squash, peanuts and cotton.",
+  "confidence": "established",
+  "sources": [
+   "smith-1997",
+   "piperno-2009",
+   "lombardo-2020",
+   "dillehay-2007"
+  ],
+  "links": [
+   {
+    "label": "Guilá Naquitz Cave",
+    "url": "https://en.wikipedia.org/wiki/Guil%C3%A1_Naquitz_Cave"
+   },
+   {
+    "label": "Maize",
+    "url": "https://en.wikipedia.org/wiki/Maize"
+   }
+  ],
+  "map": {
+   "year": -6700,
+   "view": {
+    "center": [
+     -80,
+     0
+    ],
+    "zoom": 2.0
+   },
+   "layers": [
+    "land",
+    "farming"
+   ]
+  }
+ },
+ {
+  "id": "mehrgarh",
+  "kind": "event",
+  "title": "Mehrgarh: barley, zebu and the first dentists",
+  "year": -7000,
+  "yearEnd": -5500,
+  "precision": "range",
+  "dateNote": "Gangal and colleagues date the earliest farming levels as early as 8500 BCE; the drilled teeth are 9,000 to 7,500 years old.",
+  "place": {
+   "name": "Mehrgarh, Pakistan",
+   "lat": 29.39,
+   "lon": 67.62
+  },
+  "regions": [
+   "s-asia"
+  ],
+  "themes": [
+   "food",
+   "health"
+  ],
+  "blurb": "At Mehrgarh, at the foot of the hills of Baluchistan in Pakistan, villagers grew mostly barley with some wheat and kept zebu, the humped cattle of South Asia. Barley and zebu were probably domesticated locally; the wheat came from southwest Asia. Nine adults buried here had molars drilled while they were alive, between 9,000 and 7,500 years ago, the oldest known dentistry.",
+  "confidence": "established",
+  "sources": [
+   "gangal-2014",
+   "coppa-2006"
+  ],
+  "links": [
+   {
+    "label": "Mehrgarh",
+    "url": "https://en.wikipedia.org/wiki/Mehrgarh"
+   }
+  ],
+  "map": {
+   "year": -6000,
+   "view": {
+    "center": [
+     62,
+     30
+    ],
+    "zoom": 4.0
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 29.39,
+     "lon": 67.62,
+     "text": "Mehrgarh"
+    }
+   ]
+  }
+ },
+ {
+  "id": "farmers-into-europe",
+  "kind": "map",
+  "title": "Farmers move into Europe, and start milking",
+  "year": -7000,
+  "yearEnd": -4000,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "sw-asia"
+  ],
+  "themes": [
+   "movement",
+   "food"
+  ],
+  "blurb": "Farming reached Europe with farmers. Ancient DNA shows that the first farmers across Europe descended mainly from people of the Aegean and western Turkey. Between about 7000 and 4000 BCE they spread along the Mediterranean by boat and up the Danube into central Europe. They brought cattle, and fats in their cooking pots show milk use by the seventh millennium BCE.",
+  "confidence": "established",
+  "sources": [
+   "hofmanova-2016",
+   "zeder-2008",
+   "evershed-2008",
+   "evershed-2022",
+   "bristol-lactase-2022",
+   "gangal-2014"
+  ],
+  "links": [
+   {
+    "label": "Early European Farmers",
+    "url": "https://en.wikipedia.org/wiki/Early_European_Farmers"
+   },
+   {
+    "label": "Lactase persistence",
+    "url": "https://en.wikipedia.org/wiki/Lactase_persistence"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "map": {
+   "year": -4500,
+   "view": {
+    "center": [
+     16,
+     43
+    ],
+    "zoom": 3.4
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "highlight": {
+    "routes": [
+     "spread-med",
+     "spread-danube"
+    ]
+   }
+  }
+ },
+ {
+  "id": "doggerland-drowns",
+  "kind": "event",
+  "title": "The sea drowns Doggerland",
+  "year": -6150,
+  "precision": "circa",
+  "place": {
+   "name": "Dogger Bank, North Sea",
+   "lat": 54.8,
+   "lon": 2.5
+  },
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "environment"
+  ],
+  "blurb": "As the ice sheets melted, the sea rose over the low plain that had joined Britain to the rest of Europe. By about 6200 BCE only low coast and islands were left. Then an undersea landslide off Norway, the Storegga slide, sent a tsunami across the North Sea. Seabed cores show it struck the coast, but the land recovered for a while before rising seas covered it.",
+  "confidence": "debated",
+  "debate": "The tsunami was long thought to have ended Doggerland at a stroke; Gaffney, Walker and colleagues argue its effects were local and that rising sea level finished the job later.",
+  "sources": [
+   "walker-2020",
+   "gaffney-2020"
+  ],
+  "links": [
+   {
+    "label": "Doggerland",
+    "url": "https://en.wikipedia.org/wiki/Doggerland"
+   },
+   {
+    "label": "Storegga Slide",
+    "url": "https://en.wikipedia.org/wiki/Storegga_Slide"
+   }
+  ],
+  "map": {
+   "year": -6150,
+   "view": {
+    "center": [
+     3,
+     56
+    ],
+    "zoom": 5.0
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 54.8,
+     "lon": 2.5,
+     "text": "Doggerland"
+    },
+    {
+     "lat": 64.9,
+     "lon": 5.0,
+     "text": "Storegga slide"
+    }
+   ]
+  }
+ },
+ {
+  "id": "copper-smelting",
+  "kind": "artifact",
+  "title": "Fire that makes metal",
+  "year": -5000,
+  "precision": "circa",
+  "place": {
+   "name": "Belovode, Serbia",
+   "lat": 44.32,
+   "lon": 21.58
+  },
+  "regions": [
+   "europe",
+   "sw-asia"
+  ],
+  "themes": [
+   "technology",
+   "exchange"
+  ],
+  "blurb": "For thousands of years people had hammered lumps of natural copper into beads. Smelting is a different skill: heating ore until the metal runs out of the rock. Slag from Belovode in Serbia shows copper was being smelted there by about 5000 BCE, around the time cast copper tools appear in the Balkans. Metal objects became prized goods that travelled far.",
+  "confidence": "debated",
+  "debate": "Radivojević and colleagues see Belovode as evidence that smelting was invented in more than one place; Roberts and colleagues argue for a single invention in southwest Asia in the early sixth millennium BCE.",
+  "sources": [
+   "radivojevic-2010",
+   "roberts-2009"
+  ],
+  "links": [
+   {
+    "label": "Chalcolithic",
+    "url": "https://en.wikipedia.org/wiki/Chalcolithic"
+   },
+   {
+    "label": "Vinča culture",
+    "url": "https://en.wikipedia.org/wiki/Vin%C4%8Da_culture"
+   }
+  ],
+  "map": {
+   "year": -5000,
+   "view": {
+    "center": [
+     30,
+     40
+    ],
+    "zoom": 3.6
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 44.32,
+     "lon": 21.58,
+     "text": "Belovode"
+    }
+   ]
+  }
+ },
+ {
+  "id": "green-sahara-ends",
+  "kind": "map",
+  "title": "The green Sahara dries out",
+  "year": -5000,
+  "yearEnd": -3000,
+  "precision": "range",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "environment",
+   "food"
+  ],
+  "blurb": "For thousands of years after the ice age the Sahara was wetter, with grassland and lakes where there is desert today. Herders kept cattle there, and fats in their pottery show they were milking them in the fifth millennium BCE. As the summer monsoon weakened, the land dried. Lake sediments in Chad show trees, then grass, disappearing, and today's desert in place by about 700 BCE.",
+  "confidence": "debated",
+  "debate": "A dust record off West Africa suggests the wet period ended abruptly about 3500 BCE; lake sediments in Chad show a gradual drying, and a later synthesis finds the end came progressively later further south.",
+  "sources": [
+   "dunne-2012",
+   "demenocal-2000",
+   "kropelin-2008",
+   "shanahan-2015"
+  ],
+  "links": [
+   {
+    "label": "African humid period",
+    "url": "https://en.wikipedia.org/wiki/African_humid_period"
+   }
+  ],
+  "map": {
+   "year": -4000,
+   "view": {
+    "center": [
+     12,
+     22
+    ],
+    "zoom": 2.8
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 24,
+     "lon": 10,
+     "text": "Sahara"
+    },
+    {
+     "lat": 19.05,
+     "lon": 20.3,
+     "text": "Lake Yoa"
+    }
+   ]
+  }
+ },
+ {
+  "id": "megaliths",
+  "kind": "event",
+  "title": "Tombs of giant stones",
+  "year": -4500,
+  "yearEnd": -2500,
+  "precision": "range",
+  "place": {
+   "name": "Brittany, France",
+   "lat": 47.6,
+   "lon": -3.1
+  },
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "belief",
+   "technology"
+  ],
+  "blurb": "In the second half of the fifth millennium BCE, people in northwest France began building tombs from huge stones, or megaliths. Radiocarbon dates suggest the idea then spread by sea along the Atlantic and Mediterranean coasts within a few centuries. The tradition lasted two thousand years. At Stonehenge in England, a circular ditch and bank came about 3000 BCE, and the great stones about 2500 BCE.",
+  "confidence": "debated",
+  "debate": "Schulz Paulsson's dates point to an origin in northwest France and spread by sea; an older view holds that megaliths arose separately in several regions.",
+  "sources": [
+   "schulz-paulsson-2019",
+   "english-heritage-stonehenge"
+  ],
+  "links": [
+   {
+    "label": "Megalith",
+    "url": "https://en.wikipedia.org/wiki/Megalith"
+   },
+   {
+    "label": "Stonehenge",
+    "url": "https://en.wikipedia.org/wiki/Stonehenge"
+   }
+  ],
+  "map": {
+   "year": -4000,
+   "view": {
+    "center": [
+     -2,
+     46
+    ],
+    "zoom": 3.6
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 47.6,
+     "lon": -3.1,
+     "text": "Brittany"
+    },
+    {
+     "lat": 51.18,
+     "lon": -1.83,
+     "text": "Stonehenge"
+    }
+   ]
+  }
+ },
+ {
+  "id": "horse-and-wheel",
+  "kind": "event",
+  "title": "The horse and the wheel",
+  "year": -3500,
+  "precision": "circa",
+  "dateNote": "The earliest wheeled vehicles are dated to the later fourth millennium BCE in both Europe and Mesopotamia.",
+  "place": {
+   "name": "Botai, Kazakhstan",
+   "lat": 53.3,
+   "lon": 67.5
+  },
+  "regions": [
+   "europe",
+   "sw-asia"
+  ],
+  "themes": [
+   "technology",
+   "movement"
+  ],
+  "blurb": "Around 3500 BCE, people of the Botai culture in Kazakhstan kept horses: wear from bridles and traces of mare's milk in pots show some were harnessed and milked. Yet ancient DNA shows today's domestic horses descend from a later population near the Volga and Don rivers. Wheeled wagons appear in central Europe and Mesopotamia at about the same time as Botai.",
+  "confidence": "debated",
+  "debate": "Botai's horses turn out to be ancestors of Przewalski's horses, not of modern domestic breeds, so where and when horses were first tamed for riding is still argued over.",
+  "sources": [
+   "outram-2009",
+   "gaunitz-2018",
+   "librado-2021",
+   "bakker-1999"
+  ],
+  "links": [
+   {
+    "label": "Botai culture",
+    "url": "https://en.wikipedia.org/wiki/Botai_culture"
+   },
+   {
+    "label": "Wheel",
+    "url": "https://en.wikipedia.org/wiki/Wheel"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": -3500,
+   "view": {
+    "center": [
+     45,
+     45
+    ],
+    "zoom": 2.4
+   },
+   "layers": [
+    "land",
+    "farming"
+   ],
+   "labels": [
+    {
+     "lat": 53.3,
+     "lon": 67.5,
+     "text": "Botai"
+    },
+    {
+     "lat": 48.5,
+     "lon": 44.5,
+     "text": "Volga–Don"
+    },
+    {
+     "lat": 31.3,
+     "lon": 45.6,
+     "text": "Uruk"
+    },
+    {
+     "lat": 50.3,
+     "lon": 20.4,
+     "text": "Bronocice"
+    }
+   ]
+  }
+ }
+]
