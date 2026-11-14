@@ -1804,5 +1804,54 @@
   "citation": "Walker M. et al. (2009). Formal definition and dating of the GSSP (Global Stratotype Section and Point) for the base of the Holocene using the Greenland NGRIP ice core, and selected auxiliary records. Journal of Quaternary Science 24, 3–17.",
   "url": "https://doi.org/10.1002/jqs.1227",
   "accessed": "2026-11-13"
+ },
+ {
+  "id": "wrigley-2013",
+  "type": "paper",
+  "citation": "Wrigley E. A. (2013). Energy and the English Industrial Revolution. Philosophical Transactions of the Royal Society A 371, 20110568.",
+  "url": "https://doi.org/10.1098/rsta.2011.0568",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "archives-declaration-1776",
+  "type": "reference",
+  "citation": "US National Archives. Declaration of Independence: a transcription.",
+  "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "conseil-declaration-1789",
+  "type": "reference",
+  "citation": "Conseil constitutionnel (France). Declaration of Human and Civic Rights of 26 August 1789 (English translation).",
+  "url": "https://www.conseil-constitutionnel.fr/en/declaration-of-human-and-civic-rights-of-26-august-1789",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "age-of-revolution-haiti",
+  "type": "web",
+  "citation": "Age of Revolution (Culture24 and partners). The Haitian revolution (1791–1804).",
+  "url": "https://ageofrevolution.org/?p=6967",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "riedel-2005",
+  "type": "paper",
+  "citation": "Riedel S. (2005). Edward Jenner and the history of smallpox and vaccination. Proceedings (Baylor University Medical Center) 18, 21–25.",
+  "url": "https://doi.org/10.1080/08998280.2005.11928028",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "avdulla-2024",
+  "type": "paper",
+  "citation": "Avdulla C. S. & Tachirai N. (2024). John Snow: the pioneer of modern epidemiology and anesthesia. Cureus 16, e67602.",
+  "url": "https://doi.org/10.7759/cureus.67602",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "blevins-2010",
+  "type": "paper",
+  "citation": "Blevins S. M. & Bronze M. S. (2010). Robert Koch and the 'golden age' of bacteriology. International Journal of Infectious Diseases 14, e744–e751.",
+  "url": "https://doi.org/10.1016/j.ijid.2009.12.003",
+  "accessed": "2026-11-13"
  }
 ]

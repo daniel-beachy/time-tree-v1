@@ -1,0 +1,217 @@
+[
+ {
+  "id": "buried-sunshine",
+  "kind": "chart",
+  "title": "Burning buried sunshine",
+  "year": 1750,
+  "yearEnd": 1913,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "global"
+  ],
+  "themes": [
+   "technology",
+   "environment"
+  ],
+  "blurb": "Before industry, almost all the energy people used for heat and work came from each year's plant growth, which set a hard limit on what an economy could make. In England people turned to coal: the energy of plants, stored over geological ages. Energy use rose massively, and output with it. Worldwide, burning it released about 9 million tonnes of carbon dioxide in 1750, and 3.5 billion in 1913.",
+  "confidence": "established",
+  "sources": [
+   "wrigley-2013",
+   "owid-co2"
+  ],
+  "links": [
+   {
+    "label": "Industrial Revolution",
+    "url": "https://en.wikipedia.org/wiki/Industrial_Revolution"
+   }
+  ],
+  "major": true,
+  "chart": {
+   "series": [
+    "co2-world"
+   ],
+   "from": 1750,
+   "to": 1914,
+   "title": "Carbon dioxide released each year, 1750 to 1914",
+   "note": "Figures for the 1700s are estimates. Fossil fuels and industry only."
+  }
+ },
+ {
+  "id": "atlantic-revolutions",
+  "kind": "event",
+  "title": "Declarations of rights",
+  "year": 1776,
+  "yearEnd": 1789,
+  "precision": "range",
+  "regions": [
+   "n-america",
+   "europe"
+  ],
+  "themes": [
+   "power",
+   "knowledge"
+  ],
+  "blurb": "On 4 July 1776, thirteen British colonies in North America declared their independence, holding it \"self-evident, that all men are created equal\" and that governments get their powers from \"the consent of the governed\". In August 1789, France's National Assembly declared that \"men are born and remain free and equal in rights\". Both set out the idea that government exists to protect the rights of the people.",
+  "confidence": "established",
+  "sources": [
+   "archives-declaration-1776",
+   "conseil-declaration-1789"
+  ],
+  "links": [
+   {
+    "label": "Atlantic Revolutions",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_Revolutions"
+   }
+  ],
+  "map": {
+   "year": 1800,
+   "view": {
+    "center": [
+     -35,
+     38
+    ],
+    "zoom": 1.9
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "United States of America"
+    ]
+   }
+  }
+ },
+ {
+  "id": "haitian-revolution",
+  "kind": "event",
+  "title": "Haiti: freedom won by the enslaved",
+  "year": 1791,
+  "yearEnd": 1804,
+  "precision": "range",
+  "regions": [
+   "c-s-america"
+  ],
+  "themes": [
+   "power",
+   "movement"
+  ],
+  "blurb": "In 1791, in the French colony of Saint-Domingue, enslaved Africans rose up in the first and only successful revolt of its kind. Their leader, Toussaint Louverture, controlled the colony by 1801, but Napoleon had him arrested; he died in a French prison in 1803. In 1804 the French surrendered and Jean-Jacques Dessalines declared independence. Haiti became the first independent Black republic.",
+  "confidence": "established",
+  "sources": [
+   "age-of-revolution-haiti"
+  ],
+  "links": [
+   {
+    "label": "Haitian Revolution",
+    "url": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Saint-Domingue (Haiti)",
+   "lat": 19.0,
+   "lon": -72.4
+  },
+  "map": {
+   "year": 1800,
+   "view": {
+    "center": [
+     -72,
+     19
+    ],
+    "zoom": 5
+   },
+   "layers": [
+    "land",
+    "polities"
+   ]
+  }
+ },
+ {
+  "id": "vaccines-and-germs",
+  "kind": "event",
+  "title": "Vaccines and germs",
+  "year": 1796,
+  "yearEnd": 1876,
+  "precision": "range",
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "health",
+   "knowledge"
+  ],
+  "blurb": "In 1796 the English doctor Edward Jenner inoculated an 8-year-old boy with matter from a dairymaid's cowpox sores, then with smallpox; the boy did not fall ill. Jenner named the method vaccination, from vacca, Latin for cow. In 1854 John Snow linked a London cholera outbreak to a single water pump, and in 1876 Robert Koch identified the bacterium that causes anthrax.",
+  "confidence": "established",
+  "sources": [
+   "riedel-2005",
+   "avdulla-2024",
+   "blevins-2010"
+  ],
+  "links": [
+   {
+    "label": "History of smallpox",
+    "url": "https://en.wikipedia.org/wiki/History_of_smallpox"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": 1800,
+   "view": {
+    "center": [
+     2,
+     51
+    ],
+    "zoom": 4.5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "london"
+    ]
+   }
+  }
+ },
+ {
+  "id": "first-billion",
+  "kind": "chart",
+  "title": "The first billion people",
+  "year": 1805,
+  "yearEnd": 1914,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health"
+  ],
+  "blurb": "For almost all of history the number of people grew very slowly. By the best estimates, the world passed one billion people for the first time around 1805. In 1750 there had been about 750 million; by 1914 there were about 1.8 billion. The second billion took little more than a century, where the first had taken the whole of human history.",
+  "confidence": "established",
+  "sources": [
+   "owid-population"
+  ],
+  "dateNote": "Population figures before 1950 are estimates; the year the world passed one billion is uncertain by several years.",
+  "links": [
+   {
+    "label": "World population",
+    "url": "https://en.wikipedia.org/wiki/World_population"
+   }
+  ],
+  "chart": {
+   "series": [
+    "world-population"
+   ],
+   "from": 1700,
+   "to": 1914,
+   "title": "People alive, 1700 to 1914",
+   "note": "Estimates before 1950 come from historical and archaeological evidence."
+  }
+ }
+]
