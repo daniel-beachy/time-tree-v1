@@ -753,3 +753,16 @@ Because stops run in start-date order, a chart stop's `year` should be the turni
 - Chapter 7 has three stops that start in 1492. That is correct, and they read well in the present order.
 - Deep dives sit at about a third of stops everywhere except chapters 2, 4 and 9. Each new batch should bring those up.
 - South Asia and the Americas have the fewest stops overall (15 and 23 of 83). The additions above add two for East Asia, one for the Pacific and three for Africa; when a choice is otherwise even, prefer South Asia or the Americas.
+
+### Content pass 1 (2026-11-13, Opus)
+
+Worked from the arc review above. Both chapters stay `draft` until the fact-check pass.
+
+- **Chapter 4 (6 → 13 stops):** added `steppe-herders` (deep dive), `kerma`, `sargon-and-enheduanna` (deep dive), `hammurabi-laws`, `lapita-voyagers`, `uluburun`, `shang-oracle-bones`. Kerma was added to the cities layer.
+- **Chapter 2 (6 → 11 stops):** added `giant-animals-vanish`, `first-dogs`, `first-pottery`, `ice-age-ends`, `natufians`.
+- **Left out, and why:** Ur-Namma's laws and Gilgamesh (no source could be opened; the British Museum and Penn Museum refuse scripts); the Olmec (outside chapter 4's dates); the Natufian stop says nothing about permanent villages, because its one source describes a single building. Sunghir and needles were not added.
+- **Choices:** Sargon and Enheduanna are one stop, since one source covers both and her post was his policy. `steppe-herders` starts at 3000 BCE (widest extent), with a `dateNote` giving 3300 BCE. `giant-animals-vanish` sits at 50,000 years ago with a `dateNote`, because the extinctions have no single date.
+- **Sources:** 21 added; every new DOI matches Crossref. All claims were written from abstracts or full text read in this session (Europe PMC, open journal pages, Archaeology Magazine, ETCSL, the Louvre, Yale Avalon).
+- **For the fact-check pass:** `kerma`, `uluburun` and `shang-oracle-bones` each rest on one source. `first-dogs` is `debated` (one genetic study's inference).
+- **Display quirk (for Fable):** a span from before 10,000 BCE to after it reads "about 20,000 years ago to 9,800 BCE" (`first-pottery`). The readout should use one style for both ends.
+- **Still to do from the arc review:** chapters 8 and 9, the chapter 5 swap (faiths that crossed borders), the chapter 7 merge and the Songhai, Benin and Kongo stop, then the fact-check pass. Deep dives: chapter 2 has 1 of 11, chapter 4 has 3 of 13.

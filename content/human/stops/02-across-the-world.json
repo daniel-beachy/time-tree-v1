@@ -55,6 +55,41 @@
   }
  },
  {
+  "id": "giant-animals-vanish",
+  "kind": "map",
+  "title": "The giant animals vanish",
+  "year": -50000,
+  "yearEnd": -10000,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "environment"
+  ],
+  "blurb": "As modern humans spread across the world, many of its largest animals disappeared. One study counted 177 species of large mammals, of 10 kilograms or more, that died out between 132,000 and 1,000 years ago: 62 in South America and 43 in North America alone. It found the losses closely tied to where humans lived and spread, with at most a weak link to climate.",
+  "confidence": "debated",
+  "debate": "Climate change and humans both have broad support as causes of the extinctions, and their relative importance is still argued over.",
+  "dateNote": "The extinctions happened at different times on different continents. The study behind this stop covers 132,000 to 1,000 years ago.",
+  "sources": [
+   "sandom-2014"
+  ],
+  "links": [
+   {
+    "label": "Late Pleistocene extinctions",
+    "url": "https://en.wikipedia.org/wiki/Late_Pleistocene_extinctions"
+   }
+  ],
+  "map": {
+   "year": -20000,
+   "view": "world",
+   "layers": [
+    "land",
+    "paleo"
+   ]
+  }
+ },
+ {
   "id": "first-pictures",
   "kind": "artifact",
   "title": "The oldest pictures and music",
@@ -281,6 +316,61 @@
   }
  },
  {
+  "id": "first-dogs",
+  "kind": "map",
+  "title": "Wolves become dogs",
+  "year": -21000,
+  "precision": "circa",
+  "regions": [
+   "e-asia",
+   "n-america"
+  ],
+  "themes": [
+   "food",
+   "movement"
+  ],
+  "blurb": "Dogs were the first domestic animal. Comparing the DNA of ancient people and dogs suggests that wolves became dogs in Siberia by about 23,000 years ago, perhaps while people and wolves were cut off there by the cold of the last ice age. Dogs then travelled with the first people into the Americas. By 11,000 years ago at least five distinct dog lineages had formed.",
+  "confidence": "debated",
+  "debate": "The Siberian origin and the date of about 23,000 years ago are inferred from how human and dog lineages split and moved. Where and when dogs were first domesticated is still argued over.",
+  "sources": [
+   "perri-2021",
+   "bergstrom-2020-dogs"
+  ],
+  "links": [
+   {
+    "label": "Domestication of the dog",
+    "url": "https://en.wikipedia.org/wiki/Domestication_of_the_dog"
+   }
+  ],
+  "map": {
+   "year": -21000,
+   "view": {
+    "center": [
+     130,
+     58
+    ],
+    "zoom": 2.2
+   },
+   "layers": [
+    "land",
+    "paleo",
+    "dispersal"
+   ],
+   "labels": [
+    {
+     "lat": 62,
+     "lon": 105,
+     "text": "Siberia"
+    },
+    {
+     "lat": 64,
+     "lon": -170,
+     "text": "Beringia"
+    }
+   ]
+  }
+ },
+ {
   "id": "into-the-americas",
   "kind": "event",
   "title": "Into the Americas",
@@ -337,6 +427,139 @@
      "lon": -73.2,
      "text": "Monte Verde"
     }
+   ]
+  }
+ },
+ {
+  "id": "first-pottery",
+  "kind": "artifact",
+  "title": "The first pots, made by foragers",
+  "year": -18000,
+  "yearEnd": -9800,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "technology",
+   "food"
+  ],
+  "blurb": "Pottery was invented by hunter-gatherers, not farmers. At Xianrendong Cave in southern China, pieces of pots date to 20,000 to 19,000 years ago, near the coldest part of the last ice age and more than 10,000 years before farming. In Japan, pots made by Jōmon foragers between about 15,000 and 11,800 years ago still carry burnt residues from cooking freshwater and marine foods.",
+  "confidence": "established",
+  "sources": [
+   "wu-2012",
+   "craig-2013"
+  ],
+  "links": [
+   {
+    "label": "Xianrendong Cave",
+    "url": "https://en.wikipedia.org/wiki/Xianrendong_Cave"
+   }
+  ],
+  "place": {
+   "name": "Xianrendong Cave, Jiangxi, China",
+   "lat": 28.73,
+   "lon": 117.17
+  },
+  "map": {
+   "year": -18000,
+   "view": {
+    "center": [
+     125,
+     33
+    ],
+    "zoom": 3.4
+   },
+   "layers": [
+    "land",
+    "paleo"
+   ],
+   "labels": [
+    {
+     "lat": 28.73,
+     "lon": 117.17,
+     "text": "Xianrendong"
+    },
+    {
+     "lat": 36.5,
+     "lon": 138.5,
+     "text": "Jōmon Japan"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ice-age-ends",
+  "kind": "map",
+  "title": "The ice age ends",
+  "year": -12690,
+  "yearEnd": -9700,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "environment"
+  ],
+  "blurb": "Layers of snow counted year by year in Greenland's ice record the end of the last ice age. About 14,700 years ago the climate warmed into a milder phase. Then came a cold spell, the Younger Dryas. At its end, 11,700 years ago, the ice records an abrupt shift: the start of the Holocene, the warm epoch in which all of farming and written history would unfold.",
+  "confidence": "established",
+  "sources": [
+   "rasmussen-2006",
+   "walker-2009"
+  ],
+  "dateNote": "Ice-core dates count years before 2000 CE, so 11,700 years ago is about 9700 BCE.",
+  "links": [
+   {
+    "label": "Younger Dryas",
+    "url": "https://en.wikipedia.org/wiki/Younger_Dryas"
+   }
+  ],
+  "map": {
+   "year": -11000,
+   "view": "world",
+   "layers": [
+    "land",
+    "paleo"
+   ]
+  }
+ },
+ {
+  "id": "natufians",
+  "kind": "event",
+  "title": "Bread before farming: the Natufians",
+  "year": -12650,
+  "yearEnd": -9700,
+  "precision": "range",
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "food",
+   "settlement"
+  ],
+  "blurb": "In the Levant, Natufian hunter-gatherers lived from about 14,600 to 11,700 years ago. At Shubayqa 1 in northeastern Jordan they built a half-sunken house with a floor of basalt flagstones. In its remains, archaeologists found charred crumbs of flat bread made from wild einkorn and club-rush tubers, 14,400 years old: bread was being made at least 4,000 years before farming began.",
+  "confidence": "established",
+  "sources": [
+   "arranz-otaegui-2018"
+  ],
+  "links": [
+   {
+    "label": "Natufian culture",
+    "url": "https://en.wikipedia.org/wiki/Natufian_culture"
+   }
+  ],
+  "map": {
+   "year": -12500,
+   "view": {
+    "center": [
+     37,
+     32
+    ],
+    "zoom": 5.2
+   },
+   "layers": [
+    "land",
+    "paleo"
    ]
   }
  }
