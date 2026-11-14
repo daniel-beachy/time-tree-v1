@@ -213,5 +213,361 @@
    "title": "People alive, 1700 to 1914",
    "note": "Estimates before 1950 come from historical and archaeological evidence."
   }
+ },
+ {
+  "id": "learning-to-read",
+  "kind": "event",
+  "title": "Learning to read",
+  "year": 1820,
+  "yearEnd": 1900,
+  "precision": "range",
+  "regions": [
+   "global",
+   "europe"
+  ],
+  "themes": [
+   "knowledge"
+  ],
+  "blurb": "Two centuries ago only a small elite could read and write: the best estimate is 12 percent of the world's people in 1820. Over the 19th century the share more than doubled. In England, two-thirds of men and about half of women were literate by 1840, and the gap between them had almost closed by 1900. Yet in 1870 only one person in four worldwide attended school.",
+  "confidence": "established",
+  "sources": [
+   "owid-literacy"
+  ],
+  "dateNote": "Literacy rates before 1900 are estimates from signatures, censuses and school records.",
+  "links": [
+   {
+    "label": "Literacy",
+    "url": "https://en.wikipedia.org/wiki/Literacy"
+   }
+  ],
+  "map": {
+   "year": 1900,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
+   ]
+  }
+ },
+ {
+  "id": "opium-and-taiping",
+  "kind": "event",
+  "title": "The Opium Wars and the Taiping war",
+  "year": 1840,
+  "yearEnd": 1864,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "power",
+   "exchange"
+  ],
+  "blurb": "European merchants wanted Chinese goods and wanted to sell their own in China, opium among them. The Opium Wars with Britain, fought between the 1840s and 1860s, forced concessions from the Qing. Inside China, a failed examination candidate, Hong Xiuquan, led the Taiping Rebellion from 1851 to 1864. Over 20 million people died in it, the bloodiest civil war in recorded history.",
+  "confidence": "established",
+  "sources": [
+   "orlandi-2023"
+  ],
+  "dateNote": "Sources give the Taiping Rebellion's start as 1850 or 1851. Death tolls are estimates, since there was no census.",
+  "links": [
+   {
+    "label": "Taiping Rebellion",
+    "url": "https://en.wikipedia.org/wiki/Taiping_Rebellion"
+   },
+   {
+    "label": "First Opium War",
+    "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+   }
+  ],
+  "place": {
+   "name": "Nanjing, China",
+   "lat": 32.06,
+   "lon": 118.8
+  },
+  "map": {
+   "year": 1850,
+   "view": {
+    "center": [
+     112,
+     30
+    ],
+    "zoom": 3.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "polities": [
+     "Qing Dynasty"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mass-migration",
+  "kind": "map",
+  "title": "The age of mass migration",
+  "year": 1850,
+  "yearEnd": 1913,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "n-america"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "Between 1850 and 1913, in one of the largest migrations in history, Europeans left for the United States, which kept a nearly open border. Economists have since asked who left and how much they gained. One study compared Norwegian men who moved to the United States with their brothers who stayed home, and found the migrants ended up earning about 70 percent more.",
+  "confidence": "established",
+  "sources": [
+   "abramitzky-2012"
+  ],
+  "links": [
+   {
+    "label": "Age of Mass Migration",
+    "url": "https://en.wikipedia.org/wiki/Age_of_Mass_Migration"
+   }
+  ],
+  "map": {
+   "year": 1900,
+   "view": {
+    "center": [
+     -35,
+     45
+    ],
+    "zoom": 2
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "United States of America"
+    ]
+   }
+  }
+ },
+ {
+  "id": "meiji-japan",
+  "kind": "event",
+  "title": "Japan opens and remakes its state",
+  "year": 1853,
+  "yearEnd": 1890,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "power",
+   "exchange"
+  ],
+  "blurb": "In 1853 Commodore Perry's American \"Black Ships\" arrived in Japan, and soon after the country was opened to the outside world. In 1867 political authority was formally restored to the emperor. In 1868 the new Meiji government promised that affairs of state would be decided by public debate. Japan adopted a written constitution in 1889, and its parliament, the Imperial Diet, first met in 1890.",
+  "confidence": "established",
+  "sources": [
+   "ndl-meiji-1",
+   "ndl-meiji-2"
+  ],
+  "links": [
+   {
+    "label": "Meiji Restoration",
+    "url": "https://en.wikipedia.org/wiki/Meiji_Restoration"
+   }
+  ],
+  "place": {
+   "name": "Edo (Tokyo), Japan",
+   "lat": 35.69,
+   "lon": 139.69
+  },
+  "map": {
+   "year": 1900,
+   "view": {
+    "center": [
+     136,
+     36
+    ],
+    "zoom": 4.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "edo"
+    ],
+    "polities": [
+     "Empire of Japan"
+    ]
+   }
+  }
+ },
+ {
+  "id": "darwin-origin",
+  "kind": "artifact",
+  "title": "Darwin's Origin of Species",
+  "year": 1859,
+  "precision": "exact",
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "knowledge"
+  ],
+  "blurb": "On 24 November 1859 the London publisher John Murray released Charles Darwin's On the Origin of Species, which argued that species change through natural selection. Only 1,250 copies were printed, and booksellers had already ordered more than that. Darwin revised it through five later editions and pressed for translations. Its idea is the root of this app's Tree of Life: all living things share common ancestors.",
+  "confidence": "established",
+  "sources": [
+   "freeman-origin"
+  ],
+  "links": [
+   {
+    "label": "On the Origin of Species",
+    "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+   },
+   {
+    "label": "Darwin Online",
+    "url": "https://darwin-online.org.uk/"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "London",
+   "lat": 51.51,
+   "lon": -0.13
+  },
+  "map": {
+   "year": 1850,
+   "view": {
+    "center": [
+     -1,
+     52
+    ],
+    "zoom": 5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "london"
+    ]
+   }
+  }
+ },
+ {
+  "id": "steamships",
+  "kind": "map",
+  "title": "Steamships shrink the world",
+  "year": 1870,
+  "yearEnd": 1913,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "technology",
+   "exchange"
+  ],
+  "blurb": "Before steamships, ocean trade followed the winds. Steam freed ships from them and cut the cost and time of shipping, far more on some routes than others. From 1870 to 1913 trade grew so fast that the period is called the first era of globalisation. One study finds that only a few countries gained much from it, and that it widened the gap between rich and poor nations.",
+  "confidence": "established",
+  "sources": [
+   "pascali-2017"
+  ],
+  "links": [
+   {
+    "label": "Steamship",
+    "url": "https://en.wikipedia.org/wiki/Steamship"
+   }
+  ],
+  "map": {
+   "year": 1900,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
+   ]
+  }
+ },
+ {
+  "id": "scramble-for-africa",
+  "kind": "map",
+  "title": "Empires carve up Africa",
+  "year": 1880,
+  "yearEnd": 1914,
+  "precision": "range",
+  "regions": [
+   "africa",
+   "s-asia"
+  ],
+  "themes": [
+   "power"
+  ],
+  "blurb": "In 1850 the map of Africa still showed many independent states, among them the Ashanti Empire, the Sokoto Caliphate, Morocco and Zululand. By 1914 European powers ruled almost the entire continent: only Ethiopia and Liberia remained independent. Britain, France, Germany, Belgium and others divided it among themselves. In South Asia, India was ruled as the British Raj.",
+  "confidence": "established",
+  "sources": [
+   "cliopatria-2025"
+  ],
+  "dateNote": "The years follow the map's slices for 1850, 1900 and 1914; most of the conquest took place after about 1880.",
+  "links": [
+   {
+    "label": "Scramble for Africa",
+    "url": "https://en.wikipedia.org/wiki/Scramble_for_Africa"
+   }
+  ],
+  "map": {
+   "year": 1914,
+   "view": {
+    "center": [
+     25,
+     8
+    ],
+    "zoom": 2.4
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "Ethiopian Empire",
+     "Republic of Liberia",
+     "British Raj"
+    ]
+   }
+  }
+ },
+ {
+  "id": "first-flight",
+  "kind": "event",
+  "title": "The first powered flight",
+  "year": 1903,
+  "precision": "exact",
+  "regions": [
+   "n-america"
+  ],
+  "themes": [
+   "technology"
+  ],
+  "blurb": "On 17 December 1903 at Kitty Hawk, North Carolina, Orville Wright flew a powered, heavier-than-air machine for 12 seconds and 36 metres. Later that day his brother Wilbur flew 256 metres in 59 seconds. The Wright Flyer came out of four years of research and testing, including full-sized gliders, and laid the foundations of aeronautical engineering.",
+  "confidence": "established",
+  "sources": [
+   "nasm-wright-flyer"
+  ],
+  "links": [
+   {
+    "label": "Wright Flyer",
+    "url": "https://en.wikipedia.org/wiki/Wright_Flyer"
+   }
+  ],
+  "place": {
+   "name": "Kitty Hawk, North Carolina",
+   "lat": 36.02,
+   "lon": -75.67
+  }
  }
 ]

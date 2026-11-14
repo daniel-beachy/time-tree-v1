@@ -1853,5 +1853,61 @@
   "citation": "Blevins S. M. & Bronze M. S. (2010). Robert Koch and the 'golden age' of bacteriology. International Journal of Infectious Diseases 14, e744–e751.",
   "url": "https://doi.org/10.1016/j.ijid.2009.12.003",
   "accessed": "2026-11-13"
+ },
+ {
+  "id": "orlandi-2023",
+  "type": "paper",
+  "citation": "Orlandi G. et al. (2023). Structural-demographic analysis of the Qing Dynasty (1644–1912) collapse in China. PLoS ONE 18, e0289748.",
+  "url": "https://doi.org/10.1371/journal.pone.0289748",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "abramitzky-2012",
+  "type": "paper",
+  "citation": "Abramitzky R., Boustan L. P. & Eriksson K. (2012). Europe's tired, poor, huddled masses: self-selection and economic outcomes in the age of mass migration. American Economic Review 102, 1832–1856.",
+  "url": "https://doi.org/10.1257/aer.102.5.1832",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "ndl-meiji-1",
+  "type": "reference",
+  "citation": "National Diet Library, Japan. Modern Japanese Political History Materials: Initial steps toward a constitutional state.",
+  "url": "https://www.ndl.go.jp/modern/e/cha1/index.html",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "ndl-meiji-2",
+  "type": "reference",
+  "citation": "National Diet Library, Japan. Modern Japanese Political History Materials: Evolution of the Meiji state.",
+  "url": "https://www.ndl.go.jp/modern/e/cha2/index.html",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "freeman-origin",
+  "type": "reference",
+  "citation": "Freeman R. B. Introduction to On the Origin of Species. Darwin Online, ed. J. van Wyhe.",
+  "url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "pascali-2017",
+  "type": "paper",
+  "citation": "Pascali L. (2017). The wind of change: maritime technology, trade, and economic development. American Economic Review 107, 2821–2854.",
+  "url": "https://doi.org/10.1257/aer.20140832",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "nasm-wright-flyer",
+  "type": "museum",
+  "citation": "Smithsonian National Air and Space Museum. 1903 Wright Flyer.",
+  "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+  "accessed": "2026-11-14"
+ },
+ {
+  "id": "owid-literacy",
+  "type": "web",
+  "citation": "Roser M. & Ortiz-Ospina E. Literacy. Our World in Data.",
+  "url": "https://ourworldindata.org/literacy",
+  "accessed": "2026-11-14"
  }
 ]
