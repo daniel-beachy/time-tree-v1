@@ -1657,5 +1657,96 @@
   "citation": "Global Carbon Budget (2026), with major processing by Our World in Data. Annual CO₂ emissions.",
   "url": "https://ourworldindata.org/grapher/annual-co2-emissions",
   "accessed": "2026-11-13"
+ },
+ {
+  "id": "haak-2015",
+  "type": "paper",
+  "citation": "Haak W. et al. (2015). Massive migration from the steppe was a source for Indo-European languages in Europe. Nature 522, 207–211.",
+  "url": "https://doi.org/10.1038/nature14317",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "lazaridis-2025",
+  "type": "paper",
+  "citation": "Lazaridis I. et al. (2025). The genetic origin of the Indo-Europeans. Nature.",
+  "url": "https://doi.org/10.1038/s41586-024-08531-5",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "heggarty-2023",
+  "type": "paper",
+  "citation": "Heggarty P. et al. (2023). Language trees with sampled ancestors support a hybrid model for the origin of Indo-European languages. Science 381.",
+  "url": "https://doi.org/10.1126/science.abg0818",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "archaeology-kerma-2020",
+  "type": "web",
+  "citation": "Archaeology Magazine (2020). A Nubian Kingdom Rises. September/October 2020.",
+  "url": "https://archaeology.org/issues/september-october-2020/features/sudan-kerma-nubian-kingdom/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "archaeology-enheduanna-2022",
+  "type": "web",
+  "citation": "Archaeology Magazine (2022). Priestess, Poet, Politician. November/December 2022.",
+  "url": "https://archaeology.org/issues/november-december-2022/features/akkadians-enheduanna-poet-politician/",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "etcsl-inana-b",
+  "type": "reference",
+  "citation": "Electronic Text Corpus of Sumerian Literature, University of Oxford. The exaltation of Inana (Inana B): translation.",
+  "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4072.htm",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "louvre-hammurabi",
+  "type": "museum",
+  "citation": "Musée du Louvre, collections. Code de Hammurabi (stele, Sb 8).",
+  "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "avalon-hammurabi",
+  "type": "reference",
+  "citation": "The Avalon Project, Yale Law School. The Code of Hammurabi, translated by L. W. King.",
+  "url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "denham-2012",
+  "type": "paper",
+  "citation": "Denham T., Bronk Ramsey C. & Specht J. (2012). Dating the appearance of Lapita pottery in the Bismarck Archipelago and its dispersal to Remote Oceania. Archaeology in Oceania 47, 39–46.",
+  "url": "https://doi.org/10.1002/j.1834-4453.2012.tb00113.x",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "burley-2012",
+  "type": "paper",
+  "citation": "Burley D., Weisler M. I. & Zhao J.-X. (2012). High precision U/Th dating of first Polynesian settlement. PLoS ONE 7, e48769.",
+  "url": "https://doi.org/10.1371/journal.pone.0048769",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "skoglund-2016",
+  "type": "paper",
+  "citation": "Skoglund P. et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature 538, 510–513.",
+  "url": "https://doi.org/10.1038/nature19844",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "powell-2022",
+  "type": "paper",
+  "citation": "Powell W. et al. (2022). Tin from Uluburun shipwreck shows small-scale commodity exchange fueled continental tin supply across Late Bronze Age Eurasia. Science Advances 8.",
+  "url": "https://doi.org/10.1126/sciadv.abq3766",
+  "accessed": "2026-11-13"
+ },
+ {
+  "id": "liu-2020",
+  "type": "paper",
+  "citation": "Liu K. et al. (2020). Radiocarbon dating of oracle bones of late Shang period in ancient China. Radiocarbon 63, 155–175.",
+  "url": "https://doi.org/10.1017/RDC.2020.90",
+  "accessed": "2026-11-13"
  }
 ]

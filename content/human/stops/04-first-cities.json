@@ -114,6 +114,63 @@
   }
  },
  {
+  "id": "steppe-herders",
+  "kind": "map",
+  "title": "Herders from the steppe",
+  "year": -3000,
+  "yearEnd": -2500,
+  "precision": "range",
+  "regions": [
+   "europe"
+  ],
+  "themes": [
+   "movement",
+   "exchange"
+  ],
+  "blurb": "Around 3300 BCE the Yamnaya herders appeared on the grasslands north of the Black and Caspian Seas, and by 3000 BCE they ranged from Hungary to Kazakhstan. About 4,500 years ago, people in central Europe traced roughly three-quarters of their ancestry to them. Ancient DNA suggests these migrations carried at least some of Europe's Indo-European languages, though where that language family first arose is still argued over.",
+  "confidence": "debated",
+  "debate": "Where and when the Indo-European languages began. Ancient DNA supports a spread from the steppe into Europe; a 2023 study of vocabulary dates the family's root to about 8,100 years ago, earlier than the steppe migrations.",
+  "dateNote": "The Yamnaya culture appeared around 3300 BCE. This stop starts at 3000 BCE, when it reached its widest extent.",
+  "sources": [
+   "lazaridis-2025",
+   "haak-2015",
+   "heggarty-2023"
+  ],
+  "links": [
+   {
+    "label": "Yamnaya culture",
+    "url": "https://en.wikipedia.org/wiki/Yamnaya_culture"
+   }
+  ],
+  "deep": true,
+  "map": {
+   "year": -2500,
+   "view": {
+    "center": [
+     35,
+     48
+    ],
+    "zoom": 2.6
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "labels": [
+    {
+     "lat": 47.5,
+     "lon": 45,
+     "text": "Yamnaya steppe"
+    },
+    {
+     "lat": 51,
+     "lon": 11,
+     "text": "Corded Ware"
+    }
+   ]
+  }
+ },
+ {
   "id": "indus-cities",
   "kind": "map",
   "title": "The planned cities of the Indus",
@@ -274,6 +331,362 @@
    "highlight": {
     "places": [
      "giza"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kerma",
+  "kind": "event",
+  "title": "Kerma, a Nubian kingdom on the Nile",
+  "year": -2500,
+  "yearEnd": -1450,
+  "precision": "range",
+  "regions": [
+   "africa"
+  ],
+  "themes": [
+   "settlement",
+   "power"
+  ],
+  "blurb": "Around 2500 BCE, at the northern end of the Great Bend of the Nile in what is now Sudan, Nubians founded Kerma, the earliest city in Africa outside Egypt. Its kings came to rule much of the Nile valley south of Egypt and were buried in vast tombs with hundreds of sacrifices. Kerma traded and fought with Egypt for centuries, until Egyptian armies conquered it around 1450 BCE.",
+  "confidence": "established",
+  "sources": [
+   "archaeology-kerma-2020"
+  ],
+  "links": [
+   {
+    "label": "Kerma culture",
+    "url": "https://en.wikipedia.org/wiki/Kerma_culture"
+   }
+  ],
+  "place": {
+   "name": "Kerma, Sudan",
+   "lat": 19.6,
+   "lon": 30.41
+  },
+  "map": {
+   "year": -1750,
+   "view": {
+    "center": [
+     31,
+     22
+    ],
+    "zoom": 4.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "kerma",
+     "thebes"
+    ]
+   }
+  }
+ },
+ {
+  "id": "sargon-and-enheduanna",
+  "kind": "event",
+  "title": "The first empire, and the first author we can name",
+  "year": -2340,
+  "yearEnd": -2150,
+  "precision": "range",
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "power",
+   "knowledge",
+   "belief"
+  ],
+  "blurb": "Around 2340 BCE Sargon of Akkad conquered the city-states of Sumer and joined peoples of different languages and gods under one ruler: the first empire. He made his daughter Enheduanna high priestess of the moon god at Ur. She wrote hymns in Sumerian and named herself in them, \"I, Enheduanna\", which makes her the earliest author we know by name.",
+  "confidence": "established",
+  "sources": [
+   "archaeology-enheduanna-2022",
+   "etcsl-inana-b"
+  ],
+  "links": [
+   {
+    "label": "Enheduanna",
+    "url": "https://en.wikipedia.org/wiki/Enheduanna"
+   },
+   {
+    "label": "Akkadian Empire",
+    "url": "https://en.wikipedia.org/wiki/Akkadian_Empire"
+   }
+  ],
+  "deep": true,
+  "major": true,
+  "place": {
+   "name": "Ur, Iraq",
+   "lat": 30.96,
+   "lon": 46.1
+  },
+  "map": {
+   "year": -2300,
+   "view": {
+    "center": [
+     44,
+     33
+    ],
+    "zoom": 4.6
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "ur",
+     "uruk"
+    ]
+   }
+  }
+ },
+ {
+  "id": "hammurabi-laws",
+  "kind": "artifact",
+  "title": "Hammurabi's laws in stone",
+  "year": -1792,
+  "yearEnd": -1750,
+  "precision": "range",
+  "regions": [
+   "sw-asia"
+  ],
+  "themes": [
+   "power",
+   "knowledge"
+  ],
+  "blurb": "Hammurabi, king of Babylon from 1792 to 1750 BCE, had his laws carved on a basalt pillar more than two metres tall, topped by a relief of the king before the sun god Shamash. He wrote that they were meant so \"the strong should not harm the weak\". Punishments depended on rank: putting out a man's eye cost an eye, but a slave's eye cost half the slave's value.",
+  "confidence": "established",
+  "sources": [
+   "louvre-hammurabi",
+   "avalon-hammurabi"
+  ],
+  "links": [
+   {
+    "label": "Code of Hammurabi",
+    "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+   }
+  ],
+  "place": {
+   "name": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42
+  },
+  "map": {
+   "year": -1750,
+   "view": {
+    "center": [
+     44,
+     32
+    ],
+    "zoom": 4.8
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "babylon"
+    ],
+    "polities": [
+     "Babylonia"
+    ]
+   }
+  }
+ },
+ {
+  "id": "lapita-voyagers",
+  "kind": "map",
+  "title": "Lapita voyagers sail into the open Pacific",
+  "year": -1500,
+  "yearEnd": -890,
+  "precision": "range",
+  "regions": [
+   "se-asia-pacific"
+  ],
+  "themes": [
+   "movement"
+  ],
+  "blurb": "Between about 1500 and 1300 BCE a new style of pottery, called Lapita, appeared in the Bismarck Archipelago off New Guinea. Within two or three centuries its makers sailed east into the open Pacific, reaching Vanuatu, then Fiji, then Tonga around 890 BCE, islands where no one had lived before. Ancient DNA shows that the first settlers of Vanuatu had little or no Papuan ancestry.",
+  "confidence": "established",
+  "sources": [
+   "denham-2012",
+   "burley-2012",
+   "skoglund-2016"
+  ],
+  "links": [
+   {
+    "label": "Lapita culture",
+    "url": "https://en.wikipedia.org/wiki/Lapita_culture"
+   }
+  ],
+  "map": {
+   "year": -1000,
+   "centerLon": 165,
+   "view": {
+    "center": [
+     163,
+     -11
+    ],
+    "zoom": 3.4
+   },
+   "layers": [
+    "land"
+   ],
+   "labels": [
+    {
+     "lat": -3,
+     "lon": 151,
+     "text": "Bismarck Archipelago"
+    },
+    {
+     "lat": -16,
+     "lon": 167.5,
+     "text": "Vanuatu"
+    },
+    {
+     "lat": -17.8,
+     "lon": 178,
+     "text": "Fiji"
+    },
+    {
+     "lat": -21.1,
+     "lon": -175.2,
+     "text": "Tonga"
+    }
+   ]
+  }
+ },
+ {
+  "id": "uluburun",
+  "kind": "artifact",
+  "title": "Bronze, tin and the Uluburun ship",
+  "year": -1320,
+  "precision": "circa",
+  "regions": [
+   "sw-asia",
+   "europe"
+  ],
+  "themes": [
+   "exchange",
+   "technology"
+  ],
+  "blurb": "Around 1320 BCE a merchant ship sank off Uluburun on the coast of Turkey. It carried 10 tonnes of copper ingots from Cyprus and a tonne of tin, the two metals that make bronze. Tin is far rarer than copper. Chemical tests show that a third of the ship's tin came from ores in today's Uzbekistan and Tajikistan, and the rest from Turkey's Taurus Mountains.",
+  "confidence": "established",
+  "sources": [
+   "powell-2022"
+  ],
+  "links": [
+   {
+    "label": "Uluburun shipwreck",
+    "url": "https://en.wikipedia.org/wiki/Uluburun_shipwreck"
+   }
+  ],
+  "place": {
+   "name": "Uluburun, Turkey",
+   "lat": 36.13,
+   "lon": 29.68
+  },
+  "map": {
+   "year": -1300,
+   "view": {
+    "center": [
+     45,
+     37
+    ],
+    "zoom": 2.4
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities",
+    "routes"
+   ],
+   "highlight": {
+    "routes": [
+     "east-med-trade"
+    ]
+   },
+   "labels": [
+    {
+     "lat": 36.13,
+     "lon": 29.68,
+     "text": "Uluburun wreck"
+    },
+    {
+     "lat": 37.2,
+     "lon": 34.5,
+     "text": "Taurus tin"
+    },
+    {
+     "lat": 39.5,
+     "lon": 68.5,
+     "text": "Central Asian tin"
+    }
+   ]
+  }
+ },
+ {
+  "id": "shang-oracle-bones",
+  "kind": "artifact",
+  "title": "Shang China and the oracle bones",
+  "year": -1254,
+  "yearEnd": -1041,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "knowledge",
+   "belief",
+   "power"
+  ],
+  "blurb": "The oldest Chinese writing known is carved on oracle bones: ox shoulder blades and turtle shells used for divination by the kings of the late Shang dynasty. Over 150,000 have been found, most at Yinxu near Anyang, the late Shang capital. Until 1899 farmers sold them as \"dragon bones\" for medicine. Radiocarbon dates put King Wu Ding's reign at about 1254 to 1197 BCE.",
+  "confidence": "established",
+  "sources": [
+   "liu-2020"
+  ],
+  "dateNote": "The dates span the late Shang, from Wu Ding's reign to the dynasty's end around 1041 BCE, as estimated from radiocarbon dates on the bones.",
+  "links": [
+   {
+    "label": "Oracle bone",
+    "url": "https://en.wikipedia.org/wiki/Oracle_bone"
+   }
+  ],
+  "major": true,
+  "place": {
+   "name": "Yinxu, Anyang, China",
+   "lat": 36.12,
+   "lon": 114.31
+  },
+  "map": {
+   "year": -1300,
+   "view": {
+    "center": [
+     112,
+     34
+    ],
+    "zoom": 5
+   },
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "anyang"
+    ],
+    "polities": [
+     "Shang Dynasty"
     ]
    }
   }
