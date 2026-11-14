@@ -766,3 +766,14 @@ Worked from the arc review above. Both chapters stay `draft` until the fact-chec
 - **For the fact-check pass:** `kerma`, `uluburun` and `shang-oracle-bones` each rest on one source. `first-dogs` is `debated` (one genetic study's inference).
 - **Display quirk (for Fable):** a span from before 10,000 BCE to after it reads "about 20,000 years ago to 9,800 BCE" (`first-pottery`). The readout should use one style for both ends.
 - **Still to do from the arc review:** chapters 8 and 9, the chapter 5 swap (faiths that crossed borders), the chapter 7 merge and the Songhai, Benin and Kongo stop, then the fact-check pass. Deep dives: chapter 2 has 1 of 11, chapter 4 has 3 of 13.
+
+### Content pass 2: chapter 8 (2026-11-14, Opus)
+
+Chapter 8 is drafted: 13 stops, 1 deep dive (`vaccines-and-germs`), 15 new sources. It stays `draft` until the fact-check pass.
+
+- **Stops, in order:** `buried-sunshine` (chart, CO₂ 1750 to 1914), `atlantic-revolutions`, `haitian-revolution`, `vaccines-and-germs`, `first-billion` (chart, population 1700 to 1914), `learning-to-read`, `opium-and-taiping`, `mass-migration`, `meiji-japan`, `darwin-origin`, `steamships`, `scramble-for-africa`, `first-flight`.
+- **Changes from the arc review's list of 14:** "Coal and steam" and "Burning buried sunshine" are one chart stop (one source covers both). Electricity and the telephone, votes for women, and the abolition of slavery after Haiti (Britain 1833, Brazil 1888) were left out: every source page tried for them refused scripts (Smithsonian, UK Parliament, NZ History, the Brazilian government). Railways and the telegraph are not covered; `steamships` carries that theme.
+- **Map-only claims:** `scramble-for-africa` rests on the Cliopatria slices (independent African states in 1850; only Ethiopia and Liberia in 1914). Its record in the fact-check pass should use `"in": "map"` claims.
+- **For the fact-check pass:** most stops rest on one source. `haitian-revolution` uses a museum-network page that says Louverture "led" the 1791 uprising; historians usually say he rose to lead it soon after, so the blurb says "their leader". `opium-and-taiping` gives the death toll as "over 20 million" from one paper; other estimates run higher.
+- **Deep dives:** chapter 8 needs about three more. `haitian-revolution`, `scramble-for-africa` and `darwin-origin` are the best candidates once each has a second source.
+- **Next:** chapter 9 (11 stops to add to the 3 chart stops, from the arc review's list), the chapter 5 swap, the chapter 7 merge and the Songhai, Benin and Kongo stop, then the fact-check pass.
