@@ -101,8 +101,10 @@
   "blurb": "In 1791, in the French colony of Saint-Domingue, enslaved Africans rose up in the first and only successful revolt of its kind. Their leader, Toussaint Louverture, controlled the colony by 1801, but Napoleon had him arrested; he died in a French prison in 1803. In 1804 the French surrendered and Jean-Jacques Dessalines declared independence. Haiti became the first independent Black republic.",
   "confidence": "established",
   "sources": [
-   "age-of-revolution-haiti"
+   "age-of-revolution-haiti",
+   "state-haitian-revolution"
   ],
+  "deep": true,
   "links": [
    {
     "label": "Haitian Revolution",

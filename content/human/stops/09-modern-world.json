@@ -396,6 +396,7 @@
     "url": "https://en.wikipedia.org/wiki/Chinese_economic_reform"
    }
   ],
+  "deep": true,
   "place": {
    "name": "Beijing",
    "lat": 39.9,
