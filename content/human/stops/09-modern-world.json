@@ -136,7 +136,9 @@
   "blurb": "Around 1927 there were two billion people alive. By 1974 there were four billion, and in 2022 the count passed eight billion. The two world wars barely show on the curve. Growth was fastest in the 1960s, at over 2 percent a year. It has slowed since, to under 1 percent a year today.",
   "confidence": "established",
   "sources": [
-   "owid-population"
+   "owid-population",
+   "owid-fertilizer",
+   "pingali-2012"
   ],
   "links": [
    {
@@ -145,6 +147,7 @@
    }
   ],
   "major": true,
+  "deep": true,
   "chart": {
    "series": [
     "world-population"
@@ -436,8 +439,13 @@
   "blurb": "A baby born in 1950 could expect, on the world average, to live about 46 years. By 2023 that had risen to 73. Every region gained: Africa went from 37 years to 64, Asia from 42 to 75, and Europe from 62 to 79. The gap between regions narrowed but did not close. The dip in 2020 and 2021 is the COVID-19 pandemic.",
   "confidence": "established",
   "sources": [
-   "owid-life-expectancy"
+   "owid-life-expectancy",
+   "aminov-2010",
+   "who-smallpox",
+   "shattock-2024",
+   "un-8-billion"
   ],
+  "deep": true,
   "links": [
    {
     "label": "Life expectancy, Our World in Data",

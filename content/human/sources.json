@@ -2175,5 +2175,40 @@
   "citation": "United Nations. Day of Eight Billion, 15 November 2022.",
   "url": "https://www.un.org/en/dayof8billion",
   "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-fertilizer",
+  "type": "web",
+  "citation": "Ritchie H. How many people does synthetic fertilizer feed? Our World in Data.",
+  "url": "https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "pingali-2012",
+  "type": "paper",
+  "citation": "Pingali P. L. (2012). Green Revolution: impacts, limits, and the path ahead. Proceedings of the National Academy of Sciences 109, 12302–12308.",
+  "url": "https://doi.org/10.1073/pnas.0912953109",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "aminov-2010",
+  "type": "paper",
+  "citation": "Aminov R. I. (2010). A brief history of the antibiotic era: lessons learned and challenges for the future. Frontiers in Microbiology 1, 134.",
+  "url": "https://doi.org/10.3389/fmicb.2010.00134",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "who-smallpox",
+  "type": "reference",
+  "citation": "World Health Organization. Smallpox. Health topics.",
+  "url": "https://www.who.int/health-topics/smallpox",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "shattock-2024",
+  "type": "paper",
+  "citation": "Shattock A. J., Johnson H. C., Sim S. Y. et al. (2024). Contribution of vaccination to improved survival and health: modelling 50 years of the Expanded Programme on Immunization. The Lancet 403, 2307–2316.",
+  "url": "https://doi.org/10.1016/S0140-6736(24)00850-X",
+  "accessed": "2026-11-15"
  }
 ]
