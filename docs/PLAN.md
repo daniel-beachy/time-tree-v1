@@ -780,12 +780,12 @@ Chapter 8 is drafted: 13 stops, 1 deep dive (`vaccines-and-germs`), 15 new sourc
 
 ### Content pass 3: chapter 9 (2026-11-15, Fable)
 
-The run was asked to work on Opus. A session cannot change its own model (the switch tool refuses it), so this pass ran on Fable 5.2 and its commits are signed that way. The keep-awake tool was not available either. Units a, b and c are finished, and part of d. Content now has 119 stops, 39 deep dives, 329 sources and 9 chart series. Every chapter stays `draft`.
+The run was asked to work on Opus. A session cannot change its own model (the switch tool refuses it), so this pass ran on Fable 5.2 and its commits are signed that way. The keep-awake tool was not available either. Units a, b and c are finished, and part of d. Content now has 119 stops, 40 deep dives, 329 sources and 9 chart series. Every chapter stays `draft`.
 
 - **Chapter 9 (3 → 14 stops, 5 deep dives).** In order: `first-world-war` (deep dive, with the 1918 influenza), `revolution-and-depression`, `two-to-eight-billion` (now with a deep dive on fertiliser and the Green Revolution), `second-world-war` (deep dive on the Holocaust), `bomb-and-cold-war`, `empires-end`, `china-revolution-famine-reform` (deep dive), `living-longer` (now with a deep dive on antibiotics, vaccines and smallpox), `carbon-dioxide`, `into-space`, `the-web-and-the-internet` (chart), `less-poverty-more-reading` (chart), `world-of-cities` (chart), `eight-billion`.
 - **Chapter 7 (still 14 stops).** `around-africa` and `atlantic-crossing` are merged into `sea-routes-join-the-oceans` (1488 to 1522), written only from the two old stops' sources. `songhai-benin-kongo` (1468 to 1591) is new and sits before `atlantic-slave-trade`. Babur's defeat of Ibrahim Lodi is dated 1526 from a V&A page. Benin City and Mbanza Kongo were added to the cities layer.
 - **Chapter 5 (still 14 stops).** `ashoka` is replaced by `faiths-cross-borders` (262 BCE to 395 CE) with a deep dive. `kush-and-aksum` and `fire-and-cooking` (chapter 1) have `dateNote`s saying which part of their span they mostly describe.
-- **Extra deep dives (unit d).** `haitian-revolution` and `darwin-origin` in chapter 8, each with a second source, and `first-dogs`, `reaching-sahul` and `meeting-the-relatives` in chapter 2 (the last written from its three papers' abstracts only). Chapter 8 now has 3 of 13, chapter 2 has 4 of 11.
+- **Extra deep dives (unit d).** `haitian-revolution` and `darwin-origin` in chapter 8, each with a second source, and `first-dogs`, `reaching-sahul`, `meeting-the-relatives` and `first-pictures` in chapter 2 (the last two written from their papers' abstracts only). Chapter 8 now has 3 of 13, chapter 2 has 5 of 11.
 - **New chart series** (in `scripts/human/fetch-series.mjs`; all three are percentages and share the unit "% of people"):
   - `internet-world`: grapher `share-of-individuals-using-the-internet`. ITU figures through the World Bank's World Development Indicators (CC BY 4.0). World totals start in 2005.
   - `urban-world`: grapher `share-of-population-urban`. UN World Urbanization Prospects 2025 (CC BY 3.0 IGO).
@@ -815,4 +815,4 @@ The run was asked to work on Opus. A session cannot change its own model (the sw
 - **Not looked at in the browser.** Starting the preview server needs an approval nobody was there to give. Every new map state and the three new charts pass the validator but have not been seen. Worth a look: the zoom on `first-world-war`, `songhai-benin-kongo` and `faiths-cross-borders`, the labels on `second-world-war`, and the internet chart, whose line starts 20 years into its axis.
 - **Checks.** `build-human.mjs`, `npm run build` and `check-links.mjs --dois` passed before every commit; all 183 DOI and link checks were fine on the last run. No changes under `src/`.
 - **Next.** The fact-check pass, in the order given above (7, 5, 3, 1, 6, then 2, 4, 8, 9). After it, the remaining deep dives (chapter 4, `scramble-for-africa`) and a look at the new maps.
-- **Usage at handoff:** 5-hour window about 84%, weekly (all models) 61%.
+- **Usage at handoff:** 5-hour window about 85%, weekly (all models) 61%.
