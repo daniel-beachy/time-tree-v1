@@ -777,3 +777,42 @@ Chapter 8 is drafted: 13 stops, 1 deep dive (`vaccines-and-germs`), 15 new sourc
 - **For the fact-check pass:** most stops rest on one source. `haitian-revolution` uses a museum-network page that says Louverture "led" the 1791 uprising; historians usually say he rose to lead it soon after, so the blurb says "their leader". `opium-and-taiping` gives the death toll as "over 20 million" from one paper; other estimates run higher.
 - **Deep dives:** chapter 8 needs about three more. `haitian-revolution`, `scramble-for-africa` and `darwin-origin` are the best candidates once each has a second source.
 - **Next:** chapter 9 (11 stops to add to the 3 chart stops, from the arc review's list), the chapter 5 swap, the chapter 7 merge and the Songhai, Benin and Kongo stop, then the fact-check pass.
+
+### Content pass 3: chapter 9 (2026-11-15, Fable)
+
+The run was asked to work on Opus. A session cannot change its own model (the switch tool refuses it), so this pass ran on Fable 5.2 and its commits are signed that way. The keep-awake tool was not available either. Units a, b and c are finished, and part of d. Content now has 119 stops, 37 deep dives, 329 sources and 9 chart series. Every chapter stays `draft`.
+
+- **Chapter 9 (3 → 14 stops, 5 deep dives).** In order: `first-world-war` (deep dive, with the 1918 influenza), `revolution-and-depression`, `two-to-eight-billion` (now with a deep dive on fertiliser and the Green Revolution), `second-world-war` (deep dive on the Holocaust), `bomb-and-cold-war`, `empires-end`, `china-revolution-famine-reform` (deep dive), `living-longer` (now with a deep dive on antibiotics, vaccines and smallpox), `carbon-dioxide`, `into-space`, `the-web-and-the-internet` (chart), `less-poverty-more-reading` (chart), `world-of-cities` (chart), `eight-billion`.
+- **Chapter 7 (still 14 stops).** `around-africa` and `atlantic-crossing` are merged into `sea-routes-join-the-oceans` (1488 to 1522), written only from the two old stops' sources. `songhai-benin-kongo` (1468 to 1591) is new and sits before `atlantic-slave-trade`. Babur's defeat of Ibrahim Lodi is dated 1526 from a V&A page. Benin City and Mbanza Kongo were added to the cities layer.
+- **Chapter 5 (still 14 stops).** `ashoka` is replaced by `faiths-cross-borders` (262 BCE to 395 CE) with a deep dive. `kush-and-aksum` and `fire-and-cooking` (chapter 1) have `dateNote`s saying which part of their span they mostly describe.
+- **Extra deep dives (unit d).** `haitian-revolution` and `darwin-origin` in chapter 8, each with a second source, and `first-dogs` in chapter 2. Chapter 8 now has 3 of 13, chapter 2 has 2 of 11.
+- **New chart series** (in `scripts/human/fetch-series.mjs`; all three are percentages and share the unit "% of people"):
+  - `internet-world`: grapher `share-of-individuals-using-the-internet`. ITU figures through the World Bank's World Development Indicators (CC BY 4.0). World totals start in 2005.
+  - `urban-world`: grapher `share-of-population-urban`. UN World Urbanization Prospects 2025 (CC BY 3.0 IGO).
+  - `extreme-poverty-world`: grapher `share-of-population-in-extreme-poverty`. World Bank Poverty and Inequality Platform (CC BY 4.0), at $3 a day in 2021 prices. Kept from 1990 to 2024, because later years are projections.
+  - Not added: a literacy series. Its recent figures come from the UNESCO Institute for Statistics under a share-alike licence, and the older figures jump between sources (41.9% in 1940, 36.0% in 1950). The stop gives two literacy figures in words from the OWID article instead, and its chart shows poverty only.
+- **Choices where the plan was unclear.**
+  - Stop order follows start years, so the web stop (1989) comes before the poverty stop (1990), the other way round from the arc review's list.
+  - `revolution-and-depression` ends in 1933 (Hitler takes power). It and `first-world-war` show the 1914 map; there is no slice between 1914 and 1950. `second-world-war` shows modern borders with four place labels for the same reason.
+  - `empires-end` covers 1945 to 1960 and shows the 1950 map; `eight-billion` shows the 2000 map, so the two can be compared. The partition of India has one sentence, not a stop of its own.
+  - The Cold War is one stop with the bomb, as planned. It names no crises (Berlin, Korea, Cuba, Vietnam).
+  - `the-web-and-the-internet` covers the web and the share of people online. It says nothing about computers before 1989 or about ARPANET: the Internet Society's history page refuses scripts.
+  - `songhai-benin-kongo` starts in 1468, the date its source gives for Sunni Ali taking Timbuktu and Gao (the arc review said "about 1464").
+  - `faiths-cross-borders` leaves out Armenia and Aksum: no source for either conversion could be opened in this run (UNESCO, the Met, Encyclopaedia Iranica and the Oxford encyclopedias all refuse scripts). `kush-and-aksum` still carries Ezana's conversion.
+  - `world-of-cities` keeps 2007 as its year but says in the blurb that the date depends on the definition of "urban", as OWID's article explains.
+- **Left out, and why.** A deep dive for `scramble-for-africa` (no second source opened; the State Department has no page on the Berlin Conference). More chapter 2 deep dives (budget). Gagarin's exact date: the NASA page read gives only "April 1961". The word "genocide" and its origin, the Nuremberg trials by name, and Armenia's conversion were all left out for want of an opened source.
+- **For the fact-check pass (weaker sourcing).**
+  - `songhai-benin-kongo`: the Songhai dates rest on South African History Online, an educational site, and on a Library of Congress exhibition page. The Kongo sentence rests on one paper's abstract (Heywood 2009). Benin rests on one paper about the metal of the Benin Bronzes.
+  - `second-world-war`: the range "55 to 65 million" joins two museum pages (USHMM: 55 million; National Army Museum: over 65 million). Neither gives a range itself.
+  - `china-revolution-famine-reform`: the famine's cause and the reform dates rest on one author (Smil 1999). The stop is `debated` for the death toll.
+  - `empires-end`: partition rests on the abstract of one demographic paper about the Punjab. "With great loss of life" is a summary of it, not a quotation.
+  - `first-world-war` and both of its deep-dive halves lean on one museum encyclopedia (USHMM) for the war itself. The 1914-1918-online encyclopedia would be the better source, but it sits behind a bot check.
+  - `bomb-and-cold-war`: "over 60,000 warheads by 1986" is the world total from OWID, not the two superpowers' alone.
+  - `haitian-revolution`: the two sources disagree on whether Louverture led the 1791 rising or was one of its leaders; the deep dive says so.
+  - `darwin-origin`: the blurb's "booksellers had already ordered more than that" matches Freeman; the deep dive explains the common mistake that every copy sold on the first day.
+  - `faiths-cross-borders`: the Ashoka material comes from one translator's edition (Dhammika 1994). The old stop's sources (`met-mauryan`, `columbia-asoka-edicts`, `unesco-sanchi`, `yelle-2022`) are no longer cited by any stop.
+  - Several State Department "Milestones" pages are used. The site marks the series as retired and no longer maintained.
+- **Not looked at in the browser.** Starting the preview server needs an approval nobody was there to give. Every new map state and the three new charts pass the validator but have not been seen. Worth a look: the zoom on `first-world-war`, `songhai-benin-kongo` and `faiths-cross-borders`, the labels on `second-world-war`, and the internet chart, whose line starts 20 years into its axis.
+- **Checks.** `build-human.mjs`, `npm run build` and `check-links.mjs --dois` passed before every commit; all 183 DOI and link checks were fine on the last run. No changes under `src/`.
+- **Next.** The fact-check pass, in the order given above (7, 5, 3, 1, 6, then 2, 4, 8, 9). After it, the remaining deep dives (chapter 2, chapter 4, `scramble-for-africa`) and a look at the new maps.
+- **Usage at handoff:** 5-hour window 72%, weekly (all models) 59%.
