@@ -815,4 +815,4 @@ The run was asked to work on Opus. A session cannot change its own model (the sw
 - **Not looked at in the browser.** Starting the preview server needs an approval nobody was there to give. Every new map state and the three new charts pass the validator but have not been seen. Worth a look: the zoom on `first-world-war`, `songhai-benin-kongo` and `faiths-cross-borders`, the labels on `second-world-war`, and the internet chart, whose line starts 20 years into its axis.
 - **Checks.** `build-human.mjs`, `npm run build` and `check-links.mjs --dois` passed before every commit; all 183 DOI and link checks were fine on the last run. No changes under `src/`.
 - **Next.** The fact-check pass, in the order given above (7, 5, 3, 1, 6, then 2, 4, 8, 9). After it, the remaining deep dives (chapter 4, `scramble-for-africa`) and a look at the new maps.
-- **Usage at handoff:** 5-hour window about 85%, weekly (all models) 61%.
+- **Usage at handoff:** 5-hour window 81% at the last reading, weekly (all models) 61%.
