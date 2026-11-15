@@ -422,8 +422,10 @@
   "blurb": "On 24 November 1859 the London publisher John Murray released Charles Darwin's On the Origin of Species, which argued that species change through natural selection. Only 1,250 copies were printed, and booksellers had already ordered more than that. Darwin revised it through five later editions and pressed for translations. Its idea is the root of this app's Tree of Life: all living things share common ancestors.",
   "confidence": "established",
   "sources": [
-   "freeman-origin"
+   "freeman-origin",
+   "nhm-darwin"
   ],
+  "deep": true,
   "links": [
    {
     "label": "On the Origin of Species",

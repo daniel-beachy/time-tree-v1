@@ -2294,5 +2294,12 @@
   "citation": "Office of the Historian, U.S. Department of State. The United States and the Haitian Revolution, 1791–1804. Milestones in the History of U.S. Foreign Relations.",
   "url": "https://history.state.gov/milestones/1784-1800/haitian-rev",
   "accessed": "2026-11-15"
+ },
+ {
+  "id": "nhm-darwin",
+  "type": "museum",
+  "citation": "Natural History Museum, London. Charles Darwin: history's most famous biologist.",
+  "url": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+  "accessed": "2026-11-15"
  }
 ]
