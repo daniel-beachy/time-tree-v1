@@ -2210,5 +2210,40 @@
   "citation": "Shattock A. J., Johnson H. C., Sim S. Y. et al. (2024). Contribution of vaccination to improved survival and health: modelling 50 years of the Expanded Programme on Immunization. The Lancet 403, 2307–2316.",
   "url": "https://doi.org/10.1016/S0140-6736(24)00850-X",
   "accessed": "2026-11-15"
+ },
+ {
+  "id": "vam-mughal",
+  "type": "museum",
+  "citation": "Victoria and Albert Museum. The arts of the Mughal Empire.",
+  "url": "https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "sahistory-songhai",
+  "type": "web",
+  "citation": "South African History Online (2011). Songhai, African empire, 15–16th century.",
+  "url": "https://www.sahistory.org.za/article/songhai-african-empire-15-16th-century",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "loc-timbuktu",
+  "type": "museum",
+  "citation": "Library of Congress. Ancient manuscripts from the desert libraries of Timbuktu (exhibition).",
+  "url": "https://www.loc.gov/exhibits/mali/mali-overview.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "skowronek-2023",
+  "type": "paper",
+  "citation": "Skowronek T. B., DeCorse C. R., Denk R. et al. (2023). German brass for Benin Bronzes: geochemical analysis insights into the early Atlantic trade. PLOS ONE 18, e0283415.",
+  "url": "https://doi.org/10.1371/journal.pone.0283415",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "heywood-2009",
+  "type": "paper",
+  "citation": "Heywood L. M. (2009). Slavery and its transformation in the Kingdom of Kongo: 1491–1800. The Journal of African History 50, 1–22.",
+  "url": "https://doi.org/10.1017/S0021853709004228",
+  "accessed": "2026-11-15"
  }
 ]

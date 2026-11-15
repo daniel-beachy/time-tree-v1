@@ -78,12 +78,13 @@
    "belief",
    "art"
   ],
-  "blurb": "In 1453 the Ottoman sultan Mehmed II captured Constantinople and made it his capital; over time it came to be called Istanbul. In 1501 Ismail was crowned the first Safavid shah of Iran, and his successor Abbas moved the capital to Isfahan in 1597–98. In India, Babur defeated the Lodi sultan by 1527, and his grandson Akbar built the Mughal Empire.",
+  "blurb": "In 1453 the Ottoman sultan Mehmed II captured Constantinople and made it his capital; over time it came to be called Istanbul. In 1501 Ismail was crowned the first Safavid shah of Iran, and his successor Abbas moved the capital to Isfahan in 1597–98. In India, Babur seized the Delhi Sultanate from Ibrahim Lodi in 1526, and his grandson Akbar built the Mughal Empire.",
   "confidence": "established",
   "sources": [
    "met-ottomans",
    "met-safavids",
    "met-mughals",
+   "vam-mughal",
    "cliopatria-2025"
   ],
   "links": [
@@ -131,50 +132,56 @@
   }
  },
  {
-  "id": "around-africa",
+  "id": "songhai-benin-kongo",
   "kind": "map",
-  "title": "By sea around Africa to India",
-  "year": 1488,
-  "yearEnd": 1498,
+  "title": "Songhai, Benin and Kongo",
+  "year": 1468,
+  "yearEnd": 1591,
   "precision": "range",
   "place": {
-   "name": "Cape of Good Hope, South Africa",
-   "lat": -34.36,
-   "lon": 18.47
+   "name": "Timbuktu, Mali",
+   "lat": 16.77,
+   "lon": -3.01
   },
   "regions": [
-   "africa",
-   "s-asia",
-   "europe"
+   "africa"
   ],
   "themes": [
-   "movement",
-   "exchange"
+   "power",
+   "exchange",
+   "art"
   ],
-  "blurb": "Portuguese crews had been sailing south along the West African coast since the mid-1400s. In 1488 Bartolomeu Dias rounded the Cape of Good Hope, the southern end of the continent. In 1497 Vasco da Gama followed, called at Mombasa and Malindi, where he hired an experienced navigator, and in May 1498 reached Calicut in India, a great port of the spice trade.",
+  "blurb": "On the middle Niger, Sunni Ali's Songhai empire took Timbuktu and Gao in 1468. Timbuktu's scholars were known across the Islamic world, and the empire lasted until Moroccan forces conquered it in 1591. In Benin, Edo casters turned brass rings brought by Portuguese traders into sculpture. Kongo's kings sold foreign captives to Europeans but at first protected their own freeborn people from the Atlantic trade.",
   "confidence": "established",
+  "dateNote": "The start date follows one timeline, which puts Sunni Ali's capture of Timbuktu and Gao in 1468; the Portuguese trade with Benin opened in the late 1400s.",
   "sources": [
-   "museogalileo-africa"
+   "sahistory-songhai",
+   "loc-timbuktu",
+   "skowronek-2023",
+   "heywood-2009"
   ],
   "links": [
    {
-    "label": "Bartolomeu Dias",
-    "url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+    "label": "Songhai Empire",
+    "url": "https://en.wikipedia.org/wiki/Songhai_Empire"
    },
    {
-    "label": "Vasco da Gama",
-    "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+    "label": "Kingdom of Benin",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "label": "Kingdom of Kongo",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
    }
   ],
-  "major": true,
   "map": {
-   "year": 1498,
+   "year": 1500,
    "view": {
     "center": [
-     30,
-     0
+     8,
+     6
     ],
-    "zoom": 1.5
+    "zoom": 2.6
    },
    "layers": [
     "land",
@@ -184,48 +191,57 @@
    ],
    "highlight": {
     "places": [
-     "lisbon",
-     "cape-of-good-hope",
-     "malindi",
-     "calicut"
-    ],
-    "routes": [
-     "portuguese-cape-route"
+     "timbuktu",
+     "gao",
+     "benin-city",
+     "mbanza-kongo"
     ],
     "polities": [
-     "Kingdom of Portugal"
+     "Songhai Empire",
+     "Kingdom of Kongo"
+    ],
+    "routes": [
+     "trans-saharan"
     ]
    }
   }
  },
  {
-  "id": "atlantic-crossing",
+  "id": "sea-routes-join-the-oceans",
   "kind": "map",
-  "title": "Across the Atlantic and around the world",
-  "year": 1492,
+  "title": "Sea routes join the oceans",
+  "year": 1488,
   "yearEnd": 1522,
   "precision": "range",
   "place": {
-   "name": "Guanahani (San Salvador), Bahamas",
-   "lat": 24.05,
-   "lon": -74.5
+   "name": "Cape of Good Hope, South Africa",
+   "lat": -34.36,
+   "lon": 18.47
   },
   "regions": [
+   "africa",
+   "s-asia",
    "c-s-america",
    "europe",
    "se-asia-pacific"
   ],
   "themes": [
-   "movement"
+   "movement",
+   "exchange"
   ],
-  "blurb": "In 1492 Christopher Columbus, sailing for the Spanish crown, reached Guanahani in the Bahamas, home of the Taíno, the most numerous people of the Caribbean. He believed to the end that he had reached Asia. In 1519 five ships and 237 men left Seville under Ferdinand Magellan. One ship and 18 men came back in 1522, the first crew to sail around the world.",
+  "blurb": "In 1488 Bartolomeu Dias rounded the Cape of Good Hope, the southern end of Africa. In 1492 Christopher Columbus, sailing for Spain, reached Guanahani in the Bahamas, home of the Taíno; he believed to the end that he had reached Asia. In May 1498 Vasco da Gama reached Calicut in India. In 1522 one ship of Ferdinand Magellan's five returned to Seville, the first to sail around the world.",
   "confidence": "established",
   "dateNote": "Magellan himself was killed in 1521 at Mactan in the Philippines, fighting forces led by Lapulapu; Juan Sebastián de Elcano brought the last ship home.",
   "sources": [
+   "museogalileo-africa",
    "loc-columbus-taino",
    "princeton-magellan"
   ],
   "links": [
+   {
+    "label": "Vasco da Gama",
+    "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+   },
    {
     "label": "Voyages of Christopher Columbus",
     "url": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
@@ -251,12 +267,19 @@
    ],
    "highlight": {
     "places": [
+     "lisbon",
+     "cape-of-good-hope",
+     "calicut",
      "guanahani",
      "seville"
     ],
     "routes": [
+     "portuguese-cape-route",
      "columbus-1492",
      "magellan-elcano"
+    ],
+    "polities": [
+     "Kingdom of Portugal"
     ]
    }
   }
