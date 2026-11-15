@@ -1909,5 +1909,271 @@
   "citation": "Roser M. & Ortiz-Ospina E. Literacy. Our World in Data.",
   "url": "https://ourworldindata.org/literacy",
   "accessed": "2026-11-14"
+ },
+ {
+  "id": "ushmm-ww1",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. World War I. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-i",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-ww1-aftermath",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. Germany after WWI: economic, social, and political aftermath. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-i-aftermath",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "taubenberger-2006",
+  "type": "paper",
+  "citation": "Taubenberger J. K. & Morens D. M. (2006). 1918 influenza: the mother of all pandemics. Emerging Infectious Diseases 12, 15–22.",
+  "url": "https://doi.org/10.3201/eid1201.050979",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "johnson-mueller-2002",
+  "type": "paper",
+  "citation": "Johnson N. P. A. S. & Mueller J. (2002). Updating the accounts: global mortality of the 1918–1920 \"Spanish\" influenza pandemic. Bulletin of the History of Medicine 76, 105–115.",
+  "url": "https://doi.org/10.1353/bhm.2002.0022",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "spreeuwenberg-2018",
+  "type": "paper",
+  "citation": "Spreeuwenberg P., Kroneman M. & Paget J. (2018). Reassessing the global mortality burden of the 1918 influenza pandemic. American Journal of Epidemiology 187, 2561–2567.",
+  "url": "https://doi.org/10.1093/aje/kwy191",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "fedhist-great-depression",
+  "type": "web",
+  "citation": "Richardson G. The Great Depression. Federal Reserve History.",
+  "url": "https://www.federalreservehistory.org/essays/great-depression",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "state-great-depression",
+  "type": "reference",
+  "citation": "Office of the Historian, U.S. Department of State. The Great Depression and U.S. foreign policy. Milestones in the History of U.S. Foreign Relations.",
+  "url": "https://history.state.gov/milestones/1921-1936/great-depression",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-ww2",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. World War II in Europe. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-pacific",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. World War II in the Pacific. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-intro",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. Introduction to the Holocaust. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-numbers",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. Documenting numbers of victims of the Holocaust and Nazi persecution. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "ushmm-killing-centers",
+  "type": "museum",
+  "citation": "United States Holocaust Memorial Museum. Killing centers: an overview. Holocaust Encyclopedia.",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/killing-centers-an-overview",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "yadvashem-faq",
+  "type": "museum",
+  "citation": "Yad Vashem, The World Holocaust Remembrance Center. The Holocaust: frequently asked questions.",
+  "url": "https://www.yadvashem.org/holocaust/faqs.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "auschwitz-victims",
+  "type": "museum",
+  "citation": "Auschwitz-Birkenau State Museum. The number of victims.",
+  "url": "https://www.auschwitz.org/en/history/the-number-of-victims/",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "nam-ww2",
+  "type": "museum",
+  "citation": "National Army Museum, London. Second World War.",
+  "url": "https://www.nam.ac.uk/explore/second-world-war",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "osti-trinity",
+  "type": "reference",
+  "citation": "U.S. Department of Energy, Office of Scientific and Technical Information. The Manhattan Project: an interactive history. The Trinity test, July 16, 1945.",
+  "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/trinity.htm",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "rerf-faq",
+  "type": "reference",
+  "citation": "Radiation Effects Research Foundation. Frequently asked questions: how many people died as a result of the atomic bombings?",
+  "url": "https://www.rerf.or.jp/en/faq/",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "state-atomic-diplomacy",
+  "type": "reference",
+  "citation": "Office of the Historian, U.S. Department of State. Atomic diplomacy. Milestones in the History of U.S. Foreign Relations.",
+  "url": "https://history.state.gov/milestones/1945-1952/atomic",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-nuclear",
+  "type": "web",
+  "citation": "Herre B., Rosado P., Roser M. et al. Nuclear weapons. Our World in Data.",
+  "url": "https://ourworldindata.org/nuclear-weapons",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "state-soviet-collapse",
+  "type": "reference",
+  "citation": "Office of the Historian, U.S. Department of State. The collapse of the Soviet Union. Milestones in the History of U.S. Foreign Relations.",
+  "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "un-history",
+  "type": "reference",
+  "citation": "United Nations. History of the United Nations.",
+  "url": "https://www.un.org/en/about-us/history-of-the-un",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "un-membership",
+  "type": "reference",
+  "citation": "United Nations. Growth in United Nations membership.",
+  "url": "https://www.un.org/en/about-us/growth-in-un-membership",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "un-decolonization",
+  "type": "reference",
+  "citation": "United Nations. Global issues: decolonization.",
+  "url": "https://www.un.org/en/global-issues/decolonization",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "state-decolonization",
+  "type": "reference",
+  "citation": "Office of the Historian, U.S. Department of State. Decolonization of Asia and Africa, 1945–1960. Milestones in the History of U.S. Foreign Relations.",
+  "url": "https://history.state.gov/milestones/1945-1952/asia-and-africa",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "hill-2008",
+  "type": "paper",
+  "citation": "Hill K., Seltzer W., Leaning J., Malik S. J. & Russell S. S. (2008). The demographic impact of Partition in the Punjab in 1947. Population Studies 62, 155–170.",
+  "url": "https://doi.org/10.1080/00324720801955206",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "state-chinese-revolution",
+  "type": "reference",
+  "citation": "Office of the Historian, U.S. Department of State. The Chinese Revolution of 1949. Milestones in the History of U.S. Foreign Relations.",
+  "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "smil-1999",
+  "type": "paper",
+  "citation": "Smil V. (1999). China's great famine: 40 years later. BMJ 319, 1619–1621.",
+  "url": "https://doi.org/10.1136/bmj.319.7225.1619",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-famines",
+  "type": "web",
+  "citation": "Herre B., Samborska V., Hasell J. et al. Famines. Our World in Data.",
+  "url": "https://ourworldindata.org/famines",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "nasa-sputnik",
+  "type": "reference",
+  "citation": "NASA History Office. Sputnik and the dawn of the space age.",
+  "url": "https://www.nasa.gov/history/sputnik/index.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "nasa-gagarin",
+  "type": "reference",
+  "citation": "NASA. April 1961: first human entered space.",
+  "url": "https://www.nasa.gov/image-article/april-1961-first-human-entered-space/",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "nasm-apollo-11",
+  "type": "museum",
+  "citation": "Smithsonian National Air and Space Museum. Apollo 11: the Moon landing.",
+  "url": "https://airandspace.si.edu/explore/stories/apollo-11-moon-landing",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "w3c-history",
+  "type": "reference",
+  "citation": "World Wide Web Consortium. A little history of the World Wide Web.",
+  "url": "https://www.w3.org/History.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-internet-data",
+  "type": "dataset",
+  "citation": "International Telecommunication Union, via World Bank (2026), with major processing by Our World in Data. Share of the population using the Internet.",
+  "url": "https://ourworldindata.org/grapher/share-of-individuals-using-the-internet",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-poverty-data",
+  "type": "dataset",
+  "citation": "World Bank Poverty and Inequality Platform (2026), with major processing by Our World in Data. Share of population living in extreme poverty.",
+  "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-poverty",
+  "type": "web",
+  "citation": "Hasell J., Rohenkohl B., Arriagada P. et al. Poverty. Our World in Data.",
+  "url": "https://ourworldindata.org/poverty",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-urban-data",
+  "type": "dataset",
+  "citation": "United Nations Department of Economic and Social Affairs, Population Division (2025), World Urbanization Prospects, with minor processing by Our World in Data. Share of population living in urban areas.",
+  "url": "https://ourworldindata.org/grapher/share-of-population-urban",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "owid-urbanization",
+  "type": "web",
+  "citation": "Ortiz-Ospina E., Samborska V., Ritchie H. et al. Urbanization. Our World in Data.",
+  "url": "https://ourworldindata.org/urbanization",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "un-8-billion",
+  "type": "reference",
+  "citation": "United Nations. Day of Eight Billion, 15 November 2022.",
+  "url": "https://www.un.org/en/dayof8billion",
+  "accessed": "2026-11-15"
  }
 ]

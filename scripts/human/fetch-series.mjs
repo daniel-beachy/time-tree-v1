@@ -28,6 +28,19 @@ const SERIES = [
     id: 'co2-world', slug: 'annual-co2-emissions', column: 'Annual CO₂ emissions', title: 'Carbon dioxide emissions, world', label: 'World', unit: 'tonnes of CO₂ a year', format: 'tonnes',
     to: 2024, source: 'owid-co2', note: 'Carbon dioxide from burning fossil fuels and from industry. Land-use change is not included.',
   },
+  {
+    id: 'internet-world', slug: 'share-of-individuals-using-the-internet', column: 'Share of the population using the Internet', title: 'People using the internet, world', label: 'World',
+    unit: '% of people', format: 'percent', source: 'owid-internet-data', note: 'Share of people who used the internet in the last three months. World totals begin in 2005.',
+  },
+  {
+    id: 'urban-world', slug: 'share-of-population-urban', column: 'Urban', title: 'People living in towns and cities, world', label: 'World',
+    unit: '% of people', format: 'percent', source: 'owid-urban-data', note: "Share of people living in urban areas, by each country's own definition of urban.",
+  },
+  {
+    // The World Bank's figures after 2024 are projections, so the series stops there.
+    id: 'extreme-poverty-world', slug: 'share-of-population-in-extreme-poverty', column: 'Share of population in poverty ($3 a day)', title: 'People in extreme poverty, world', label: 'World',
+    unit: '% of people', format: 'percent', from: 1990, to: 2024, source: 'owid-poverty-data', note: 'Share of people living on less than $3 a day, in 2021 prices adjusted for differences in the cost of living between countries.',
+  },
 ];
 
 const cache = new Map();

@@ -1,5 +1,125 @@
 [
  {
+  "id": "first-world-war",
+  "kind": "event",
+  "title": "The First World War",
+  "year": 1914,
+  "yearEnd": 1918,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "sw-asia",
+   "africa"
+  ],
+  "themes": [
+   "power",
+   "health"
+  ],
+  "blurb": "On 28 June 1914 the heir to the Austro-Hungarian throne was assassinated in Sarajevo. By August the Allies, among them Britain, France and Russia, were at war with the Central Powers, Germany and Austria-Hungary. Fighting spread to Africa, Asia and the Pacific, and stopped on 11 November 1918. More than 8.5 million soldiers died, and as many as 13 million civilians.",
+  "confidence": "established",
+  "sources": [
+   "ushmm-ww1",
+   "ushmm-ww1-aftermath",
+   "taubenberger-2006",
+   "johnson-mueller-2002",
+   "spreeuwenberg-2018"
+  ],
+  "dateNote": "No official body kept count of civilian deaths; the figure is an estimate by historians.",
+  "links": [
+   {
+    "label": "World War I",
+    "url": "https://en.wikipedia.org/wiki/World_War_I"
+   },
+   {
+    "label": "Spanish flu",
+    "url": "https://en.wikipedia.org/wiki/Spanish_flu"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "place": {
+   "name": "Sarajevo",
+   "lat": 43.86,
+   "lon": 18.41
+  },
+  "map": {
+   "year": 1914,
+   "view": {
+    "center": [
+     22,
+     47
+    ],
+    "zoom": 2.6
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "German Empire",
+     "Austria-Hungary",
+     "Ottoman Empire",
+     "Russian Empire",
+     "French Third Republic",
+     "Kingdom of Great Britain"
+    ]
+   }
+  }
+ },
+ {
+  "id": "revolution-and-depression",
+  "kind": "event",
+  "title": "Revolution in Russia, depression everywhere",
+  "year": 1917,
+  "yearEnd": 1933,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "n-america",
+   "global"
+  ],
+  "themes": [
+   "power",
+   "exchange"
+  ],
+  "blurb": "In 1917 two revolutions shook Russia. The first overthrew the tsar's government and the second brought the Bolsheviks to power; civil war followed until 1922. In August 1929 an economic slump began in the United States and spread around the globe. In Germany it brought mass unemployment and weakened the young republic. In January 1933 Adolf Hitler and the Nazi Party came to power.",
+  "confidence": "established",
+  "sources": [
+   "ushmm-ww1",
+   "ushmm-ww1-aftermath",
+   "ushmm-intro",
+   "fedhist-great-depression",
+   "state-great-depression"
+  ],
+  "dateNote": "The Depression hit bottom in the United States in March 1933 and dragged on through the 1930s; full recovery came only during the Second World War.",
+  "links": [
+   {
+    "label": "Russian Revolution",
+    "url": "https://en.wikipedia.org/wiki/Russian_Revolution"
+   },
+   {
+    "label": "Great Depression",
+    "url": "https://en.wikipedia.org/wiki/Great_Depression"
+   }
+  ],
+  "map": {
+   "year": 1914,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "Russian Empire",
+     "United States of America",
+     "German Empire"
+    ]
+   }
+  }
+ },
+ {
   "id": "two-to-eight-billion",
   "kind": "chart",
   "title": "From two billion people to eight",
@@ -44,6 +164,256 @@
     }
    ],
    "note": "Each point is an estimate for the whole world. Counts before 1950 are less certain than later ones."
+  }
+ },
+ {
+  "id": "second-world-war",
+  "kind": "event",
+  "title": "The Second World War and the Holocaust",
+  "year": 1939,
+  "yearEnd": 1945,
+  "precision": "range",
+  "regions": [
+   "europe",
+   "e-asia",
+   "se-asia-pacific",
+   "global"
+  ],
+  "themes": [
+   "power"
+  ],
+  "blurb": "Japan had been at war with China since 1937. On 1 September 1939 Germany invaded Poland, and in December 1941 Japan attacked the United States at Pearl Harbor. Germany surrendered in May 1945 and Japan on 2 September. Some 55 to 65 million people died, most of them civilians. Six million were Jews, murdered by Nazi Germany and its collaborators in the Holocaust.",
+  "confidence": "established",
+  "sources": [
+   "ushmm-ww2",
+   "ushmm-pacific",
+   "ushmm-intro",
+   "ushmm-numbers",
+   "ushmm-killing-centers",
+   "yadvashem-faq",
+   "auschwitz-victims",
+   "nam-ww2"
+  ],
+  "dateNote": "Totals for the war's dead are estimates: the museums cited here give 55 million and over 65 million.",
+  "links": [
+   {
+    "label": "World War II",
+    "url": "https://en.wikipedia.org/wiki/World_War_II"
+   },
+   {
+    "label": "The Holocaust",
+    "url": "https://en.wikipedia.org/wiki/The_Holocaust"
+   },
+   {
+    "label": "Holocaust Encyclopedia",
+    "url": "https://encyclopedia.ushmm.org/"
+   }
+  ],
+  "major": true,
+  "deep": true,
+  "map": {
+   "year": 1939,
+   "view": "world",
+   "layers": [
+    "land",
+    "borders"
+   ],
+   "labels": [
+    {
+     "lat": 50.03,
+     "lon": 19.2,
+     "text": "Auschwitz-Birkenau"
+    },
+    {
+     "lat": 48.7,
+     "lon": 44.5,
+     "text": "Stalingrad"
+    },
+    {
+     "lat": 21.36,
+     "lon": -157.95,
+     "text": "Pearl Harbor"
+    },
+    {
+     "lat": 34.39,
+     "lon": 132.45,
+     "text": "Hiroshima"
+    }
+   ]
+  }
+ },
+ {
+  "id": "bomb-and-cold-war",
+  "kind": "event",
+  "title": "The atomic bomb and the Cold War",
+  "year": 1945,
+  "yearEnd": 1991,
+  "precision": "range",
+  "regions": [
+   "n-america",
+   "e-asia",
+   "europe",
+   "global"
+  ],
+  "themes": [
+   "power",
+   "technology"
+  ],
+  "blurb": "On 16 July 1945 the United States exploded the first atomic bomb in the New Mexico desert. In August it dropped two on Japan, killing 90,000 to 166,000 people in Hiroshima and 60,000 to 80,000 in Nagasaki within four months. The Soviet Union tested its own in 1949. In their long rivalry, the Cold War, the world's stockpile passed 60,000 warheads by 1986. The Soviet Union dissolved in December 1991.",
+  "confidence": "established",
+  "sources": [
+   "osti-trinity",
+   "rerf-faq",
+   "state-atomic-diplomacy",
+   "owid-nuclear",
+   "state-soviet-collapse"
+  ],
+  "dateNote": "The number killed by the two bombs is not known precisely: records were destroyed and whole families died.",
+  "links": [
+   {
+    "label": "Atomic bombings of Hiroshima and Nagasaki",
+    "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+   },
+   {
+    "label": "Cold War",
+    "url": "https://en.wikipedia.org/wiki/Cold_War"
+   }
+  ],
+  "place": {
+   "name": "Trinity test site, New Mexico",
+   "lat": 33.68,
+   "lon": -106.48
+  },
+  "map": {
+   "year": 1950,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "United States of America",
+     "Union of Soviet Socialist Republics"
+    ]
+   }
+  }
+ },
+ {
+  "id": "empires-end",
+  "kind": "map",
+  "title": "Empires end",
+  "year": 1945,
+  "yearEnd": 1960,
+  "precision": "range",
+  "regions": [
+   "s-asia",
+   "africa",
+   "se-asia-pacific",
+   "global"
+  ],
+  "themes": [
+   "power",
+   "movement"
+  ],
+  "blurb": "The United Nations began on 24 October 1945 with 51 member states. At that time some 750 million people, nearly a third of humanity, lived in territories ruled by colonial powers. In 1947 British India was divided into India and Pakistan, with great loss of life. By 1960 three dozen new states in Asia and Africa had won independence. The UN now has 193 members.",
+  "confidence": "established",
+  "sources": [
+   "un-history",
+   "un-membership",
+   "un-decolonization",
+   "state-decolonization",
+   "hill-2008"
+  ],
+  "dateNote": "Decolonisation went on after 1960: the UN counts 80 former colonies that have gained independence since 1945.",
+  "links": [
+   {
+    "label": "Decolonization",
+    "url": "https://en.wikipedia.org/wiki/Decolonization"
+   },
+   {
+    "label": "Partition of India",
+    "url": "https://en.wikipedia.org/wiki/Partition_of_India"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 1950,
+   "view": {
+    "center": [
+     55,
+     10
+    ],
+    "zoom": 1.5
+   },
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "Republic of India",
+     "Islamic Republic of Pakistan",
+     "Republic of Indonesia",
+     "Burma",
+     "Sri Lanka"
+    ]
+   }
+  }
+ },
+ {
+  "id": "china-revolution-famine-reform",
+  "kind": "event",
+  "title": "China: revolution, famine and reform",
+  "year": 1949,
+  "yearEnd": 1979,
+  "precision": "range",
+  "regions": [
+   "e-asia"
+  ],
+  "themes": [
+   "power",
+   "food"
+  ],
+  "blurb": "On 1 October 1949 Mao Zedong declared the People's Republic of China, ending a long civil war. His Great Leap Forward, a drive to industrialise within a few years, forced peasants into communes and into making steel. Harvests collapsed, and between 1959 and 1961 some 30 million people starved. In 1979, less than three years after Mao's death, reformers dissolved the communes and freed farm prices.",
+  "confidence": "debated",
+  "debate": "Estimates of deaths in the famine run from about 30 million to 45 million. The precise number will never be known.",
+  "sources": [
+   "state-chinese-revolution",
+   "smil-1999",
+   "owid-famines"
+  ],
+  "links": [
+   {
+    "label": "Great Chinese Famine",
+    "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+   },
+   {
+    "label": "Chinese economic reform",
+    "url": "https://en.wikipedia.org/wiki/Chinese_economic_reform"
+   }
+  ],
+  "place": {
+   "name": "Beijing",
+   "lat": 39.9,
+   "lon": 116.4
+  },
+  "map": {
+   "year": 1950,
+   "view": "e-asia",
+   "layers": [
+    "land",
+    "polities",
+    "cities"
+   ],
+   "highlight": {
+    "places": [
+     "beijing"
+    ],
+    "polities": [
+     "People's Republic of China"
+    ]
+   }
   }
  },
  {
@@ -132,6 +502,231 @@
      "year": 2020,
      "label": "COVID-19"
     }
+   ]
+  }
+ },
+ {
+  "id": "into-space",
+  "kind": "event",
+  "title": "Into space",
+  "year": 1957,
+  "yearEnd": 1969,
+  "precision": "range",
+  "regions": [
+   "global",
+   "n-america",
+   "europe"
+  ],
+  "themes": [
+   "technology",
+   "knowledge"
+  ],
+  "blurb": "On 4 October 1957 the Soviet Union launched Sputnik 1, the first artificial satellite: a sphere the size of a beach ball that circled Earth about every 98 minutes. In April 1961 Yuri Gagarin became the first human in space, on a flight of 108 minutes. On 20 July 1969 Neil Armstrong and Buzz Aldrin of Apollo 11 walked on the Moon, watched by an estimated 650 million people.",
+  "confidence": "established",
+  "sources": [
+   "nasa-sputnik",
+   "nasa-gagarin",
+   "nasm-apollo-11"
+  ],
+  "links": [
+   {
+    "label": "Space Race",
+    "url": "https://en.wikipedia.org/wiki/Space_Race"
+   },
+   {
+    "label": "Apollo 11",
+    "url": "https://en.wikipedia.org/wiki/Apollo_11"
+   }
+  ],
+  "map": {
+   "year": 1950,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
+   ],
+   "highlight": {
+    "polities": [
+     "Union of Soviet Socialist Republics",
+     "United States of America"
+    ]
+   }
+  }
+ },
+ {
+  "id": "the-web-and-the-internet",
+  "kind": "chart",
+  "title": "The web, and a world online",
+  "year": 1989,
+  "yearEnd": 2025,
+  "precision": "range",
+  "regions": [
+   "global",
+   "europe"
+  ],
+  "themes": [
+   "technology",
+   "knowledge",
+   "exchange"
+  ],
+  "blurb": "In March 1989 Tim Berners-Lee, working at the CERN laboratory in Geneva, proposed a way to link documents across computer networks. By the end of 1990 the first web server and browser were running, and by October 1993 there were over 200 servers. In 2005 about 16 percent of the world's people used the internet. By 2019 it was more than half, and in 2025 about 74 percent.",
+  "confidence": "established",
+  "sources": [
+   "w3c-history",
+   "owid-internet-data"
+  ],
+  "links": [
+   {
+    "label": "History of the World Wide Web",
+    "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+   },
+   {
+    "label": "Internet, Our World in Data",
+    "url": "https://ourworldindata.org/internet"
+   }
+  ],
+  "chart": {
+   "series": [
+    "internet-world"
+   ],
+   "from": 1985,
+   "title": "Share of people using the internet, 2005 to 2025",
+   "marks": [
+    {
+     "year": 1989,
+     "label": "Web proposed at CERN"
+    },
+    {
+     "year": 1993,
+     "label": "Mosaic browser"
+    }
+   ],
+   "note": "World totals begin in 2005. A user is anyone who went online in the last three months."
+  }
+ },
+ {
+  "id": "less-poverty-more-reading",
+  "kind": "chart",
+  "title": "Fewer in extreme poverty, more who can read",
+  "year": 1990,
+  "yearEnd": 2024,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health",
+   "knowledge",
+   "exchange"
+  ],
+  "blurb": "In 1990, 43 percent of the world's people lived in extreme poverty, which the World Bank defines as less than 3 dollars a day. By 2024 it was about 10 percent, though the pandemic year of 2020 pushed the share up. Reading spread too. About 12 percent of people could read and write in 1820; today more than four in five can.",
+  "confidence": "established",
+  "sources": [
+   "owid-poverty-data",
+   "owid-poverty",
+   "owid-literacy"
+  ],
+  "links": [
+   {
+    "label": "Poverty, Our World in Data",
+    "url": "https://ourworldindata.org/poverty"
+   },
+   {
+    "label": "Literacy, Our World in Data",
+    "url": "https://ourworldindata.org/literacy"
+   }
+  ],
+  "chart": {
+   "series": [
+    "extreme-poverty-world"
+   ],
+   "from": 1990,
+   "to": 2024,
+   "title": "Share of people in extreme poverty, 1990 to 2024",
+   "marks": [
+    {
+     "year": 2020,
+     "label": "COVID-19"
+    }
+   ],
+   "note": "Extreme poverty here means living on less than $3 a day, in 2021 prices adjusted for the cost of living in each country."
+  }
+ },
+ {
+  "id": "world-of-cities",
+  "kind": "chart",
+  "title": "A world of cities",
+  "year": 2007,
+  "yearEnd": 2025,
+  "precision": "range",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "settlement",
+   "movement"
+  ],
+  "blurb": "In 1950 about 29 percent of the world's people lived in towns and cities, going by each country's own definition of urban. In 2007 the share passed half for the first time, and by 2025 it was about 58 percent. The date depends on the definition. Measured by one shared standard that counts towns with cities, most people have lived in urban areas since at least the 1950s.",
+  "confidence": "established",
+  "sources": [
+   "owid-urban-data",
+   "owid-urbanization"
+  ],
+  "links": [
+   {
+    "label": "Urbanization, Our World in Data",
+    "url": "https://ourworldindata.org/urbanization"
+   }
+  ],
+  "chart": {
+   "series": [
+    "urban-world"
+   ],
+   "from": 1950,
+   "title": "Share of people living in towns and cities, 1950 to 2025",
+   "marks": [
+    {
+     "year": 2007,
+     "label": "Half of humanity urban"
+    }
+   ],
+   "note": "United Nations figures, using each country's own definition of an urban area."
+  }
+ },
+ {
+  "id": "eight-billion",
+  "kind": "event",
+  "title": "Eight billion",
+  "year": 2022,
+  "precision": "exact",
+  "regions": [
+   "global"
+  ],
+  "themes": [
+   "health",
+   "settlement"
+  ],
+  "blurb": "The United Nations marked 15 November 2022 as the day the world's population reached eight billion. It had taken 12 years to grow from seven billion, and the next billion is expected to take about 15, because growth is slowing. Our species is about 300,000 years old. On the time strip on this story's first page, nearly all of that growth sits in the last thin sliver.",
+  "confidence": "established",
+  "sources": [
+   "un-8-billion",
+   "owid-population",
+   "hublin-2017"
+  ],
+  "dateNote": "The date is a projection: no one can count the world's people to the day.",
+  "links": [
+   {
+    "label": "Population growth, Our World in Data",
+    "url": "https://ourworldindata.org/population-growth"
+   }
+  ],
+  "major": true,
+  "map": {
+   "year": 2000,
+   "view": "world",
+   "layers": [
+    "land",
+    "polities"
    ]
   }
  }
