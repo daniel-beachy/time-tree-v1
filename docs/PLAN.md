@@ -780,12 +780,12 @@ Chapter 8 is drafted: 13 stops, 1 deep dive (`vaccines-and-germs`), 15 new sourc
 
 ### Content pass 3: chapter 9 (2026-11-15, Fable)
 
-The run was asked to work on Opus. A session cannot change its own model (the switch tool refuses it), so this pass ran on Fable 5.2 and its commits are signed that way. The keep-awake tool was not available either. Units a, b and c are finished, and part of d. Content now has 119 stops, 38 deep dives, 329 sources and 9 chart series. Every chapter stays `draft`.
+The run was asked to work on Opus. A session cannot change its own model (the switch tool refuses it), so this pass ran on Fable 5.2 and its commits are signed that way. The keep-awake tool was not available either. Units a, b and c are finished, and part of d. Content now has 119 stops, 39 deep dives, 329 sources and 9 chart series. Every chapter stays `draft`.
 
 - **Chapter 9 (3 → 14 stops, 5 deep dives).** In order: `first-world-war` (deep dive, with the 1918 influenza), `revolution-and-depression`, `two-to-eight-billion` (now with a deep dive on fertiliser and the Green Revolution), `second-world-war` (deep dive on the Holocaust), `bomb-and-cold-war`, `empires-end`, `china-revolution-famine-reform` (deep dive), `living-longer` (now with a deep dive on antibiotics, vaccines and smallpox), `carbon-dioxide`, `into-space`, `the-web-and-the-internet` (chart), `less-poverty-more-reading` (chart), `world-of-cities` (chart), `eight-billion`.
 - **Chapter 7 (still 14 stops).** `around-africa` and `atlantic-crossing` are merged into `sea-routes-join-the-oceans` (1488 to 1522), written only from the two old stops' sources. `songhai-benin-kongo` (1468 to 1591) is new and sits before `atlantic-slave-trade`. Babur's defeat of Ibrahim Lodi is dated 1526 from a V&A page. Benin City and Mbanza Kongo were added to the cities layer.
 - **Chapter 5 (still 14 stops).** `ashoka` is replaced by `faiths-cross-borders` (262 BCE to 395 CE) with a deep dive. `kush-and-aksum` and `fire-and-cooking` (chapter 1) have `dateNote`s saying which part of their span they mostly describe.
-- **Extra deep dives (unit d).** `haitian-revolution` and `darwin-origin` in chapter 8, each with a second source, and `first-dogs` and `reaching-sahul` in chapter 2. Chapter 8 now has 3 of 13, chapter 2 has 3 of 11.
+- **Extra deep dives (unit d).** `haitian-revolution` and `darwin-origin` in chapter 8, each with a second source, and `first-dogs`, `reaching-sahul` and `meeting-the-relatives` in chapter 2 (the last written from its three papers' abstracts only). Chapter 8 now has 3 of 13, chapter 2 has 4 of 11.
 - **New chart series** (in `scripts/human/fetch-series.mjs`; all three are percentages and share the unit "% of people"):
   - `internet-world`: grapher `share-of-individuals-using-the-internet`. ITU figures through the World Bank's World Development Indicators (CC BY 4.0). World totals start in 2005.
   - `urban-world`: grapher `share-of-population-urban`. UN World Urbanization Prospects 2025 (CC BY 3.0 IGO).
@@ -800,7 +800,7 @@ The run was asked to work on Opus. A session cannot change its own model (the sw
   - `songhai-benin-kongo` starts in 1468, the date its source gives for Sunni Ali taking Timbuktu and Gao (the arc review said "about 1464").
   - `faiths-cross-borders` leaves out Armenia and Aksum: no source for either conversion could be opened in this run (UNESCO, the Met, Encyclopaedia Iranica and the Oxford encyclopedias all refuse scripts). `kush-and-aksum` still carries Ezana's conversion.
   - `world-of-cities` keeps 2007 as its year but says in the blurb that the date depends on the definition of "urban", as OWID's article explains.
-- **Left out, and why.** A deep dive for `scramble-for-africa` (no second source opened; the State Department has no page on the Berlin Conference). More chapter 2 deep dives (budget). Gagarin's exact date: the NASA page read gives only "April 1961". The word "genocide" and its origin, the Nuremberg trials by name, and Armenia's conversion were all left out for want of an opened source.
+- **Left out, and why.** A deep dive for `scramble-for-africa` (no second source opened; the State Department has no page on the Berlin Conference). Deep dives for chapter 4 (budget). Gagarin's exact date: the NASA page read gives only "April 1961". The word "genocide" and its origin, the Nuremberg trials by name, and Armenia's conversion were all left out for want of an opened source.
 - **For the fact-check pass (weaker sourcing).**
   - `songhai-benin-kongo`: the Songhai dates rest on South African History Online, an educational site, and on a Library of Congress exhibition page. The Kongo sentence rests on one paper's abstract (Heywood 2009). Benin rests on one paper about the metal of the Benin Bronzes.
   - `second-world-war`: the range "55 to 65 million" joins two museum pages (USHMM: 55 million; National Army Museum: over 65 million). Neither gives a range itself.
@@ -814,5 +814,5 @@ The run was asked to work on Opus. A session cannot change its own model (the sw
   - Several State Department "Milestones" pages are used. The site marks the series as retired and no longer maintained.
 - **Not looked at in the browser.** Starting the preview server needs an approval nobody was there to give. Every new map state and the three new charts pass the validator but have not been seen. Worth a look: the zoom on `first-world-war`, `songhai-benin-kongo` and `faiths-cross-borders`, the labels on `second-world-war`, and the internet chart, whose line starts 20 years into its axis.
 - **Checks.** `build-human.mjs`, `npm run build` and `check-links.mjs --dois` passed before every commit; all 183 DOI and link checks were fine on the last run. No changes under `src/`.
-- **Next.** The fact-check pass, in the order given above (7, 5, 3, 1, 6, then 2, 4, 8, 9). After it, the remaining deep dives (chapter 2, chapter 4, `scramble-for-africa`) and a look at the new maps.
-- **Usage at handoff:** 5-hour window 72%, weekly (all models) 59%.
+- **Next.** The fact-check pass, in the order given above (7, 5, 3, 1, 6, then 2, 4, 8, 9). After it, the remaining deep dives (chapter 4, `scramble-for-africa`) and a look at the new maps.
+- **Usage at handoff:** 5-hour window about 84%, weekly (all models) 61%.
