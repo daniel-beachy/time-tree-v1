@@ -210,6 +210,7 @@
   ],
   "blurb": "Along the Nile in today's Sudan, the kingdom of Kush lasted about a thousand years. Its rulers were buried in pyramids at Meroe, a city of iron-working. To the southeast, Aksum in today's Ethiopia and Eritrea grew rich from Red Sea trade through its port of Adulis. It minted its own coins, and in the 300s CE its king Ezana became a Christian.",
   "confidence": "established",
+  "dateNote": "The stop is placed at the start of Kush, about 750 BCE. Aksum belongs to the end of its span: it flourished in the first centuries CE, and Ezana ruled in the 300s.",
   "sources": [
    "unesco-meroe",
    "unesco-aksum",
@@ -478,51 +479,69 @@
   }
  },
  {
-  "id": "ashoka",
-  "kind": "event",
-  "title": "Ashoka carves his edicts",
-  "year": -260,
-  "precision": "circa",
-  "regions": [
-   "s-asia"
-  ],
-  "themes": [
-   "power",
-   "belief"
-  ],
-  "blurb": "Ashoka ruled the Maurya empire, which covered most of South Asia. After a bloody war in Kalinga, his own inscription says, he felt deep remorse. He had messages carved on rocks and pillars across his lands, urging kindness to people and animals and respect for all religious groups. He supported Buddhist monks, and Buddhism began to spread, including to Sri Lanka.",
-  "confidence": "debated",
-  "dateNote": "Ashoka reigned from about 273 or 269 to 232 BCE. The Kalinga war came in the eighth year after he was crowned.",
-  "debate": "Ashoka's fame as a tolerant ruler rests on a small set of inscriptions, and some scholars question how far they describe real policy.",
-  "sources": [
-   "met-mauryan",
-   "columbia-asoka-edicts",
-   "unesco-sanchi",
-   "yelle-2022"
-  ],
-  "links": [
-   {
-    "label": "Ashoka",
-    "url": "https://en.wikipedia.org/wiki/Ashoka"
-   },
-   {
-    "label": "Edicts of Ashoka",
-    "url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
-   }
-  ],
-  "major": true,
+  "id": "faiths-cross-borders",
+  "kind": "map",
+  "title": "Faiths that crossed borders",
+  "year": -262,
+  "yearEnd": 395,
+  "precision": "range",
   "place": {
    "name": "Pataliputra (Patna), India",
    "lat": 25.61,
    "lon": 85.14
   },
+  "regions": [
+   "s-asia",
+   "e-asia",
+   "sw-asia",
+   "europe"
+  ],
+  "themes": [
+   "belief",
+   "exchange",
+   "power"
+  ],
+  "blurb": "About 262 BCE the Indian king Ashoka conquered Kalinga, and his own inscriptions record his remorse. He turned to the Buddha's teaching and sent envoys as far as Sri Lanka and the Greek kingdoms. Merchants and pilgrims carried Buddhism to China by the second century CE. Christianity began in first-century Palestine. By 300 about one Roman in twenty was Christian, and under Theodosius I it became the empire's official religion.",
+  "confidence": "established",
+  "dateNote": "Ashoka's dates are approximate: the Kalinga war is put at 262 BCE, eight years after his coronation. The number of early Christians is an estimate.",
+  "sources": [
+   "dhammika-asoka-edicts",
+   "spice-buddhism",
+   "neelis-buddhism-trade",
+   "fousek-2018",
+   "fordham-edict-milan",
+   "fordham-theodosian-code"
+  ],
+  "links": [
+   {
+    "label": "Edicts of Ashoka",
+    "url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+   },
+   {
+    "label": "Silk Road transmission of Buddhism",
+    "url": "https://en.wikipedia.org/wiki/Silk_Road_transmission_of_Buddhism"
+   },
+   {
+    "label": "Spread of Christianity",
+    "url": "https://en.wikipedia.org/wiki/Spread_of_Christianity"
+   }
+  ],
+  "major": true,
+  "deep": true,
   "map": {
-   "year": -250,
-   "view": "s-asia",
+   "year": 200,
+   "view": {
+    "center": [
+     62,
+     30
+    ],
+    "zoom": 1.7
+   },
    "layers": [
     "land",
     "polities",
-    "cities"
+    "cities",
+    "routes"
    ],
    "highlight": {
     "places": [
@@ -530,8 +549,13 @@
      "sanchi"
     ],
     "polities": [
-     "Maurya Empire",
-     "Kalinga"
+     "Roman Empire",
+     "Kushan Empire",
+     "Han Dynasty"
+    ],
+    "routes": [
+     "silk-road-overland",
+     "india-southeast-asia-sea"
     ]
    }
   }

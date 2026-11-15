@@ -2245,5 +2245,47 @@
   "citation": "Heywood L. M. (2009). Slavery and its transformation in the Kingdom of Kongo: 1491–1800. The Journal of African History 50, 1–22.",
   "url": "https://doi.org/10.1017/S0021853709004228",
   "accessed": "2026-11-15"
+ },
+ {
+  "id": "dhammika-asoka-edicts",
+  "type": "reference",
+  "citation": "Dhammika S. (1994). The Edicts of King Asoka: an English rendering. Buddhist Publication Society, Wheel 386/387; Access to Insight edition.",
+  "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "spice-buddhism",
+  "type": "web",
+  "citation": "Brown W. T. (2002). Introduction to Buddhism. Stanford Program on International and Cross-Cultural Education, Stanford University.",
+  "url": "https://spice.fsi.stanford.edu/docs/introduction_to_buddhism",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "neelis-buddhism-trade",
+  "type": "web",
+  "citation": "Neelis J. Buddhism and trade. Silk Road Seattle, University of Washington.",
+  "url": "https://depts.washington.edu/silkroad/exhibit/religion/buddhism/buddhism_trade.html",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "fousek-2018",
+  "type": "paper",
+  "citation": "Fousek J., Kaše V., Mertel A., Výtvarová E. & Chalupa A. (2018). Spatial constraints on the diffusion of religious innovations: the case of early Christianity in the Roman Empire. PLOS ONE 13, e0208744.",
+  "url": "https://doi.org/10.1371/journal.pone.0208744",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "fordham-edict-milan",
+  "type": "reference",
+  "citation": "Galerius and Constantine: Edicts of Toleration, 311/313 (from Lactantius, De Mortibus Persecutorum). Internet Medieval Sourcebook, Fordham University.",
+  "url": "https://sourcebooks.fordham.edu/source/edict-milan.asp",
+  "accessed": "2026-11-15"
+ },
+ {
+  "id": "fordham-theodosian-code",
+  "type": "reference",
+  "citation": "Theodosian Code XVI.1.2: banning of other religions. Internet Medieval Sourcebook, Fordham University.",
+  "url": "https://sourcebooks.fordham.edu/source/theodcodeXVI.asp",
+  "accessed": "2026-11-15"
  }
 ]
